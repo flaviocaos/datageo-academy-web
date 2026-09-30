@@ -7,10 +7,12 @@ from pathlib import Path
 from html import escape
 from urllib.parse import quote
 import json
+import os
 import re
 
 SITE = Path(__file__).resolve().parent
-RAIZ = SITE.parent / "ENTREGA" / "Mini_Cursos" / "AREAS"
+RAIZ_LOCAL = SITE / "ENTREGA" / "Mini_Cursos" / "AREAS"
+RAIZ = RAIZ_LOCAL if RAIZ_LOCAL.is_dir() else SITE.parent / "ENTREGA" / "Mini_Cursos" / "AREAS"
 NOMES_AREAS = ["IA e Machine Learning", "Geotecnologias", "BI - Business Intelligence", "Ciência de Dados", "Programação para Dados", "Análise Preditiva"]
 CORRECOES = {
     "Ciencia": "Ciência", "Programacao": "Programação", "Analise": "Análise",
@@ -39,7 +41,7 @@ def mapear():
             if pasta_pdf is None:
                 continue
             arquivos = sorted((p for p in pasta_pdf.rglob("*") if p.is_file() and p.suffix.casefold() == ".pdf" and not any(s.casefold() == "ppt" for s in p.relative_to(pasta_pdf).parts[:-1])), key=lambda p: p.as_posix().casefold())
-            materiais = [{"nome": p.name, "titulo": amigavel(p.stem), "caminho": str(p.resolve()), "url": quote("../" + p.relative_to(SITE.parent).as_posix(), safe="/")} for p in arquivos]
+            materiais = [{"nome": p.name, "titulo": amigavel(p.stem), "caminho": str(p.resolve()), "url": quote(Path(os.path.relpath(p, SITE)).as_posix(), safe="/")} for p in arquivos]
             cursos.append({"nome_pasta": curso.name, "titulo": amigavel(curso.name), "caminho": str(curso.resolve()), "pdfs": materiais})
         resultado.append({"nome_pasta": area.name, "titulo": NOMES_AREAS[indice], "caminho": str(area.resolve()), "cursos": cursos})
     return resultado

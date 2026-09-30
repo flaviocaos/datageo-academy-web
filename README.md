@@ -33,7 +33,7 @@ Os números representam o acervo mapeado atualmente. A execução do script atua
 
 ## Estrutura de arquivos
 
-Os scripts esperam a pasta `ENTREGA` no mesmo nível de `SITE`:
+Os 127 PDFs dos mini-cursos estão incluídos neste repositório, em `ENTREGA/Mini_Cursos/AREAS`. Livros, apresentações e infográficos continuam na pasta externa `ENTREGA`, no mesmo nível de `SITE`:
 
 ```text
 DATAGEO_ACADEMY/
@@ -46,7 +46,14 @@ DATAGEO_ACADEMY/
 │   ├── gerar_capas_apresentacoes.py
 │   ├── atualizar_apresentacoes.py
 │   ├── mapear_mini_cursos.py
-│   └── mini_cursos_acervo.json
+│   ├── mini_cursos_acervo.json
+│   └── ENTREGA/
+│       └── Mini_Cursos/
+│           └── AREAS/
+│               └── AREA N - Nome da Área/
+│                   └── Nome do Curso/
+│                       └── pdf/
+│                           └── *.pdf  # 127 PDFs versionados
 └── ENTREGA/                      # Acervo externo ao repositório
     ├── Livros_Tecnicos/
     │   ├── *.pdf
@@ -66,7 +73,7 @@ DATAGEO_ACADEMY/
                     └── ppt/     # Ignorada pelo mapeamento
 ```
 
-Os PDFs e as imagens em `ENTREGA` precisam ser disponibilizados separadamente. Clonar este repositório fornece o site e os scripts; os links para o acervo dependem dessa estrutura externa.
+Clonar este repositório fornece o site, os scripts e os PDFs dos mini-cursos. Os livros, apresentações e infográficos da pasta externa `ENTREGA` precisam ser disponibilizados separadamente.
 
 ## Visualizar localmente
 
@@ -102,7 +109,7 @@ python mapear_mini_cursos.py
 
 O script:
 
-1. Identifica as seis pastas de áreas em `ENTREGA/Mini_Cursos/AREAS`.
+1. Identifica as seis pastas de áreas em `SITE/ENTREGA/Mini_Cursos/AREAS`; se essa pasta não existir, usa `ENTREGA/Mini_Cursos/AREAS` no diretório pai.
 2. Inclui somente cursos com uma subpasta direta chamada `pdf`.
 3. Coleta os PDFs nessa subpasta e em seus subdiretórios, ignorando pastas `ppt`.
 4. Gera títulos amigáveis e links relativos com espaços e acentos codificados.
@@ -134,7 +141,7 @@ As apresentações são ordenadas alfabeticamente pelo nome do arquivo. Os três
 
 O WhatsApp e o e-mail ficam na configuração `CONTACT` do JavaScript em `index.html`, além dos links do rodapé. O formulário prepara um e-mail no aplicativo do visitante; o envio deve ser confirmado nesse aplicativo. A página não possui backend para envio automático.
 
-Para publicar com os materiais funcionando, preserve a relação entre `SITE` e `ENTREGA` no servidor ou adapte os caminhos do HTML e dos scripts à estrutura de hospedagem. Publicar somente a raiz deste repositório não disponibiliza os arquivos externos referenciados por `../ENTREGA/...`.
+Os mini-cursos utilizam caminhos relativos `ENTREGA/Mini_Cursos/AREAS/...` e acompanham a publicação deste repositório. Para publicar também livros, apresentações e infográficos, preserve a relação entre `SITE` e a pasta externa `ENTREGA` no servidor ou adapte seus caminhos. Publicar somente a raiz deste repositório não disponibiliza os arquivos externos referenciados por `../ENTREGA/...`.
 
 ## Licença
 
