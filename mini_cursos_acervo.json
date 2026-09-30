@@ -1,0 +1,1030 @@
+[
+  {
+    "nome_pasta": "AREA 1 - IA e Machine Learning",
+    "titulo": "IA e Machine Learning",
+    "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning",
+    "cursos": [
+      {
+        "nome_pasta": "Deep_Learning",
+        "titulo": "Deep Learning",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Deep_Learning",
+        "pdfs": [
+          {
+            "nome": "DL_Modulo_I_Introducao_DataGeo.pdf",
+            "titulo": "DL Módulo I Introducao",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Deep_Learning\\pdf\\DL_Modulo_I_Introducao_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Deep_Learning/pdf/DL_Modulo_I_Introducao_DataGeo.pdf"
+          },
+          {
+            "nome": "DL_Modulo_II_Aplicacoes_Gerais_DataGeo.pdf",
+            "titulo": "DL Módulo II Aplicacoes Gerais",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Deep_Learning\\pdf\\DL_Modulo_II_Aplicacoes_Gerais_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Deep_Learning/pdf/DL_Modulo_II_Aplicacoes_Gerais_DataGeo.pdf"
+          },
+          {
+            "nome": "DL_Modulo_III_Banco_de_Dados_DataGeo.pdf",
+            "titulo": "DL Módulo III Banco de Dados",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Deep_Learning\\pdf\\DL_Modulo_III_Banco_de_Dados_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Deep_Learning/pdf/DL_Modulo_III_Banco_de_Dados_DataGeo.pdf"
+          },
+          {
+            "nome": "DL_Modulo_IV_Aerolevantamentos_DataGeo.pdf",
+            "titulo": "DL Módulo IV Aerolevantamentos",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Deep_Learning\\pdf\\DL_Modulo_IV_Aerolevantamentos_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Deep_Learning/pdf/DL_Modulo_IV_Aerolevantamentos_DataGeo.pdf"
+          },
+          {
+            "nome": "DL_Modulo_V_Geoprocessamento_DataGeo.pdf",
+            "titulo": "DL Módulo V Geoprocessamento",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Deep_Learning\\pdf\\DL_Modulo_V_Geoprocessamento_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Deep_Learning/pdf/DL_Modulo_V_Geoprocessamento_DataGeo.pdf"
+          },
+          {
+            "nome": "DL_Modulo_VI_Conhecimentos_Especificos_DataGeo.pdf",
+            "titulo": "DL Módulo VI Conhecimentos Especificos",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Deep_Learning\\pdf\\DL_Modulo_VI_Conhecimentos_Especificos_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Deep_Learning/pdf/DL_Modulo_VI_Conhecimentos_Especificos_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Deep_Learning_DataGeo.pdf",
+            "titulo": "Mini-curso Deep Learning",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Deep_Learning\\pdf\\MiniCurso_Deep_Learning_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Deep_Learning/pdf/MiniCurso_Deep_Learning_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Etica XAI IA Geo",
+        "titulo": "Ética XAI IA Geoespacial",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Etica XAI IA Geo",
+        "pdfs": [
+          {
+            "nome": "Etica_IA_Dados_Geoespaciais_DataGeo.pdf",
+            "titulo": "Ética IA Dados Geoespaciais",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Etica XAI IA Geo\\pdf\\Etica_IA_Dados_Geoespaciais_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Etica%20XAI%20IA%20Geo/pdf/Etica_IA_Dados_Geoespaciais_DataGeo.pdf"
+          },
+          {
+            "nome": "IA_Explicavel_XAI_Geoespacial_DataGeo.pdf",
+            "titulo": "IA Explicavel XAI Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Etica XAI IA Geo\\pdf\\IA_Explicavel_XAI_Geoespacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Etica%20XAI%20IA%20Geo/pdf/IA_Explicavel_XAI_Geoespacial_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Etica_XAI_IA_Geo_DataGeo.pdf",
+            "titulo": "Mini-curso Ética XAI IA Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Etica XAI IA Geo\\pdf\\MiniCurso_Etica_XAI_IA_Geo_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Etica%20XAI%20IA%20Geo/pdf/MiniCurso_Etica_XAI_IA_Geo_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Machine_Learning",
+        "titulo": "Machine Learning",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Machine_Learning",
+        "pdfs": [
+          {
+            "nome": "MiniCurso_Machine_Learning_DataGeo.pdf",
+            "titulo": "Mini-curso Machine Learning",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Machine_Learning\\pdf\\MiniCurso_Machine_Learning_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Machine_Learning/pdf/MiniCurso_Machine_Learning_DataGeo.pdf"
+          },
+          {
+            "nome": "ML_01_Fundamentos_DataGeo.pdf",
+            "titulo": "ML 01 Fundamentos",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Machine_Learning\\pdf\\ML_01_Fundamentos_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Machine_Learning/pdf/ML_01_Fundamentos_DataGeo.pdf"
+          },
+          {
+            "nome": "ML_02_Geoespacial_DataGeo.pdf",
+            "titulo": "ML 02 Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Machine_Learning\\pdf\\ML_02_Geoespacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Machine_Learning/pdf/ML_02_Geoespacial_DataGeo.pdf"
+          },
+          {
+            "nome": "ML_03_Deep_Learning_DataGeo.pdf",
+            "titulo": "ML 03 Deep Learning",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Machine_Learning\\pdf\\ML_03_Deep_Learning_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Machine_Learning/pdf/ML_03_Deep_Learning_DataGeo.pdf"
+          },
+          {
+            "nome": "ML_04_Mercado_Financeiro_DataGeo.pdf",
+            "titulo": "ML 04 Mercado Financeiro",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Machine_Learning\\pdf\\ML_04_Mercado_Financeiro_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Machine_Learning/pdf/ML_04_Mercado_Financeiro_DataGeo.pdf"
+          },
+          {
+            "nome": "ML_05_MLOps_DataGeo.pdf",
+            "titulo": "ML 05 MLOps",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Machine_Learning\\pdf\\ML_05_MLOps_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Machine_Learning/pdf/ML_05_MLOps_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Subareas_IA",
+        "titulo": "Subáreas IA",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Subareas_IA",
+        "pdfs": [
+          {
+            "nome": "IA_01_Machine_Learning_DataGeo.pdf",
+            "titulo": "IA 01 Machine Learning",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Subareas_IA\\pdf\\IA_01_Machine_Learning_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Subareas_IA/pdf/IA_01_Machine_Learning_DataGeo.pdf"
+          },
+          {
+            "nome": "IA_02_Deep_Learning_DataGeo.pdf",
+            "titulo": "IA 02 Deep Learning",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Subareas_IA\\pdf\\IA_02_Deep_Learning_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Subareas_IA/pdf/IA_02_Deep_Learning_DataGeo.pdf"
+          },
+          {
+            "nome": "IA_03_NLP_Processamento_Linguagem_Natural_DataGeo.pdf",
+            "titulo": "IA 03 NLP Processamento Linguagem Natural",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Subareas_IA\\pdf\\IA_03_NLP_Processamento_Linguagem_Natural_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Subareas_IA/pdf/IA_03_NLP_Processamento_Linguagem_Natural_DataGeo.pdf"
+          },
+          {
+            "nome": "IA_04_Visao_Computacional_DataGeo.pdf",
+            "titulo": "IA 04 Visao Computacional",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Subareas_IA\\pdf\\IA_04_Visao_Computacional_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Subareas_IA/pdf/IA_04_Visao_Computacional_DataGeo.pdf"
+          },
+          {
+            "nome": "IA_05_IA_Generativa_DataGeo.pdf",
+            "titulo": "IA 05 IA Generativa",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Subareas_IA\\pdf\\IA_05_IA_Generativa_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Subareas_IA/pdf/IA_05_IA_Generativa_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Subareas_IA_DataGeo.pdf",
+            "titulo": "Mini-curso Subáreas IA",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 1 - IA e Machine Learning\\Subareas_IA\\pdf\\MiniCurso_Subareas_IA_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%201%20-%20IA%20e%20Machine%20Learning/Subareas_IA/pdf/MiniCurso_Subareas_IA_DataGeo.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nome_pasta": "AREA 2 - Geotecnologias",
+    "titulo": "Geotecnologias",
+    "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias",
+    "cursos": [
+      {
+        "nome_pasta": "ArcGIS Pro para Profissionais",
+        "titulo": "ArcGIS Pro para Profissionais",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\ArcGIS Pro para Profissionais",
+        "pdfs": [
+          {
+            "nome": "ArcGIS_M1_Fundamentos_DataGeo.pdf",
+            "titulo": "ArcGIS M1 Fundamentos",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\ArcGIS Pro para Profissionais\\pdf\\ArcGIS_M1_Fundamentos_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/ArcGIS%20Pro%20para%20Profissionais/pdf/ArcGIS_M1_Fundamentos_DataGeo.pdf"
+          },
+          {
+            "nome": "ArcGIS_M2_Analise_Espacial_DataGeo.pdf",
+            "titulo": "ArcGIS M2 Análise Espacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\ArcGIS Pro para Profissionais\\pdf\\ArcGIS_M2_Analise_Espacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/ArcGIS%20Pro%20para%20Profissionais/pdf/ArcGIS_M2_Analise_Espacial_DataGeo.pdf"
+          },
+          {
+            "nome": "ArcGIS_M3_ArcPy_Online_DataGeo.pdf",
+            "titulo": "ArcGIS M3 ArcPy Online",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\ArcGIS Pro para Profissionais\\pdf\\ArcGIS_M3_ArcPy_Online_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/ArcGIS%20Pro%20para%20Profissionais/pdf/ArcGIS_M3_ArcPy_Online_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_ArcGIS_Pro_Profissionais_DataGeo.pdf",
+            "titulo": "Mini-curso ArcGIS Pro Profissionais",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\ArcGIS Pro para Profissionais\\pdf\\MiniCurso_ArcGIS_Pro_Profissionais_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/ArcGIS%20Pro%20para%20Profissionais/pdf/MiniCurso_ArcGIS_Pro_Profissionais_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Cidades_Inteligentes",
+        "titulo": "Cidades Inteligentes",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Cidades_Inteligentes",
+        "pdfs": [
+          {
+            "nome": "MiniCurso_Cidades_Inteligentes_DataGeo.pdf",
+            "titulo": "Mini-curso Cidades Inteligentes",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Cidades_Inteligentes\\pdf\\MiniCurso_Cidades_Inteligentes_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Cidades_Inteligentes/pdf/MiniCurso_Cidades_Inteligentes_DataGeo.pdf"
+          },
+          {
+            "nome": "SmartCity_M1_Digital_Twin_IoT_DataGeo.pdf",
+            "titulo": "SmartCity M1 Digital Twin IoT",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Cidades_Inteligentes\\pdf\\SmartCity_M1_Digital_Twin_IoT_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Cidades_Inteligentes/pdf/SmartCity_M1_Digital_Twin_IoT_DataGeo.pdf"
+          },
+          {
+            "nome": "SmartCity_M2_GovTech_Dados_Abertos_DataGeo.pdf",
+            "titulo": "SmartCity M2 GovTech Dados Abertos",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Cidades_Inteligentes\\pdf\\SmartCity_M2_GovTech_Dados_Abertos_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Cidades_Inteligentes/pdf/SmartCity_M2_GovTech_Dados_Abertos_DataGeo.pdf"
+          },
+          {
+            "nome": "SmartCity_M3_Mobilidade_Urbana_DataGeo.pdf",
+            "titulo": "SmartCity M3 Mobilidade Urbana",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Cidades_Inteligentes\\pdf\\SmartCity_M3_Mobilidade_Urbana_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Cidades_Inteligentes/pdf/SmartCity_M3_Mobilidade_Urbana_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Fundamentos Geo_Agronegocio",
+        "titulo": "Fundamentos Geoespacial Agronegócio",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Fundamentos Geo_Agronegocio",
+        "pdfs": [
+          {
+            "nome": "Agro_M1_Fundamentos_Geo_Agronegocio_DataGeo.pdf",
+            "titulo": "Agro M1 Fundamentos Geoespacial Agronegócio",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Fundamentos Geo_Agronegocio\\pdf\\Agro_M1_Fundamentos_Geo_Agronegocio_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Fundamentos%20Geo_Agronegocio/pdf/Agro_M1_Fundamentos_Geo_Agronegocio_DataGeo.pdf"
+          },
+          {
+            "nome": "Agro_M2_Drones_NDVI_DataGeo.pdf",
+            "titulo": "Agro M2 Drones NDVI",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Fundamentos Geo_Agronegocio\\pdf\\Agro_M2_Drones_NDVI_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Fundamentos%20Geo_Agronegocio/pdf/Agro_M2_Drones_NDVI_DataGeo.pdf"
+          },
+          {
+            "nome": "Agro_M3_Manejo_Precisao_VRA_DataGeo.pdf",
+            "titulo": "Agro M3 Manejo Precisao VRA",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Fundamentos Geo_Agronegocio\\pdf\\Agro_M3_Manejo_Precisao_VRA_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Fundamentos%20Geo_Agronegocio/pdf/Agro_M3_Manejo_Precisao_VRA_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Geotecnologias_Agronegocio_DataGeo.pdf",
+            "titulo": "Mini-curso Geotecnologias Agronegócio",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Fundamentos Geo_Agronegocio\\pdf\\MiniCurso_Geotecnologias_Agronegocio_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Fundamentos%20Geo_Agronegocio/pdf/MiniCurso_Geotecnologias_Agronegocio_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias e Agronegocio",
+        "titulo": "Geotecnologias e Agronegócio",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias e Agronegocio",
+        "pdfs": [
+          {
+            "nome": "Agro_M1_Fundamentos_Geo_Agronegocio_DataGeo.pdf",
+            "titulo": "Agro M1 Fundamentos Geoespacial Agronegócio",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias e Agronegocio\\pdf\\Agro_M1_Fundamentos_Geo_Agronegocio_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20e%20Agronegocio/pdf/Agro_M1_Fundamentos_Geo_Agronegocio_DataGeo.pdf"
+          },
+          {
+            "nome": "Agro_M2_Drones_NDVI_DataGeo.pdf",
+            "titulo": "Agro M2 Drones NDVI",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias e Agronegocio\\pdf\\Agro_M2_Drones_NDVI_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20e%20Agronegocio/pdf/Agro_M2_Drones_NDVI_DataGeo.pdf"
+          },
+          {
+            "nome": "Agro_M3_Manejo_Precisao_VRA_DataGeo.pdf",
+            "titulo": "Agro M3 Manejo Precisao VRA",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias e Agronegocio\\pdf\\Agro_M3_Manejo_Precisao_VRA_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20e%20Agronegocio/pdf/Agro_M3_Manejo_Precisao_VRA_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Geotecnologias_Agronegocio_DataGeo.pdf",
+            "titulo": "Mini-curso Geotecnologias Agronegócio",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias e Agronegocio\\pdf\\MiniCurso_Geotecnologias_Agronegocio_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20e%20Agronegocio/pdf/MiniCurso_Geotecnologias_Agronegocio_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias em Recursos Hídricos",
+        "titulo": "Geotecnologias em Recursos Hídricos",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias em Recursos Hídricos",
+        "pdfs": [
+          {
+            "nome": "MiniCurso_Recursos_Hidricos_DataGeo.pdf",
+            "titulo": "Mini-curso Recursos Hidricos",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias em Recursos Hídricos\\pdf\\MiniCurso_Recursos_Hidricos_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20em%20Recursos%20H%C3%ADdricos/pdf/MiniCurso_Recursos_Hidricos_DataGeo.pdf"
+          },
+          {
+            "nome": "RecHidrico_M1_Bacias_Hidrograficas_DataGeo.pdf",
+            "titulo": "RecHidrico M1 Bacias Hidrograficas",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias em Recursos Hídricos\\pdf\\RecHidrico_M1_Bacias_Hidrograficas_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20em%20Recursos%20H%C3%ADdricos/pdf/RecHidrico_M1_Bacias_Hidrograficas_DataGeo.pdf"
+          },
+          {
+            "nome": "RecHidrico_M2_Monitoramento_Reservatorios_DataGeo.pdf",
+            "titulo": "RecHidrico M2 Monitoramento Reservatorios",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias em Recursos Hídricos\\pdf\\RecHidrico_M2_Monitoramento_Reservatorios_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20em%20Recursos%20H%C3%ADdricos/pdf/RecHidrico_M2_Monitoramento_Reservatorios_DataGeo.pdf"
+          },
+          {
+            "nome": "RecHidrico_M3_Eventos_Extremos_DataGeo.pdf",
+            "titulo": "RecHidrico M3 Eventos Extremos",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias em Recursos Hídricos\\pdf\\RecHidrico_M3_Eventos_Extremos_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20em%20Recursos%20H%C3%ADdricos/pdf/RecHidrico_M3_Eventos_Extremos_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias em Telecomunicações",
+        "titulo": "Geotecnologias em Telecomunicações",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias em Telecomunicações",
+        "pdfs": [
+          {
+            "nome": "GeoTelecom_M1_Redes_Celulares_DataGeo.pdf",
+            "titulo": "GeoTelecom M1 Redes Celulares",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias em Telecomunicações\\pdf\\GeoTelecom_M1_Redes_Celulares_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20em%20Telecomunica%C3%A7%C3%B5es/pdf/GeoTelecom_M1_Redes_Celulares_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoTelecom_M2_5G_Redes_Densas_DataGeo.pdf",
+            "titulo": "GeoTelecom M2 5G Redes Densas",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias em Telecomunicações\\pdf\\GeoTelecom_M2_5G_Redes_Densas_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20em%20Telecomunica%C3%A7%C3%B5es/pdf/GeoTelecom_M2_5G_Redes_Densas_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoTelecom_M3_Fibra_QoS_DataGeo.pdf",
+            "titulo": "GeoTelecom M3 Fibra QoS",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias em Telecomunicações\\pdf\\GeoTelecom_M3_Fibra_QoS_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20em%20Telecomunica%C3%A7%C3%B5es/pdf/GeoTelecom_M3_Fibra_QoS_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Geotecnologias_Telecomunicacoes_DataGeo.pdf",
+            "titulo": "Mini-curso Geotecnologias Telecomunicacoes",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias em Telecomunicações\\pdf\\MiniCurso_Geotecnologias_Telecomunicacoes_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20em%20Telecomunica%C3%A7%C3%B5es/pdf/MiniCurso_Geotecnologias_Telecomunicacoes_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias na Logística e Transporte",
+        "titulo": "Geotecnologias na Logística e Transporte",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Logística e Transporte",
+        "pdfs": [
+          {
+            "nome": "GeoLogistica_M1_Roteamento_Otimizacao_DataGeo.pdf",
+            "titulo": "GeoLogistica M1 Roteamento Otimizacao",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Logística e Transporte\\pdf\\GeoLogistica_M1_Roteamento_Otimizacao_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Log%C3%ADstica%20e%20Transporte/pdf/GeoLogistica_M1_Roteamento_Otimizacao_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoLogistica_M2_Rastreamento_LastMile_DataGeo.pdf",
+            "titulo": "GeoLogistica M2 Rastreamento LastMile",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Logística e Transporte\\pdf\\GeoLogistica_M2_Rastreamento_LastMile_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Log%C3%ADstica%20e%20Transporte/pdf/GeoLogistica_M2_Rastreamento_LastMile_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoLogistica_M3_Planejamento_Rede_DataGeo.pdf",
+            "titulo": "GeoLogistica M3 Planejamento Rede",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Logística e Transporte\\pdf\\GeoLogistica_M3_Planejamento_Rede_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Log%C3%ADstica%20e%20Transporte/pdf/GeoLogistica_M3_Planejamento_Rede_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Geotecnologias_Logistica_DataGeo.pdf",
+            "titulo": "Mini-curso Geotecnologias Logistica",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Logística e Transporte\\pdf\\MiniCurso_Geotecnologias_Logistica_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Log%C3%ADstica%20e%20Transporte/pdf/MiniCurso_Geotecnologias_Logistica_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias na Saúde",
+        "titulo": "Geotecnologias na Saúde",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Saúde",
+        "pdfs": [
+          {
+            "nome": "GeoSaude_M1_Epidemiologia_Espacial_DataGeo.pdf",
+            "titulo": "GeoSaude M1 Epidemiologia Espacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Saúde\\pdf\\GeoSaude_M1_Epidemiologia_Espacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Sa%C3%BAde/pdf/GeoSaude_M1_Epidemiologia_Espacial_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoSaude_M2_Planejamento_Rede_Saude_DataGeo.pdf",
+            "titulo": "GeoSaude M2 Planejamento Rede Saude",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Saúde\\pdf\\GeoSaude_M2_Planejamento_Rede_Saude_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Sa%C3%BAde/pdf/GeoSaude_M2_Planejamento_Rede_Saude_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoSaude_M3_Monitoramento_Vigilancia_DataGeo.pdf",
+            "titulo": "GeoSaude M3 Monitoramento Vigilancia",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Saúde\\pdf\\GeoSaude_M3_Monitoramento_Vigilancia_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Sa%C3%BAde/pdf/GeoSaude_M3_Monitoramento_Vigilancia_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Geotecnologias_Saude_DataGeo.pdf",
+            "titulo": "Mini-curso Geotecnologias Saude",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Saúde\\pdf\\MiniCurso_Geotecnologias_Saude_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Sa%C3%BAde/pdf/MiniCurso_Geotecnologias_Saude_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias na Segurança Pública",
+        "titulo": "Geotecnologias na Segurança Pública",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Segurança Pública",
+        "pdfs": [
+          {
+            "nome": "GeoSeguranca_M1_Analise_Criminal_DataGeo.pdf",
+            "titulo": "GeoSeguranca M1 Análise Criminal",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Segurança Pública\\pdf\\GeoSeguranca_M1_Analise_Criminal_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Seguran%C3%A7a%20P%C3%BAblica/pdf/GeoSeguranca_M1_Analise_Criminal_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoSeguranca_M2_Policiamento_Preditivo_DataGeo.pdf",
+            "titulo": "GeoSeguranca M2 Policiamento Preditivo",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Segurança Pública\\pdf\\GeoSeguranca_M2_Policiamento_Preditivo_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Seguran%C3%A7a%20P%C3%BAblica/pdf/GeoSeguranca_M2_Policiamento_Preditivo_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoSeguranca_M3_Gestao_Emergencias_DataGeo.pdf",
+            "titulo": "GeoSeguranca M3 Gestao Emergencias",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Segurança Pública\\pdf\\GeoSeguranca_M3_Gestao_Emergencias_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Seguran%C3%A7a%20P%C3%BAblica/pdf/GeoSeguranca_M3_Gestao_Emergencias_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Geotecnologias_Seguranca_Publica_DataGeo.pdf",
+            "titulo": "Mini-curso Geotecnologias Seguranca Publica",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias na Segurança Pública\\pdf\\MiniCurso_Geotecnologias_Seguranca_Publica_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20na%20Seguran%C3%A7a%20P%C3%BAblica/pdf/MiniCurso_Geotecnologias_Seguranca_Publica_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias no Meio Ambiente",
+        "titulo": "Geotecnologias no Meio Ambiente",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Meio Ambiente",
+        "pdfs": [
+          {
+            "nome": "GeoAmbiente_M1_Monitoramento_Satelite_DataGeo.pdf",
+            "titulo": "GeoAmbiente M1 Monitoramento Satelite",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Meio Ambiente\\pdf\\GeoAmbiente_M1_Monitoramento_Satelite_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Meio%20Ambiente/pdf/GeoAmbiente_M1_Monitoramento_Satelite_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoAmbiente_M2_Recursos_Hidricos_DataGeo.pdf",
+            "titulo": "GeoAmbiente M2 Recursos Hidricos",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Meio Ambiente\\pdf\\GeoAmbiente_M2_Recursos_Hidricos_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Meio%20Ambiente/pdf/GeoAmbiente_M2_Recursos_Hidricos_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoAmbiente_M3_Clima_Biodiversidade_DataGeo.pdf",
+            "titulo": "GeoAmbiente M3 Clima Biodiversidade",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Meio Ambiente\\pdf\\GeoAmbiente_M3_Clima_Biodiversidade_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Meio%20Ambiente/pdf/GeoAmbiente_M3_Clima_Biodiversidade_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Geotecnologias_MeioAmbiente_DataGeo.pdf",
+            "titulo": "Mini-curso Geotecnologias MeioAmbiente",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Meio Ambiente\\pdf\\MiniCurso_Geotecnologias_MeioAmbiente_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Meio%20Ambiente/pdf/MiniCurso_Geotecnologias_MeioAmbiente_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias no Setor Energético",
+        "titulo": "Geotecnologias no Setor Energético",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Setor Energético",
+        "pdfs": [
+          {
+            "nome": "GeoEnergia_M1_Renovaveis_SIG_DataGeo.pdf",
+            "titulo": "GeoEnergia M1 Renovaveis SIG",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Setor Energético\\pdf\\GeoEnergia_M1_Renovaveis_SIG_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Setor%20Energ%C3%A9tico/pdf/GeoEnergia_M1_Renovaveis_SIG_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoEnergia_M2_Redes_Transmissao_DataGeo.pdf",
+            "titulo": "GeoEnergia M2 Redes Transmissao",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Setor Energético\\pdf\\GeoEnergia_M2_Redes_Transmissao_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Setor%20Energ%C3%A9tico/pdf/GeoEnergia_M2_Redes_Transmissao_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoEnergia_M3_Eficiencia_SmartGrid_DataGeo.pdf",
+            "titulo": "GeoEnergia M3 Eficiencia SmartGrid",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Setor Energético\\pdf\\GeoEnergia_M3_Eficiencia_SmartGrid_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Setor%20Energ%C3%A9tico/pdf/GeoEnergia_M3_Eficiencia_SmartGrid_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Geotecnologias_Energia_DataGeo.pdf",
+            "titulo": "Mini-curso Geotecnologias Energia",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Setor Energético\\pdf\\MiniCurso_Geotecnologias_Energia_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Setor%20Energ%C3%A9tico/pdf/MiniCurso_Geotecnologias_Energia_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias no Setor Imobiliário",
+        "titulo": "Geotecnologias no Setor Imobiliário",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Setor Imobiliário",
+        "pdfs": [
+          {
+            "nome": "GeoImobiliario_M1_AVM_Localizacao_DataGeo.pdf",
+            "titulo": "GeoImobiliario M1 AVM Localizacao",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Setor Imobiliário\\pdf\\GeoImobiliario_M1_AVM_Localizacao_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Setor%20Imobili%C3%A1rio/pdf/GeoImobiliario_M1_AVM_Localizacao_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoImobiliario_M2_Riscos_Due_Diligence_DataGeo.pdf",
+            "titulo": "GeoImobiliario M2 Riscos Due Diligence",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Setor Imobiliário\\pdf\\GeoImobiliario_M2_Riscos_Due_Diligence_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Setor%20Imobili%C3%A1rio/pdf/GeoImobiliario_M2_Riscos_Due_Diligence_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoImobiliario_M3_Inteligencia_Mercado_DataGeo.pdf",
+            "titulo": "GeoImobiliario M3 Inteligencia Mercado",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Setor Imobiliário\\pdf\\GeoImobiliario_M3_Inteligencia_Mercado_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Setor%20Imobili%C3%A1rio/pdf/GeoImobiliario_M3_Inteligencia_Mercado_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Geotecnologias_Imobiliario_DataGeo.pdf",
+            "titulo": "Mini-curso Geotecnologias Imobiliario",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Setor Imobiliário\\pdf\\MiniCurso_Geotecnologias_Imobiliario_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Setor%20Imobili%C3%A1rio/pdf/MiniCurso_Geotecnologias_Imobiliario_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias no Turismo",
+        "titulo": "Geotecnologias no Turismo",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Turismo",
+        "pdfs": [
+          {
+            "nome": "GeoTurismo_M1_Geomarketing_DataGeo.pdf",
+            "titulo": "GeoTurismo M1 Geomarketing",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Turismo\\pdf\\GeoTurismo_M1_Geomarketing_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Turismo/pdf/GeoTurismo_M1_Geomarketing_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoTurismo_M2_Capacidade_Carga_DataGeo.pdf",
+            "titulo": "GeoTurismo M2 Capacidade Carga",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Turismo\\pdf\\GeoTurismo_M2_Capacidade_Carga_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Turismo/pdf/GeoTurismo_M2_Capacidade_Carga_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoTurismo_M3_Planejamento_Destinos_DataGeo.pdf",
+            "titulo": "GeoTurismo M3 Planejamento Destinos",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Turismo\\pdf\\GeoTurismo_M3_Planejamento_Destinos_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Turismo/pdf/GeoTurismo_M3_Planejamento_Destinos_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Geotecnologias_Turismo_DataGeo.pdf",
+            "titulo": "Mini-curso Geotecnologias Turismo",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Turismo\\pdf\\MiniCurso_Geotecnologias_Turismo_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Turismo/pdf/MiniCurso_Geotecnologias_Turismo_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias no Urbanismo",
+        "titulo": "Geotecnologias no Urbanismo",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Urbanismo",
+        "pdfs": [
+          {
+            "nome": "GeoUrbanismo_M1_Crescimento_Urbano_DataGeo.pdf",
+            "titulo": "GeoUrbanismo M1 Crescimento Urbano",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Urbanismo\\pdf\\GeoUrbanismo_M1_Crescimento_Urbano_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Urbanismo/pdf/GeoUrbanismo_M1_Crescimento_Urbano_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoUrbanismo_M2_Plano_Diretor_DataGeo.pdf",
+            "titulo": "GeoUrbanismo M2 Plano Diretor",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Urbanismo\\pdf\\GeoUrbanismo_M2_Plano_Diretor_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Urbanismo/pdf/GeoUrbanismo_M2_Plano_Diretor_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoUrbanismo_M3_Infraestrutura_Desigualdade_DataGeo.pdf",
+            "titulo": "GeoUrbanismo M3 Infraestrutura Desigualdade",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Urbanismo\\pdf\\GeoUrbanismo_M3_Infraestrutura_Desigualdade_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Urbanismo/pdf/GeoUrbanismo_M3_Infraestrutura_Desigualdade_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Urbanismo_Planejamento_DataGeo.pdf",
+            "titulo": "Mini-curso Urbanismo Planejamento",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Urbanismo\\pdf\\MiniCurso_Urbanismo_Planejamento_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Urbanismo/pdf/MiniCurso_Urbanismo_Planejamento_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Geotecnologias no Varejo e Geomarketing",
+        "titulo": "Geotecnologias no Varejo e Geomarketing",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Varejo e Geomarketing",
+        "pdfs": [
+          {
+            "nome": "GeoVarejo_M1_Geomarketing_Analise_Mercado_DataGeo.pdf",
+            "titulo": "GeoVarejo M1 Geomarketing Análise Mercado",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Varejo e Geomarketing\\pdf\\GeoVarejo_M1_Geomarketing_Analise_Mercado_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Varejo%20e%20Geomarketing/pdf/GeoVarejo_M1_Geomarketing_Analise_Mercado_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoVarejo_M2_Site_Selection_DataGeo.pdf",
+            "titulo": "GeoVarejo M2 Site Selection",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Varejo e Geomarketing\\pdf\\GeoVarejo_M2_Site_Selection_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Varejo%20e%20Geomarketing/pdf/GeoVarejo_M2_Site_Selection_DataGeo.pdf"
+          },
+          {
+            "nome": "GeoVarejo_M3_Performance_Territorial_DataGeo.pdf",
+            "titulo": "GeoVarejo M3 Performance Territorial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Varejo e Geomarketing\\pdf\\GeoVarejo_M3_Performance_Territorial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Varejo%20e%20Geomarketing/pdf/GeoVarejo_M3_Performance_Territorial_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Geotecnologias_Varejo_DataGeo.pdf",
+            "titulo": "Mini-curso Geotecnologias Varejo",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Geotecnologias no Varejo e Geomarketing\\pdf\\MiniCurso_Geotecnologias_Varejo_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Geotecnologias%20no%20Varejo%20e%20Geomarketing/pdf/MiniCurso_Geotecnologias_Varejo_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Grafos_e_Geotecnoloigias",
+        "titulo": "Grafos e Geotecnologias",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Grafos_e_Geotecnoloigias",
+        "pdfs": [
+          {
+            "nome": "Grafos_Geotecnologias_Introducao_DataGeo.pdf",
+            "titulo": "Grafos Geotecnologias Introducao",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Grafos_e_Geotecnoloigias\\pdf\\Grafos_Geotecnologias_Introducao_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Grafos_e_Geotecnoloigias/pdf/Grafos_Geotecnologias_Introducao_DataGeo.pdf"
+          },
+          {
+            "nome": "Grafos_Geotecnologias_Modulo_1_DataGeo.pdf",
+            "titulo": "Grafos Geotecnologias Módulo 1",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Grafos_e_Geotecnoloigias\\pdf\\Grafos_Geotecnologias_Modulo_1_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Grafos_e_Geotecnoloigias/pdf/Grafos_Geotecnologias_Modulo_1_DataGeo.pdf"
+          },
+          {
+            "nome": "Grafos_Geotecnologias_Modulo_2_DataGeo.pdf",
+            "titulo": "Grafos Geotecnologias Módulo 2",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Grafos_e_Geotecnoloigias\\pdf\\Grafos_Geotecnologias_Modulo_2_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Grafos_e_Geotecnoloigias/pdf/Grafos_Geotecnologias_Modulo_2_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Grafos_Geotecnologias_DataGeo.pdf",
+            "titulo": "Mini-curso Grafos Geotecnologias",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Grafos_e_Geotecnoloigias\\pdf\\MiniCurso_Grafos_Geotecnologias_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Grafos_e_Geotecnoloigias/pdf/MiniCurso_Grafos_Geotecnologias_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "QGIS do Básico ao Avançado",
+        "titulo": "QGIS do Básico ao Avançado",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\QGIS do Básico ao Avançado",
+        "pdfs": [
+          {
+            "nome": "MiniCurso_QGIS_Basico_Avancado_DataGeo.pdf",
+            "titulo": "Mini-curso QGIS Basico Avancado",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\QGIS do Básico ao Avançado\\pdf\\MiniCurso_QGIS_Basico_Avancado_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/QGIS%20do%20B%C3%A1sico%20ao%20Avan%C3%A7ado/pdf/MiniCurso_QGIS_Basico_Avancado_DataGeo.pdf"
+          },
+          {
+            "nome": "QGIS_M1_Fundamentos_DataGeo.pdf",
+            "titulo": "QGIS M1 Fundamentos",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\QGIS do Básico ao Avançado\\pdf\\QGIS_M1_Fundamentos_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/QGIS%20do%20B%C3%A1sico%20ao%20Avan%C3%A7ado/pdf/QGIS_M1_Fundamentos_DataGeo.pdf"
+          },
+          {
+            "nome": "QGIS_M2_Analise_Espacial_DataGeo.pdf",
+            "titulo": "QGIS M2 Análise Espacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\QGIS do Básico ao Avançado\\pdf\\QGIS_M2_Analise_Espacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/QGIS%20do%20B%C3%A1sico%20ao%20Avan%C3%A7ado/pdf/QGIS_M2_Analise_Espacial_DataGeo.pdf"
+          },
+          {
+            "nome": "QGIS_M3_Layout_PyQGIS_DataGeo.pdf",
+            "titulo": "QGIS M3 Layout PyQGIS",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\QGIS do Básico ao Avançado\\pdf\\QGIS_M3_Layout_PyQGIS_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/QGIS%20do%20B%C3%A1sico%20ao%20Avan%C3%A7ado/pdf/QGIS_M3_Layout_PyQGIS_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Sensoriamento_Remoto",
+        "titulo": "Sensoriamento Remoto",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Sensoriamento_Remoto",
+        "pdfs": [
+          {
+            "nome": "MiniCurso_Sensoriamento_Remoto_DataGeo.pdf",
+            "titulo": "Mini-curso Sensoriamento Remoto",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Sensoriamento_Remoto\\pdf\\MiniCurso_Sensoriamento_Remoto_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Sensoriamento_Remoto/pdf/MiniCurso_Sensoriamento_Remoto_DataGeo.pdf"
+          },
+          {
+            "nome": "SR_M1_Fundamentos_Sensoriamento_DataGeo.pdf",
+            "titulo": "SR M1 Fundamentos Sensoriamento",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Sensoriamento_Remoto\\pdf\\SR_M1_Fundamentos_Sensoriamento_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Sensoriamento_Remoto/pdf/SR_M1_Fundamentos_Sensoriamento_DataGeo.pdf"
+          },
+          {
+            "nome": "SR_M2_Indices_Classificacao_DataGeo.pdf",
+            "titulo": "SR M2 Indices Classificacao",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Sensoriamento_Remoto\\pdf\\SR_M2_Indices_Classificacao_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Sensoriamento_Remoto/pdf/SR_M2_Indices_Classificacao_DataGeo.pdf"
+          },
+          {
+            "nome": "SR_M3_Google_Earth_Engine_DataGeo.pdf",
+            "titulo": "SR M3 Google Earth Engine",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 2 - Geotecnologias\\Sensoriamento_Remoto\\pdf\\SR_M3_Google_Earth_Engine_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%202%20-%20Geotecnologias/Sensoriamento_Remoto/pdf/SR_M3_Google_Earth_Engine_DataGeo.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nome_pasta": "AREA 3 - BI_ Business Inteligence",
+    "titulo": "BI - Business Intelligence",
+    "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 3 - BI_ Business Inteligence",
+    "cursos": [
+      {
+        "nome_pasta": "BI_Geoespacial",
+        "titulo": "BI Geoespacial",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 3 - BI_ Business Inteligence\\BI_Geoespacial",
+        "pdfs": [
+          {
+            "nome": "BI_Geo_M1_SQL_Geoespacial_DataGeo.pdf",
+            "titulo": "BI Geoespacial M1 SQL Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 3 - BI_ Business Inteligence\\BI_Geoespacial\\pdf\\BI_Geo_M1_SQL_Geoespacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%203%20-%20BI_%20Business%20Inteligence/BI_Geoespacial/pdf/BI_Geo_M1_SQL_Geoespacial_DataGeo.pdf"
+          },
+          {
+            "nome": "BI_Geo_M2_PowerBI_Geoespacial_DataGeo.pdf",
+            "titulo": "BI Geoespacial M2 PowerBI Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 3 - BI_ Business Inteligence\\BI_Geoespacial\\pdf\\BI_Geo_M2_PowerBI_Geoespacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%203%20-%20BI_%20Business%20Inteligence/BI_Geoespacial/pdf/BI_Geo_M2_PowerBI_Geoespacial_DataGeo.pdf"
+          },
+          {
+            "nome": "BI_Geo_M3_KPIs_Dashboards_DataGeo.pdf",
+            "titulo": "BI Geoespacial M3 KPIs Dashboards",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 3 - BI_ Business Inteligence\\BI_Geoespacial\\pdf\\BI_Geo_M3_KPIs_Dashboards_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%203%20-%20BI_%20Business%20Inteligence/BI_Geoespacial/pdf/BI_Geo_M3_KPIs_Dashboards_DataGeo.pdf"
+          },
+          {
+            "nome": "BI_Geo_M4_Tableau_Geoespacial_DataGeo.pdf",
+            "titulo": "BI Geoespacial M4 Tableau Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 3 - BI_ Business Inteligence\\BI_Geoespacial\\pdf\\BI_Geo_M4_Tableau_Geoespacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%203%20-%20BI_%20Business%20Inteligence/BI_Geoespacial/pdf/BI_Geo_M4_Tableau_Geoespacial_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_BI_Geoespacial_DataGeo.pdf",
+            "titulo": "Mini-curso BI Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 3 - BI_ Business Inteligence\\BI_Geoespacial\\pdf\\MiniCurso_BI_Geoespacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%203%20-%20BI_%20Business%20Inteligence/BI_Geoespacial/pdf/MiniCurso_BI_Geoespacial_DataGeo.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nome_pasta": "AREA 4 - Ciencia_de_Dados",
+    "titulo": "Ciência de Dados",
+    "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 4 - Ciencia_de_Dados",
+    "cursos": [
+      {
+        "nome_pasta": "Big Data e Dados Geoespaciais",
+        "titulo": "Big Data e Dados Geoespaciais",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 4 - Ciencia_de_Dados\\Big Data e Dados Geoespaciais",
+        "pdfs": [
+          {
+            "nome": "BigGeo_M1_Formatos_Eficientes_DataGeo.pdf",
+            "titulo": "BigGeo M1 Formatos Eficientes",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 4 - Ciencia_de_Dados\\Big Data e Dados Geoespaciais\\pdf\\BigGeo_M1_Formatos_Eficientes_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%204%20-%20Ciencia_de_Dados/Big%20Data%20e%20Dados%20Geoespaciais/pdf/BigGeo_M1_Formatos_Eficientes_DataGeo.pdf"
+          },
+          {
+            "nome": "BigGeo_M2_DuckDB_Spatial_DataGeo.pdf",
+            "titulo": "BigGeo M2 DuckDB Spatial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 4 - Ciencia_de_Dados\\Big Data e Dados Geoespaciais\\pdf\\BigGeo_M2_DuckDB_Spatial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%204%20-%20Ciencia_de_Dados/Big%20Data%20e%20Dados%20Geoespaciais/pdf/BigGeo_M2_DuckDB_Spatial_DataGeo.pdf"
+          },
+          {
+            "nome": "BigGeo_M3_Spark_Cloud_DataGeo.pdf",
+            "titulo": "BigGeo M3 Spark Cloud",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 4 - Ciencia_de_Dados\\Big Data e Dados Geoespaciais\\pdf\\BigGeo_M3_Spark_Cloud_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%204%20-%20Ciencia_de_Dados/Big%20Data%20e%20Dados%20Geoespaciais/pdf/BigGeo_M3_Spark_Cloud_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Big_Data_Geoespacial_DataGeo.pdf",
+            "titulo": "Mini-curso Big Data Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 4 - Ciencia_de_Dados\\Big Data e Dados Geoespaciais\\pdf\\MiniCurso_Big_Data_Geoespacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%204%20-%20Ciencia_de_Dados/Big%20Data%20e%20Dados%20Geoespaciais/pdf/MiniCurso_Big_Data_Geoespacial_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Estatística Aplicada a Dados Geoespaciais",
+        "titulo": "Estatística Aplicada a Dados Geoespaciais",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 4 - Ciencia_de_Dados\\Estatística Aplicada a Dados Geoespaciais",
+        "pdfs": [
+          {
+            "nome": "EstatGeo_M1_Autocorrelacao_Clusters_DataGeo.pdf",
+            "titulo": "EstatGeo M1 Autocorrelacao Clusters",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 4 - Ciencia_de_Dados\\Estatística Aplicada a Dados Geoespaciais\\pdf\\EstatGeo_M1_Autocorrelacao_Clusters_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%204%20-%20Ciencia_de_Dados/Estat%C3%ADstica%20Aplicada%20a%20Dados%20Geoespaciais/pdf/EstatGeo_M1_Autocorrelacao_Clusters_DataGeo.pdf"
+          },
+          {
+            "nome": "EstatGeo_M2_Interpolacao_KDE_DataGeo.pdf",
+            "titulo": "EstatGeo M2 Interpolacao KDE",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 4 - Ciencia_de_Dados\\Estatística Aplicada a Dados Geoespaciais\\pdf\\EstatGeo_M2_Interpolacao_KDE_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%204%20-%20Ciencia_de_Dados/Estat%C3%ADstica%20Aplicada%20a%20Dados%20Geoespaciais/pdf/EstatGeo_M2_Interpolacao_KDE_DataGeo.pdf"
+          },
+          {
+            "nome": "EstatGeo_M3_Regressao_Espacial_DataGeo.pdf",
+            "titulo": "EstatGeo M3 Regressao Espacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 4 - Ciencia_de_Dados\\Estatística Aplicada a Dados Geoespaciais\\pdf\\EstatGeo_M3_Regressao_Espacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%204%20-%20Ciencia_de_Dados/Estat%C3%ADstica%20Aplicada%20a%20Dados%20Geoespaciais/pdf/EstatGeo_M3_Regressao_Espacial_DataGeo.pdf"
+          },
+          {
+            "nome": "MiniCurso_Estatistica_Dados_Geoespaciais_DataGeo.pdf",
+            "titulo": "Mini-curso Estatística Dados Geoespaciais",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 4 - Ciencia_de_Dados\\Estatística Aplicada a Dados Geoespaciais\\pdf\\MiniCurso_Estatistica_Dados_Geoespaciais_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%204%20-%20Ciencia_de_Dados/Estat%C3%ADstica%20Aplicada%20a%20Dados%20Geoespaciais/pdf/MiniCurso_Estatistica_Dados_Geoespaciais_DataGeo.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nome_pasta": "AREA 5 - Programacao_para_Dados",
+    "titulo": "Programação para Dados",
+    "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados",
+    "cursos": [
+      {
+        "nome_pasta": "Automacao para Dados",
+        "titulo": "Automação para Dados",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Automacao para Dados",
+        "pdfs": [
+          {
+            "nome": "MiniCurso_Automacao_Geoprocessamento_DataGeo.pdf",
+            "titulo": "Mini-curso Automação Geoprocessamento",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Automacao para Dados\\pdf\\MiniCurso_Automacao_Geoprocessamento_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Automacao%20para%20Dados/pdf/MiniCurso_Automacao_Geoprocessamento_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Banco de Dados Geoespaciais com PostGIS",
+        "titulo": "Banco de Dados Geoespaciais com PostGIS",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Banco de Dados Geoespaciais com PostGIS",
+        "pdfs": [
+          {
+            "nome": "MiniCurso_Banco_Dados_PostGIS_DataGeo.pdf",
+            "titulo": "Mini-curso Banco Dados PostGIS",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Banco de Dados Geoespaciais com PostGIS\\pdf\\MiniCurso_Banco_Dados_PostGIS_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Banco%20de%20Dados%20Geoespaciais%20com%20PostGIS/pdf/MiniCurso_Banco_Dados_PostGIS_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Fundamentos de PostGress + PostGIS",
+        "titulo": "Fundamentos de PostgreSQL + PostGIS",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos de PostGress + PostGIS",
+        "pdfs": [
+          {
+            "nome": "PostGIS_M1_Fundamentos_DataGeo.pdf",
+            "titulo": "PostGIS M1 Fundamentos",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos de PostGress + PostGIS\\pdf\\PostGIS_M1_Fundamentos_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Fundamentos%20de%20PostGress%20%2B%20PostGIS/pdf/PostGIS_M1_Fundamentos_DataGeo.pdf"
+          },
+          {
+            "nome": "PostGIS_M2_Funcoes_ST_DataGeo.pdf",
+            "titulo": "PostGIS M2 Funções ST",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos de PostGress + PostGIS\\pdf\\PostGIS_M2_Funcoes_ST_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Fundamentos%20de%20PostGress%20%2B%20PostGIS/pdf/PostGIS_M2_Funcoes_ST_DataGeo.pdf"
+          },
+          {
+            "nome": "PostGIS_M3_Integracao_Performance_DataGeo.pdf",
+            "titulo": "PostGIS M3 Integração Performance",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos de PostGress + PostGIS\\pdf\\PostGIS_M3_Integracao_Performance_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Fundamentos%20de%20PostGress%20%2B%20PostGIS/pdf/PostGIS_M3_Integracao_Performance_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Fundamentos GeoPandas _1",
+        "titulo": "Fundamentos GeoPandas 1",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos GeoPandas _1",
+        "pdfs": [
+          {
+            "nome": "MiniCurso_Python_Geoespacial_DataGeo.pdf",
+            "titulo": "Mini-curso Python Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos GeoPandas _1\\pdf\\MiniCurso_Python_Geoespacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Fundamentos%20GeoPandas%20_1/pdf/MiniCurso_Python_Geoespacial_DataGeo.pdf"
+          },
+          {
+            "nome": "Python_Geo_M1_Fundamentos_GeoPandas_DataGeo.pdf",
+            "titulo": "Python Geoespacial M1 Fundamentos GeoPandas",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos GeoPandas _1\\pdf\\Python_Geo_M1_Fundamentos_GeoPandas_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Fundamentos%20GeoPandas%20_1/pdf/Python_Geo_M1_Fundamentos_GeoPandas_DataGeo.pdf"
+          },
+          {
+            "nome": "Python_Geo_M2_Rasterio_Imagens_DataGeo.pdf",
+            "titulo": "Python Geoespacial M2 Rasterio Imagens",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos GeoPandas _1\\pdf\\Python_Geo_M2_Rasterio_Imagens_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Fundamentos%20GeoPandas%20_1/pdf/Python_Geo_M2_Rasterio_Imagens_DataGeo.pdf"
+          },
+          {
+            "nome": "Python_Geo_M3_Visualizacao_Dashboards_DataGeo.pdf",
+            "titulo": "Python Geoespacial M3 Visualizacao Dashboards",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos GeoPandas _1\\pdf\\Python_Geo_M3_Visualizacao_Dashboards_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Fundamentos%20GeoPandas%20_1/pdf/Python_Geo_M3_Visualizacao_Dashboards_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Fundamentos GeoPandas _2",
+        "titulo": "Fundamentos GeoPandas 2",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos GeoPandas _2",
+        "pdfs": [
+          {
+            "nome": "AutoGeo_M1_GeoPandas_Standalone_DataGeo.pdf",
+            "titulo": "AutoGeo M1 GeoPandas Standalone",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos GeoPandas _2\\pdf\\AutoGeo_M1_GeoPandas_Standalone_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Fundamentos%20GeoPandas%20_2/pdf/AutoGeo_M1_GeoPandas_Standalone_DataGeo.pdf"
+          },
+          {
+            "nome": "AutoGeo_M2_PyQGIS_ArcPy_DataGeo.pdf",
+            "titulo": "AutoGeo M2 PyQGIS ArcPy",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos GeoPandas _2\\pdf\\AutoGeo_M2_PyQGIS_ArcPy_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Fundamentos%20GeoPandas%20_2/pdf/AutoGeo_M2_PyQGIS_ArcPy_DataGeo.pdf"
+          },
+          {
+            "nome": "AutoGeo_M3_Pipelines_Agendados_DataGeo.pdf",
+            "titulo": "AutoGeo M3 Pipelines Agendados",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Fundamentos GeoPandas _2\\pdf\\AutoGeo_M3_Pipelines_Agendados_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Fundamentos%20GeoPandas%20_2/pdf/AutoGeo_M3_Pipelines_Agendados_DataGeo.pdf"
+          }
+        ]
+      },
+      {
+        "nome_pasta": "Python_Geoespacial",
+        "titulo": "Python Geoespacial",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Python_Geoespacial",
+        "pdfs": [
+          {
+            "nome": "MiniCurso_Python_Geoespacial_DataGeo.pdf",
+            "titulo": "Mini-curso Python Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Python_Geoespacial\\pdf\\MiniCurso_Python_Geoespacial_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Python_Geoespacial/pdf/MiniCurso_Python_Geoespacial_DataGeo.pdf"
+          },
+          {
+            "nome": "Python_Geo_M1_Fundamentos_GeoPandas_DataGeo.pdf",
+            "titulo": "Python Geoespacial M1 Fundamentos GeoPandas",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Python_Geoespacial\\pdf\\Python_Geo_M1_Fundamentos_GeoPandas_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Python_Geoespacial/pdf/Python_Geo_M1_Fundamentos_GeoPandas_DataGeo.pdf"
+          },
+          {
+            "nome": "Python_Geo_M2_Rasterio_Imagens_DataGeo.pdf",
+            "titulo": "Python Geoespacial M2 Rasterio Imagens",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Python_Geoespacial\\pdf\\Python_Geo_M2_Rasterio_Imagens_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Python_Geoespacial/pdf/Python_Geo_M2_Rasterio_Imagens_DataGeo.pdf"
+          },
+          {
+            "nome": "Python_Geo_M3_Visualizacao_Dashboards_DataGeo.pdf",
+            "titulo": "Python Geoespacial M3 Visualizacao Dashboards",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 5 - Programacao_para_Dados\\Python_Geoespacial\\pdf\\Python_Geo_M3_Visualizacao_Dashboards_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%205%20-%20Programacao_para_Dados/Python_Geoespacial/pdf/Python_Geo_M3_Visualizacao_Dashboards_DataGeo.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nome_pasta": "AREA 6 - Analise_Preditiva",
+    "titulo": "Análise Preditiva",
+    "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 6 - Analise_Preditiva",
+    "cursos": [
+      {
+        "nome_pasta": "Analise_Preditiva_Geo",
+        "titulo": "Análise Preditiva Geoespacial",
+        "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 6 - Analise_Preditiva\\Analise_Preditiva_Geo",
+        "pdfs": [
+          {
+            "nome": "MiniCurso_Analise_Preditiva_Geo_DataGeo.pdf",
+            "titulo": "Mini-curso Análise Preditiva Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 6 - Analise_Preditiva\\Analise_Preditiva_Geo\\pdf\\MiniCurso_Analise_Preditiva_Geo_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%206%20-%20Analise_Preditiva/Analise_Preditiva_Geo/pdf/MiniCurso_Analise_Preditiva_Geo_DataGeo.pdf"
+          },
+          {
+            "nome": "Preditivo_M1_Series_Temporais_Geo_DataGeo.pdf",
+            "titulo": "Preditivo M1 Séries Temporais Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 6 - Analise_Preditiva\\Analise_Preditiva_Geo\\pdf\\Preditivo_M1_Series_Temporais_Geo_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%206%20-%20Analise_Preditiva/Analise_Preditiva_Geo/pdf/Preditivo_M1_Series_Temporais_Geo_DataGeo.pdf"
+          },
+          {
+            "nome": "Preditivo_M2_Modelos_Preditivos_Geo_DataGeo.pdf",
+            "titulo": "Preditivo M2 Modelos Preditivos Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 6 - Analise_Preditiva\\Analise_Preditiva_Geo\\pdf\\Preditivo_M2_Modelos_Preditivos_Geo_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%206%20-%20Analise_Preditiva/Analise_Preditiva_Geo/pdf/Preditivo_M2_Modelos_Preditivos_Geo_DataGeo.pdf"
+          },
+          {
+            "nome": "Preditivo_M3_Deploy_Producao_Geo_DataGeo.pdf",
+            "titulo": "Preditivo M3 Deploy Producao Geoespacial",
+            "caminho": "C:\\Users\\flavi\\OneDrive\\Documentos\\Empresas\\F&S_Capital\\4. DATAGEO_ACADEMY\\ENTREGA\\Mini_Cursos\\AREAS\\AREA 6 - Analise_Preditiva\\Analise_Preditiva_Geo\\pdf\\Preditivo_M3_Deploy_Producao_Geo_DataGeo.pdf",
+            "url": "../ENTREGA/Mini_Cursos/AREAS/AREA%206%20-%20Analise_Preditiva/Analise_Preditiva_Geo/pdf/Preditivo_M3_Deploy_Producao_Geo_DataGeo.pdf"
+          }
+        ]
+      }
+    ]
+  }
+]
