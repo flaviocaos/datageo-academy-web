@@ -5,7 +5,9 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent / ".capas-deps"))
 import pymupdf
 
-PASTA = Path(__file__).resolve().parent.parent / "ENTREGA" / "Apresentacoes_Tecnicas"
+SITE = Path(__file__).resolve().parent
+PASTA_LOCAL = SITE / "ENTREGA" / "Apresentacoes_Tecnicas"
+PASTA = PASTA_LOCAL if PASTA_LOCAL.is_dir() else SITE.parent / "ENTREGA" / "Apresentacoes_Tecnicas"
 
 
 def main():

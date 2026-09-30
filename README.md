@@ -33,7 +33,7 @@ Os números representam o acervo mapeado atualmente. A execução do script atua
 
 ## Estrutura de arquivos
 
-Os 127 PDFs dos mini-cursos estão incluídos neste repositório, em `ENTREGA/Mini_Cursos/AREAS`. Livros, apresentações e infográficos continuam na pasta externa `ENTREGA`, no mesmo nível de `SITE`:
+Todo o acervo está incluído neste repositório, na pasta `ENTREGA`: 127 PDFs dos mini-cursos, dois livros e suas capas, 49 apresentações e suas capas, e 14 infográficos. Os scripts priorizam essa pasta local e também suportam a estrutura legada com `ENTREGA` no diretório pai.
 
 ```text
 DATAGEO_ACADEMY/
@@ -48,13 +48,16 @@ DATAGEO_ACADEMY/
 │   ├── mapear_mini_cursos.py
 │   ├── mini_cursos_acervo.json
 │   └── ENTREGA/
+│       ├── Livros_Tecnicos/       # 2 PDFs e 2 capas PNG
+│       ├── Apresentacoes_Tecnicas/ # 49 PDFs e 49 capas PNG
+│       ├── Infograficos/          # 14 PNGs
 │       └── Mini_Cursos/
 │           └── AREAS/
 │               └── AREA N - Nome da Área/
 │                   └── Nome do Curso/
 │                       └── pdf/
 │                           └── *.pdf  # 127 PDFs versionados
-└── ENTREGA/                      # Acervo externo ao repositório
+└── ENTREGA/                      # Alternativa legada, opcional
     ├── Livros_Tecnicos/
     │   ├── *.pdf
     │   ├── capa_cartografia.png
@@ -73,19 +76,19 @@ DATAGEO_ACADEMY/
                     └── ppt/     # Ignorada pelo mapeamento
 ```
 
-Clonar este repositório fornece o site, os scripts e os PDFs dos mini-cursos. Os livros, apresentações e infográficos da pasta externa `ENTREGA` precisam ser disponibilizados separadamente.
+Clonar este repositório fornece o site, os scripts e todos os materiais. Os links do HTML apontam para `ENTREGA/...`, dentro da raiz do projeto.
 
 ## Visualizar localmente
 
 Para visualizar somente a página, abra `SITE/index.html` no navegador.
 
-Para testar também os links relativos por HTTP, execute na pasta que contém **SITE e ENTREGA**:
+Para testar também os links relativos por HTTP, execute na raiz deste repositório:
 
 ```powershell
 python -m http.server 8000
 ```
 
-Acesse **http://localhost:8000/SITE/**. Assim, os caminhos `../ENTREGA/...` apontam para o acervo servido pelo mesmo endereço.
+Acesse **http://localhost:8000/**. Assim, os caminhos `ENTREGA/...` apontam para o acervo servido pelo mesmo endereço.
 
 ## Scripts Python
 
@@ -141,7 +144,7 @@ As apresentações são ordenadas alfabeticamente pelo nome do arquivo. Os três
 
 O WhatsApp e o e-mail ficam na configuração `CONTACT` do JavaScript em `index.html`, além dos links do rodapé. O formulário prepara um e-mail no aplicativo do visitante; o envio deve ser confirmado nesse aplicativo. A página não possui backend para envio automático.
 
-Os mini-cursos utilizam caminhos relativos `ENTREGA/Mini_Cursos/AREAS/...` e acompanham a publicação deste repositório. Para publicar também livros, apresentações e infográficos, preserve a relação entre `SITE` e a pasta externa `ENTREGA` no servidor ou adapte seus caminhos. Publicar somente a raiz deste repositório não disponibiliza os arquivos externos referenciados por `../ENTREGA/...`.
+Publique a raiz deste repositório incluindo `index.html`, o logotipo e a pasta `ENTREGA`. Todos os materiais utilizam caminhos relativos locais e acompanham a publicação do site. Preserve nomes de arquivos, acentos e estrutura de subpastas para manter os links funcionando.
 
 ## Licença
 

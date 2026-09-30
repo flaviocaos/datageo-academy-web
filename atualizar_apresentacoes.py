@@ -2,10 +2,12 @@
 from pathlib import Path
 from html import escape
 from urllib.parse import quote
+import os
 import re
 
 ROOT = Path(__file__).resolve().parent
-PASTA = ROOT.parent / "ENTREGA" / "Apresentacoes_Tecnicas"
+PASTA_LOCAL = ROOT / "ENTREGA" / "Apresentacoes_Tecnicas"
+PASTA = PASTA_LOCAL if PASTA_LOCAL.is_dir() else ROOT.parent / "ENTREGA" / "Apresentacoes_Tecnicas"
 PALAVRAS = {
     "Analise": "Análise", "Automacao": "Automação", "Inteligencia": "Inteligência",
     "Estatistica": "Estatística", "Etica": "Ética", "Agronegocio": "Agronegócio",
@@ -35,7 +37,7 @@ def main():
         if not capa.is_file():
             raise FileNotFoundError(capa)
         nome = escape(titulo(pdf.stem), quote=True)
-        caminho = "../ENTREGA/Apresentacoes_Tecnicas/"
+        caminho = Path(os.path.relpath(PASTA, ROOT)).as_posix() + "/"
         cards.append(f'''          <article class="resource-card presentation-card"><div class="presentation-preview"><img src="{caminho}{quote(capa.name)}" alt="Capa da apresentação: {nome}" loading="lazy" decoding="async"></div><div class="resource-body"><span class="resource-type">Apresentação técnica · PDF</span><h3>{nome}</h3><a class="resource-button" href="{caminho}{quote(pdf.name)}" target="_blank" rel="noopener noreferrer" aria-label="Ver apresentação: {nome} (abre em nova aba)">Ver apresentação <span aria-hidden="true">↗</span></a></div></article>''')
     section = '''<section class="resources" id="apresentacoes-tecnicas" aria-labelledby="apresentacoes-tecnicas-titulo">
       <div class="container">

@@ -14,7 +14,9 @@ import pymupdf
 from PIL import Image
 
 
-PASTA = Path(__file__).resolve().parent.parent / "ENTREGA" / "Livros_Tecnicos"
+SITE = Path(__file__).resolve().parent
+PASTA_LOCAL = SITE / "ENTREGA" / "Livros_Tecnicos"
+PASTA = PASTA_LOCAL if PASTA_LOCAL.is_dir() else SITE.parent / "ENTREGA" / "Livros_Tecnicos"
 ARQUIVOS = (
     ("Cartografia_Basica_Aplicada_Geotecnologias.pdf", "capa_cartografia.png"),
     ("Inteligencia_Artificial_Aplicada.pdf", "capa_ia.png"),
