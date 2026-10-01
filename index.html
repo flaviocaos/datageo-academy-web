@@ -120,12 +120,16 @@
     @media(max-width:600px){.course-area-grid{grid-template-columns:1fr}.course-tabs{gap:8px}.course-tab{font-size:12px;padding:10px 12px}.course-area-card{padding:24px}.course-area-card h3{min-height:0}}
   </style>
   <style>
-    .promotion-banner{padding:18px 0;background:linear-gradient(110deg,#061d38,#0b355b,#061d38);border-bottom:1px solid #16bfd044;box-shadow:inset 0 1px 0 #6bd66a16}
-    .promotion-banner p{margin:0;text-align:center;color:var(--green);font-size:clamp(13px,1.3vw,16px);line-height:1.8;font-weight:500;text-wrap:balance}
-    .promotion-banner strong{font-weight:750}
-    .promotion-price{white-space:nowrap;font-weight:750;text-shadow:0 0 16px #6bd66a30}
-    .promotion-savings{font-weight:650}
-    @media(max-width:600px){.promotion-banner{padding:16px 0}.promotion-banner .container{width:calc(100% - 32px)}}
+    .promotion-banner{padding:28px 0;background:radial-gradient(ellipse at 50% 0,#6bd66a18,transparent 72%),#071f3d;border-bottom:1px solid #16bfd033}
+    .promotion-panel{position:relative;isolation:isolate;overflow:hidden;text-align:center;padding:32px 40px 36px;border:1px solid #6bd66a99;border-radius:20px;background:radial-gradient(ellipse at 100% 0,#6bd66a30,transparent 60%),radial-gradient(ellipse at 0 100%,#16bfd022,transparent 55%),linear-gradient(115deg,#0b2f5b 0%,#123b51 50%,#185341 100%);box-shadow:0 0 0 1px #6bd66a12,0 0 28px #6bd66a22,0 12px 40px #031a3055,inset 0 1px 20px #6bd66a0c}
+    .promotion-panel:before{content:"";position:absolute;z-index:-1;top:0;left:15%;right:15%;height:2px;background:linear-gradient(90deg,transparent,#cfff67,var(--green),transparent);box-shadow:0 0 18px #6bd66a99}
+    .promotion-badge{display:inline-flex;align-items:center;justify-content:center;gap:9px;margin-bottom:18px;padding:7px 16px;border:1px solid #cfff6788;border-radius:999px;background:var(--green);color:#082744;font-size:12px;font-weight:850;line-height:1.5;letter-spacing:2px;box-shadow:0 0 20px #6bd66a40}
+    .promotion-badge:before{content:"";width:6px;height:6px;border-radius:50%;background:#082744}
+    .promotion-banner p{max-width:960px;margin:0 auto;text-align:center;color:#f5fff4;font-size:clamp(20px,2.3vw,28px);line-height:1.6;font-weight:750;letter-spacing:-.5px;text-wrap:balance}
+    .promotion-banner strong{display:block;margin-bottom:10px;color:var(--green);font-size:clamp(23px,2.7vw,34px);font-weight:850;letter-spacing:-.8px;line-height:1.2}
+    .promotion-price{display:inline-block;white-space:nowrap;color:#DCFF61;font-size:1.18em;font-weight:900;letter-spacing:-.6px;text-shadow:0 0 22px #dcff6133}
+    .promotion-savings{display:block;width:fit-content;margin:18px auto 0;padding:6px 16px;border:1px solid #6bd66a55;border-radius:8px;background:#061f3b55;color:#cfff67;font-size:clamp(13px,1.5vw,16px);font-weight:750;letter-spacing:.2px}
+    @media(max-width:600px){.promotion-banner{padding:20px 0}.promotion-banner .container{width:calc(100% - 32px)}.promotion-panel{padding:26px 18px 28px;border-radius:16px}.promotion-banner p{font-size:19px;line-height:1.7;letter-spacing:-.25px}.promotion-banner strong{font-size:26px}.promotion-badge{margin-bottom:16px;font-size:11px}.promotion-price{font-size:1.15em}.promotion-savings{padding:7px 10px;font-size:13px}}
   </style>
 </head>
 <body>
@@ -137,7 +141,7 @@
     </div>
   </header>
   <aside class="promotion-banner" aria-label="Condições especiais de acesso à Academy">
-    <div class="container"><p><strong>Condições Especiais:</strong> Acesso total à Academy por apenas <span class="promotion-price">R$ 29,90/mês</span> ou <span class="promotion-price">R$ 99,90</span> no plano anual <span class="promotion-savings">(Economize mais de 70%)</span></p></div>
+    <div class="container"><div class="promotion-panel"><span class="promotion-badge">DESTAQUE</span><p><strong>Condições Especiais:</strong> Acesso total à Academy por apenas <span class="promotion-price">R$ 29,90/mês</span> ou <span class="promotion-price">R$ 99,90</span> no plano anual <span class="promotion-savings">(Economize mais de 70%)</span></p></div></div>
   </aside>
   <main id="conteudo">
     <section class="hero" id="inicio" aria-labelledby="hero-title">
