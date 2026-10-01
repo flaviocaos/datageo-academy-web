@@ -148,12 +148,14 @@ Publique a raiz deste repositório incluindo `index.html`, o logotipo e a pasta 
 
 ## Acervo de 30 livros acadêmicos
 
-A seção mantém as seis abas, nomes e ordem dos minicursos. Cada aba contém
+A seção mantém seis abas de conhecimento. A primeira se chama
+**Inteligência Artificial e Data Science**; as outras cinco mantêm nomes e ordem
+dos minicursos. Cada aba contém
 exatamente cinco livros, com miniatura em HTML/CSS no padrão azul-escuro,
 logotipo DataGeo e detalhes verdes. Todos os botões usam `download` e arquivos
 PDF locais; a navegação por teclado e as abas são independentes das demais seções.
 
-Os 28 volumes novos possuem **42 páginas cada**, autoria institucional DataGeo
+Os 28 volumes não oficiais possuem **42 páginas cada**, autoria institucional DataGeo
 Academy, capa, folha de rosto, controle documental, sumário com 12 capítulos,
 introdução, tabelas comparativas, laboratórios e exercícios comentados.
 Cada capítulo reúne fundamentos, laboratório reproduzível e exercícios.
@@ -169,22 +171,51 @@ eles não são usados nos botões. `limpeza_documental.json` registra essa audit
 O arquivo `livros_academicos/catalogo.json` registra áreas, nomes, páginas e hashes.
 O compilador preserva os dois PDFs oficiais e interrompe se encontrar uma cópia
 divergente. O gerador antigo de DOCX foi bloqueado para não recriar livros curtos.
-Para regenerar os 28 novos volumes e atualizar o HTML:
+Os quatro provisórios da primeira aba foram removidos e substituídos por
+manuscritos independentes, com **12 capítulos próprios e 12 laboratórios reais
+por livro**:
+
+- Ciência de Dados Espaciais com GeoPandas: CRS, qualidade geométrica, joins,
+  overlays, buffers, agregação, índices, proximidade, interpolação e GeoPackage.
+- Machine Learning Territorial com Scikit-Learn: validação por blocos, pipelines,
+  atributos mistos, logística, árvores, florestas, métricas, busca, calibração,
+  custos e interpretação.
+- Deep Learning Geoespacial com CNNs: tensores multiespectrais, normalização,
+  convoluções, encoder-decoder, treino, perdas mascaradas, augmentação, métricas,
+  validação por cena, mosaicos e checkpoints PyTorch.
+- Análise Preditiva de Expansão Urbana: transições, covariáveis históricas,
+  propensão, backtesting, demanda, autômatos celulares, cenários, FoM, ensembles,
+  taxas temporais e GeoTIFF.
+
+As fontes estão em `scripts_automacao/livros_ia`. Os exemplos usam dados
+sintéticos declarados, APIs das bibliotecas dos respectivos temas e asserções;
+os PDFs incorporam códigos, fonte editorial, requisitos e resultados calculados.
+`substituicao_ia.json` registra arquivos removidos, hashes e ambiente utilizado.
+Os outros 25 PDFs, incluindo Cartografia, permanecem intactos.
+
+Para regenerar somente os quatro volumes desta edição e atualizar o HTML:
 
 ```powershell
-python scripts_automacao/gerar_livros_pdf.py
+python -m pip install -r scripts_automacao/livros_ia/requirements.txt
+python scripts_automacao/gerar_livros_ia.py --integrar
 python scripts_automacao/atualizar_livros_academicos.py
+python tests/verificar_livros_ia.py
 python tests/verificar_livros_pdf.py
 ```
 
-A compilação e verificação exigem **PyMuPDF**. Foram conferidas 1.289 páginas
+A compilação e verificação usam **PyMuPDF**, GeoPandas, Scikit-Learn, PyTorch CPU
+e Rasterio. Para instalar PyTorch CPU, consulte o índice oficial
+`https://download.pytorch.org/whl/cpu`. O ambiente de referência e suas versões
+ficam registrados no PDF. Foram conferidas 1.289 páginas
 no acervo, a identidade dos dois originais e a execução dos **336 laboratórios**
-dos novos livros. Cada livro incorpora doze arquivos Python, dados sintéticos
-e fonte editorial. Os exemplos são de estudo e não resultados de cliente.
+dos livros não oficiais, incluindo os 48 especializados da nova edição.
+O gerador legado bloqueia geração em lote após essa substituição para não
+recriar provisórios; `--somente` continua disponível para os outros 24 volumes.
+Os exemplos são de estudo e não resultados de cliente.
 Para extrair anexos em uma pasta nova:
 
 ```powershell
-python scripts_automacao/extrair_laboratorios_pdf.py "livros_academicos/Machine Learning Geoespacial.pdf" "laboratorios_ml"
+python scripts_automacao/extrair_laboratorios_pdf.py "livros_academicos/Machine Learning Territorial com Scikit-Learn.pdf" "laboratorios_ml"
 ```
 
 ## Central de Materiais Premium & Carreira

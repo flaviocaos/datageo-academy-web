@@ -18,6 +18,7 @@ def main():
         cards=[]
         for j,livro in enumerate(area['livros'],1):
             titulo=livro['titulo'];arquivo=livro['arquivo']
+            descricao='Livro oficial de referência, preservado integralmente.' if livro['original'] else livro.get('descricao','12 capítulos técnicos, tabelas comparativas, laboratórios e exercícios comentados em PDF pesquisável.')
             p=ROOT/'livros_academicos'/arquivo
             if not p.is_file():raise FileNotFoundError(p)
             if p.suffix != '.pdf':raise ValueError('O catálogo atual deve conter somente livros PDF.')
@@ -25,13 +26,13 @@ def main():
             numero=f'{i:02d}.{j:02d}'
             cards.append(f'''<article class="resource-card academic-card">
               <div class="academic-art" aria-hidden="true"><div class="academic-cover"><div class="academic-cover-brand"><img src="LOGOMARCA_2.png" alt="" loading="lazy" decoding="async"><span>DATAGEO<br>ACADEMY</span></div><span class="academic-cover-series">COLEÇÃO ACADÊMICA / {numero}</span><strong>{escape(titulo)}</strong><span class="academic-cover-orbit"></span><small>{escape(area['nome'])}</small><span class="academic-cover-footer">CONHECIMENTO QUE GERA DECISÕES</span></div></div>
-              <div class="resource-body"><span class="resource-type">{escape(tipo)}</span><h3>{escape(titulo)}</h3><p>{'Livro oficial de referência, preservado integralmente.' if livro['original'] else '12 capítulos técnicos, tabelas comparativas, laboratórios e exercícios comentados em PDF pesquisável.'}</p><a class="resource-button" href="./livros_academicos/{quote(arquivo)}" download="{escape(arquivo)}" aria-label="Baixar livro em PDF: {escape(titulo)}">Baixar livro .pdf <span aria-hidden="true">↓</span></a></div>
+              <div class="resource-body"><span class="resource-type">{escape(tipo)}</span><h3>{escape(titulo)}</h3><p>{escape(descricao)}</p><a class="resource-button" href="./livros_academicos/{quote(arquivo)}" download="{escape(arquivo)}" aria-label="Baixar livro em PDF: {escape(titulo)}">Baixar livro .pdf <span aria-hidden="true">↓</span></a></div>
             </article>''')
         panels.append(f'<div class="academic-panel" id="book-panel-{i}" role="tabpanel" aria-labelledby="book-tab-{i}" tabindex="0"{ " hidden" if i!=1 else ""}><p class="academic-summary">5 livros · {escape(area["nome"])} · Download direto em PDF</p><div class="academic-grid">'+''.join(cards)+'</div></div>')
     section='''<section class="resources academic-books" id="livros-tecnicos" aria-labelledby="livros-tecnicos-titulo"><div class="container">
       <div class="section-heading"><div><div class="eyebrow">Coleção acadêmica · 30 livros</div><h2 id="livros-tecnicos-titulo">Livros Acadêmicos</h2></div><p>Seis áreas de conhecimento, cinco livros em cada uma. Volumes de 40 a 60 páginas com download direto em PDF.</p></div>
       <div class="course-tabs academic-tabs" role="tablist" aria-label="Áreas dos livros acadêmicos">'''+''.join(tabs)+'</div>'+''.join(panels)+'''
-      <p class="academic-note">Cartografia e Inteligência Artificial mantêm os PDFs oficiais de 53 e 60 páginas. Os 28 novos livros têm 42 páginas cada, autoria institucional DataGeo Academy, 12 capítulos, tabelas, laboratórios com dados sintéticos e exercícios comentados.</p>
+      <p class="academic-note">Cartografia e Inteligência Artificial mantêm os PDFs oficiais de 53 e 60 páginas. A aba Inteligência Artificial e Data Science reúne quatro volumes independentes de 42 páginas: GeoPandas, Scikit-Learn, CNNs e expansão urbana, com 48 laboratórios executáveis, tabelas e exercícios comentados. As outras áreas preservam seus 24 volumes.</p>
     </div></section>
     '''
     a=s.index('<section class="resources" id="livros-tecnicos"') if '<section class="resources" id="livros-tecnicos"' in s else s.index('<section class="resources academic-books"')

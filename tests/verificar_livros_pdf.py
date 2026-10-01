@@ -28,7 +28,7 @@ def main():
     sec=html[html.index('<section class="resources academic-books"'):html.index('<section class="resources" id="apresentacoes-tecnicas"')]
     tabs=re.findall(r'<button[^>]*class="course-tab academic-tab"[^>]*>(.*?)</button>',sec)
     courses=re.findall(r'<button[^>]*class="course-tab"[^>]*>(.*?)</button>',html)
-    assert tabs==courses and len(tabs)==6
+    assert tabs[0]=='Inteligência Artificial e Data Science' and tabs[1:]==courses[1:] and len(tabs)==6
     panels=re.findall(r'<div class="academic-panel".*?(?=<div class="academic-panel"|<p class="academic-note")',sec,re.S)
     assert len(panels)==6 and all(p.count('class="resource-card academic-card"')==5 for p in panels)
     assert '.docx' not in sec and sec.count('download=')==30
@@ -54,6 +54,12 @@ def main():
                 if p.name in originals:
                     name,n=originals[p.name]
                     assert len(d)==n and p.read_bytes()==(ROOT/'ENTREGA/Livros_Tecnicos'/name).read_bytes()
+                    continue
+                if book.get('conteudo_unico'):
+                    from verificar_livros_ia import LIVROS, validar_documento, executar
+                    livro=next(m for m in LIVROS if m.TITULO==book['titulo'])
+                    words+=validar_documento(d,livro)
+                    executar(livro);labs+=12
                     continue
                 assert len(d)==42 and len(d.get_toc())==12
                 assert [t[2] for t in d.get_toc()]==list(range(5,41,3))
@@ -85,6 +91,6 @@ def main():
     audit=json.loads((folder/'limpeza_documental.json').read_text(encoding='utf-8'))
     for a in audit['arquivos']:
         if a['remover']:assert a['paginas']<40 and not (folder/a['arquivo']).exists()
-    print(f'OK: 30 PDFs, {total} páginas, 28 volumes de 42 páginas, {labs} laboratórios e {words} palavras nos novos livros.')
+    print(f'OK: 30 PDFs, {total} páginas, 24 volumes preservados e 4 volumes independentes de 42 páginas, {labs} laboratórios e {words} palavras nos livros não oficiais.')
 
 if __name__=='__main__':main()

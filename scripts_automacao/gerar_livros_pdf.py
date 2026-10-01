@@ -299,6 +299,11 @@ def gerar(i,j,item):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--somente');args=parser.parse_args()
+    atual=json.loads((DEST/'catalogo.json').read_text(encoding='utf-8')) if (DEST/'catalogo.json').exists() else None
+    if atual and any(b.get('conteudo_unico') for b in atual['areas'][0]['livros']):
+        antigos={item[0] for item in CATALOGO[0][1:]}
+        if not args.somente or args.somente in antigos:
+            raise SystemExit('Os quatro volumes de IA foram substituídos. Use gerar_livros_ia.py; este gerador legado não recriará provisórios nem sobrescreverá o catálogo atualizado. --somente permite revisar um volume das outras áreas.')
     DEST.mkdir(exist_ok=True)
     originals=[('Cartografia Básica Aplicada às Geotecnologias','Cartografia_Basica_Aplicada_Geotecnologias.pdf',53),('Inteligência Artificial Aplicada','Inteligencia_Artificial_Aplicada.pdf',60)]
     for name,filename,pages in originals:

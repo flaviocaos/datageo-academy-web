@@ -1,0 +1,78 @@
+{
+  "pdf_oficial_preservado": "e6bc62361f08021138294cd6ad60b12e1ef28f4489fb1debaa42b96615dbe046",
+  "provisorios": [
+    {
+      "arquivo": "Machine Learning Geoespacial.pdf",
+      "sha256_anterior": "a59cedde20427cc55e2fdbb16af5ab9f8c5c8792ba8d58642fd85c1f2ad5dc5f",
+      "removido": true
+    },
+    {
+      "arquivo": "Deep Learning para Sensoriamento Remoto.pdf",
+      "sha256_anterior": "c2444ef4637e94f8e33b719ee5a50d592e3a9409eb01945e083e2d7c014f2de5",
+      "removido": true
+    },
+    {
+      "arquivo": "IA Explicável para Análises Geográficas.pdf",
+      "sha256_anterior": "aa1362dda73d15508a5f125f5d962bc54f59338f32240478e6fcf84711881367",
+      "removido": true
+    },
+    {
+      "arquivo": "IA Generativa na Inteligência Territorial.pdf",
+      "sha256_anterior": "166e131e79daf500b4d6dd0c5900b5bd35482a6014276335fc40a260e78509c4",
+      "removido": true
+    }
+  ],
+  "novos": [
+    {
+      "titulo": "Ciência de Dados Espaciais com GeoPandas",
+      "arquivo": "Ciência de Dados Espaciais com GeoPandas.pdf",
+      "original": false,
+      "paginas": 42,
+      "sha256": "860d6321d5c6d8e68a2846d650ed6e4310a6b5d459d70546bf1b0c2cc95a03c2",
+      "conteudo_unico": true,
+      "edicao": "3.0",
+      "descricao": "Operações vetoriais com GeoPandas: projeções, joins, overlays, interpolação areal e entrega em GeoPackage."
+    },
+    {
+      "titulo": "Machine Learning Territorial com Scikit-Learn",
+      "arquivo": "Machine Learning Territorial com Scikit-Learn.pdf",
+      "original": false,
+      "paginas": 42,
+      "sha256": "38a6175b2715597a9c636f81fd921ff350c44c50180cc1d9eb107551157741a9",
+      "conteudo_unico": true,
+      "edicao": "3.0",
+      "descricao": "Modelos territoriais com Scikit-Learn: pipelines, validação espacial, calibração, interpretação e decisões por custo."
+    },
+    {
+      "titulo": "Deep Learning Geoespacial com CNNs",
+      "arquivo": "Deep Learning Geoespacial com CNNs.pdf",
+      "original": false,
+      "paginas": 42,
+      "sha256": "ce4a3ec83e1913d020ef18eb8963f6b64ef93e8765ea3ff9f7e92c7e35368e47",
+      "conteudo_unico": true,
+      "edicao": "3.0",
+      "descricao": "Redes convolucionais em PyTorch: treino real, segmentação mascarada, encoder-decoder e inferência em mosaicos."
+    },
+    {
+      "titulo": "Análise Preditiva de Expansão Urbana",
+      "arquivo": "Análise Preditiva de Expansão Urbana.pdf",
+      "original": false,
+      "paginas": 42,
+      "sha256": "239c99962894b50d4e4d4f674c74ebb50172476c0c00b450c631d053152affe6",
+      "conteudo_unico": true,
+      "edicao": "3.0",
+      "descricao": "Simulação temporal de expansão urbana: propensão, demanda, autômatos celulares, cenários e validação da mudança."
+    }
+  ],
+  "ambiente": {
+    "Python": "3.13.5",
+    "geopandas": "1.2.0",
+    "shapely": "2.1.2",
+    "scikit-learn": "1.7.1",
+    "numpy": "2.2.5",
+    "pandas": "3.0.6",
+    "torch": "2.8.0+cpu",
+    "rasterio": "1.4.3",
+    "PyMuPDF": "1.28.2"
+  }
+}
