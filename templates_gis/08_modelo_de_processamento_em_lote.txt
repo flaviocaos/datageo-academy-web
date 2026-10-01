@@ -1,0 +1,65 @@
+# Modelo de processamento em lote
+
+**DataGeo Academy — material técnico | edição 1.0 | 2026-10-01**
+
+Planeje rotinas repetíveis e reduza o retrabalho na preparação de camadas.
+
+## Natureza e aplicação
+
+Este arquivo é um modelo textual de planejamento, parâmetros e revisão para
+processamento em lote. Não é um projeto .qgs/.qgz/.aprx nem um estilo já instalado. Use-o para
+montar a configuração no QGIS ou ArcGIS Pro, adaptando fontes, escala e formato.
+
+## Preparação das entradas
+
+- Preserve as fontes; trabalhe em cópia e identifique o responsável pela revisão.
+- Registre nome, versão, data, licença, extensão, contagem e CRS de cada camada.
+- Defina identificadores estáveis, campos obrigatórios e unidades dos indicadores.
+- Escolha uma projeção adequada à região para operações planas; SIRGAS2000
+  geográfico EPSG:4674 usa graus, enquanto uma zona UTM apropriada usa metros.
+
+## Montagem do modelo
+
+1. Liste entradas com caminho, CRS e formato esperado.
+2. Separe saída e fonte; planeje nomes únicos por camada.
+3. Defina parâmetros uma única vez e registre-os por execução.
+4. Interrompa entradas inválidas sem anunciar sucesso do lote completo.
+5. Reabra as saídas e compare contagem, extensão e atributos.
+
+## Exemplo de configuração
+
+```text
+Exemplo com o kit real da Academy, após importar como kit:
+# QGIS: kit.exportar_camadas_lote(camadas, pasta_saida)
+Consulte a assinatura no script antes de executar.
+Manifesto: entrada, saida, parametros, inicio, fim, status, mensagem.
+```
+
+## Critério específico de aceite
+
+Cada entrada precisa de status verificável; fontes não devem ser sobrescritas e falhas devem ficar registradas.
+
+## Quadro para execução
+
+| Registro | Preenchimento |
+| --- | --- |
+| Projeto / área / finalidade | [definir] |
+| Dados e referências | [identificar arquivos e datas] |
+| Parâmetros e tolerâncias | [valor, unidade e justificativa] |
+| Produto esperado | [mapa, camada, relatório ou rotina] |
+| Teste de conferência | [procedimento e resultado esperado] |
+| Revisor / data / versão | [registrar] |
+
+## Revisão antes de distribuir
+
+- [ ] Reabrir o resultado exportado e verificar geometria, atributos e CRS.
+- [ ] Conferir escala, legenda e fontes quando houver composição cartográfica.
+- [ ] Registrar limitações e diferenças entre as fontes e a saída.
+- [ ] Guardar o projeto e parâmetros usados, não apenas a imagem final.
+- [ ] Confirmar que caminhos relativos funcionam numa cópia da pasta de entrega.
+
+Não interprete aparência profissional como garantia de precisão. Compare valores
+e relações com critérios mensuráveis e comunique o que não foi validado.
+
+Referências: https://docs.qgis.org/3.44/en/docs/user_manual/ e
+https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm

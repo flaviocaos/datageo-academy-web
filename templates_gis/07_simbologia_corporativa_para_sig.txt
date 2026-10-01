@@ -1,0 +1,65 @@
+# Simbologia corporativa para SIG
+
+**DataGeo Academy — material técnico | edição 1.0 | 2026-10-01**
+
+Construa mapas reconhecíveis com padrões visuais que valorizam sua entrega.
+
+## Natureza e aplicação
+
+Este arquivo é um modelo textual de planejamento, parâmetros e revisão para
+simbologia corporativa. Não é um projeto .qgs/.qgz/.aprx nem um estilo já instalado. Use-o para
+montar a configuração no QGIS ou ArcGIS Pro, adaptando fontes, escala e formato.
+
+## Preparação das entradas
+
+- Preserve as fontes; trabalhe em cópia e identifique o responsável pela revisão.
+- Registre nome, versão, data, licença, extensão, contagem e CRS de cada camada.
+- Defina identificadores estáveis, campos obrigatórios e unidades dos indicadores.
+- Escolha uma projeção adequada à região para operações planas; SIRGAS2000
+  geográfico EPSG:4674 usa graus, enquanto uma zona UTM apropriada usa metros.
+
+## Montagem do modelo
+
+1. Defina famílias de cor para referências, temas e alertas.
+2. Reserve destaque para informação prioritária, sem depender apenas da cor.
+3. Escolha símbolos legíveis nas escalas finais e revise contraste.
+4. Crie convenções de rótulos e tamanhos para diferentes níveis de mapa.
+5. Salve estilos QGIS/ArcGIS separadamente e teste sua aplicação à camada correta.
+
+## Exemplo de configuração
+
+```text
+Paleta de identidade: azul #0B2F5B; verde #6BD66A; ciano #16BFD0.
+Use contorno e forma além da cor.
+Convenção: limite=linha tracejada; ponto de coleta=círculo; alerta=triângulo.
+Estilos QML e LYRX não são intercambiáveis.
+```
+
+## Critério específico de aceite
+
+O mapa deve continuar compreensível em impressão reduzida e para leitores com dificuldade de distinguir cores.
+
+## Quadro para execução
+
+| Registro | Preenchimento |
+| --- | --- |
+| Projeto / área / finalidade | [definir] |
+| Dados e referências | [identificar arquivos e datas] |
+| Parâmetros e tolerâncias | [valor, unidade e justificativa] |
+| Produto esperado | [mapa, camada, relatório ou rotina] |
+| Teste de conferência | [procedimento e resultado esperado] |
+| Revisor / data / versão | [registrar] |
+
+## Revisão antes de distribuir
+
+- [ ] Reabrir o resultado exportado e verificar geometria, atributos e CRS.
+- [ ] Conferir escala, legenda e fontes quando houver composição cartográfica.
+- [ ] Registrar limitações e diferenças entre as fontes e a saída.
+- [ ] Guardar o projeto e parâmetros usados, não apenas a imagem final.
+- [ ] Confirmar que caminhos relativos funcionam numa cópia da pasta de entrega.
+
+Não interprete aparência profissional como garantia de precisão. Compare valores
+e relações com critérios mensuráveis e comunique o que não foi validado.
+
+Referências: https://docs.qgis.org/3.44/en/docs/user_manual/ e
+https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm
