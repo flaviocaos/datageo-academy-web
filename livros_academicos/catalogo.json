@@ -1,32 +1,44 @@
 {
+  "formato": "PDF",
+  "edicao": "2.0",
   "areas": [
     {
       "nome": "IA e Machine Learning",
       "livros": [
         {
           "titulo": "Inteligência Artificial Aplicada",
-          "arquivo": "Inteligência Artificial Aplicada.docx",
-          "original": true
+          "arquivo": "Inteligência Artificial Aplicada.pdf",
+          "original": true,
+          "paginas": 60,
+          "sha256": "e6bc62361f08021138294cd6ad60b12e1ef28f4489fb1debaa42b96615dbe046"
         },
         {
           "titulo": "Machine Learning Geoespacial",
-          "arquivo": "Machine Learning Geoespacial.docx",
-          "original": false
+          "arquivo": "Machine Learning Geoespacial.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "a59cedde20427cc55e2fdbb16af5ab9f8c5c8792ba8d58642fd85c1f2ad5dc5f"
         },
         {
           "titulo": "Deep Learning para Sensoriamento Remoto",
-          "arquivo": "Deep Learning para Sensoriamento Remoto.docx",
-          "original": false
+          "arquivo": "Deep Learning para Sensoriamento Remoto.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "c2444ef4637e94f8e33b719ee5a50d592e3a9409eb01945e083e2d7c014f2de5"
         },
         {
           "titulo": "IA Explicável para Análises Geográficas",
-          "arquivo": "IA Explicável para Análises Geográficas.docx",
-          "original": false
+          "arquivo": "IA Explicável para Análises Geográficas.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "aa1362dda73d15508a5f125f5d962bc54f59338f32240478e6fcf84711881367"
         },
         {
           "titulo": "IA Generativa na Inteligência Territorial",
-          "arquivo": "IA Generativa na Inteligência Territorial.docx",
-          "original": false
+          "arquivo": "IA Generativa na Inteligência Territorial.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "166e131e79daf500b4d6dd0c5900b5bd35482a6014276335fc40a260e78509c4"
         }
       ]
     },
@@ -35,28 +47,38 @@
       "livros": [
         {
           "titulo": "Cartografia Básica Aplicada às Geotecnologias",
-          "arquivo": "Cartografia Básica Aplicada às Geotecnologias.docx",
-          "original": true
+          "arquivo": "Cartografia Básica Aplicada às Geotecnologias.pdf",
+          "original": true,
+          "paginas": 53,
+          "sha256": "7c6772fe342a31a0669ab4314c20ddacca107bb824b862dc402380b0596db8a5"
         },
         {
           "titulo": "Sistemas de Informação Geográfica na Prática",
-          "arquivo": "Sistemas de Informação Geográfica na Prática.docx",
-          "original": false
+          "arquivo": "Sistemas de Informação Geográfica na Prática.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "43c41437be4163e87876ca752f056b7c79f545886a8da29b9f8d9c17122262e2"
         },
         {
           "titulo": "Sensoriamento Remoto Aplicado",
-          "arquivo": "Sensoriamento Remoto Aplicado.docx",
-          "original": false
+          "arquivo": "Sensoriamento Remoto Aplicado.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "3732103759d8da9d9b859f7d41404c358b1e0622b089efe5527732d685bbcf4e"
         },
         {
           "titulo": "Drones e Fotogrametria para Mapeamento",
-          "arquivo": "Drones e Fotogrametria para Mapeamento.docx",
-          "original": false
+          "arquivo": "Drones e Fotogrametria para Mapeamento.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "ae73e34556cb6d8881a3020c65f7249e774b1cba76ee39487f7cc7fd2f99d642"
         },
         {
           "titulo": "Bancos de Dados Geográficos",
-          "arquivo": "Bancos de Dados Geográficos.docx",
-          "original": false
+          "arquivo": "Bancos de Dados Geográficos.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "622533da7363b6396d4db62d194b7419884ced532bcdaa1174f98e7f3ec74f78"
         }
       ]
     },
@@ -65,28 +87,38 @@
       "livros": [
         {
           "titulo": "BI Geográfico para Decisões Estratégicas",
-          "arquivo": "BI Geográfico para Decisões Estratégicas.docx",
-          "original": false
+          "arquivo": "BI Geográfico para Decisões Estratégicas.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "12d8aac231f136ad3e41abbc1b74716a7304570da80f1c1b5838a64e2d2eb096"
         },
         {
           "titulo": "Power BI para Indicadores Territoriais",
-          "arquivo": "Power BI para Indicadores Territoriais.docx",
-          "original": false
+          "arquivo": "Power BI para Indicadores Territoriais.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "09fa6f1557c03447dc8727b281a288a487b826babecec53087abaffa8454bef5"
         },
         {
           "titulo": "Dashboards Estratégicos Geoespaciais",
-          "arquivo": "Dashboards Estratégicos Geoespaciais.docx",
-          "original": false
+          "arquivo": "Dashboards Estratégicos Geoespaciais.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "43410ea6a58df4008e6be245527d7a8b0b89be33a2428b588c9349f8dfd25fe2"
         },
         {
           "titulo": "Modelagem Dimensional de Dados Geográficos",
-          "arquivo": "Modelagem Dimensional de Dados Geográficos.docx",
-          "original": false
+          "arquivo": "Modelagem Dimensional de Dados Geográficos.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "21c78e307d48659010ba04bac1d70cd105c53a54bd100dbb83e2665fd8189c6f"
         },
         {
           "titulo": "Geointeligência para Negócios",
-          "arquivo": "Geointeligência para Negócios.docx",
-          "original": false
+          "arquivo": "Geointeligência para Negócios.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "b9d3c243bfbe66c4af3c58bbf8ccbf428c697b72c76b5a63ba1f2e8d34da5071"
         }
       ]
     },
@@ -95,28 +127,38 @@
       "livros": [
         {
           "titulo": "Fundamentos de Ciência de Dados Geoespaciais",
-          "arquivo": "Fundamentos de Ciência de Dados Geoespaciais.docx",
-          "original": false
+          "arquivo": "Fundamentos de Ciência de Dados Geoespaciais.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "95104c3470ddb9a1571e4ece62a158d6ef6e6f7135537e75607c3c5ec1069102"
         },
         {
           "titulo": "Estatística Espacial Aplicada",
-          "arquivo": "Estatística Espacial Aplicada.docx",
-          "original": false
+          "arquivo": "Estatística Espacial Aplicada.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "53e42a938489939bcfdeabfb6070b4001625853caa5bf176aaf682e0ab84f068"
         },
         {
           "titulo": "Qualidade e Governança de Dados Geográficos",
-          "arquivo": "Qualidade e Governança de Dados Geográficos.docx",
-          "original": false
+          "arquivo": "Qualidade e Governança de Dados Geográficos.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "097dfc7aec0a8d96f7f2d8215befabcb71d209724d415a26e752611045fd2a28"
         },
         {
           "titulo": "Análise Exploratória de Dados Geoespaciais",
-          "arquivo": "Análise Exploratória de Dados Geoespaciais.docx",
-          "original": false
+          "arquivo": "Análise Exploratória de Dados Geoespaciais.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "8d006a2fd982209af99591686a9ed71b3d0682ce597820e6283c8a961ce60b8d"
         },
         {
           "titulo": "Engenharia de Dados Geoespaciais",
-          "arquivo": "Engenharia de Dados Geoespaciais.docx",
-          "original": false
+          "arquivo": "Engenharia de Dados Geoespaciais.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "9b807ab5b68c0769f6c8b3911b2cc00f1023d952ac7e5f45e21a8d85fa3df4b6"
         }
       ]
     },
@@ -125,28 +167,38 @@
       "livros": [
         {
           "titulo": "Python para Geociências",
-          "arquivo": "Python para Geociências.docx",
-          "original": false
+          "arquivo": "Python para Geociências.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "862641f74e64a49d6b5e79c8ee05a4ebf8a97f275eb0421b7736646822c07af2"
         },
         {
           "titulo": "R para Análise Geoespacial",
-          "arquivo": "R para Análise Geoespacial.docx",
-          "original": false
+          "arquivo": "R para Análise Geoespacial.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "dad25e2d76a7f3ee200386159ee9cd0175321546bda091f69323cbf2b5238b2f"
         },
         {
           "titulo": "SQL para Consultas Espaciais",
-          "arquivo": "SQL para Consultas Espaciais.docx",
-          "original": false
+          "arquivo": "SQL para Consultas Espaciais.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "c8665fd7a3805f98d5888618d3f2590c28d4d8294517a31d25e2a6457d4a90e3"
         },
         {
           "titulo": "APIs e Serviços Geoespaciais",
-          "arquivo": "APIs e Serviços Geoespaciais.docx",
-          "original": false
+          "arquivo": "APIs e Serviços Geoespaciais.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "1eba4ccac7fa9159b7809fa8e5d149ff3e46bccb8cadb590358b7a35745506f5"
         },
         {
           "titulo": "Automação de Pipelines Geográficos",
-          "arquivo": "Automação de Pipelines Geográficos.docx",
-          "original": false
+          "arquivo": "Automação de Pipelines Geográficos.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "82b2a9f4e023403e5bc23043024c33d0e63bdab6673d830218370989a343bf5b"
         }
       ]
     },
@@ -155,38 +207,41 @@
       "livros": [
         {
           "titulo": "Modelagem Preditiva Geoespacial",
-          "arquivo": "Modelagem Preditiva Geoespacial.docx",
-          "original": false
+          "arquivo": "Modelagem Preditiva Geoespacial.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "02e60c11d90ad39ec0bb0ec968e2fc25bab87874d3bb795f9870b59d8ad42f00"
         },
         {
           "titulo": "Séries Temporais Ambientais",
-          "arquivo": "Séries Temporais Ambientais.docx",
-          "original": false
+          "arquivo": "Séries Temporais Ambientais.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "ddbd3e2e6a95328eeee771205702929ca88c68133bda66ea9233a2ce41a09188"
         },
         {
           "titulo": "Geoestatística e Interpolação",
-          "arquivo": "Geoestatística e Interpolação.docx",
-          "original": false
+          "arquivo": "Geoestatística e Interpolação.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "70b44f33c13a64aa32e2fe7a1a247f366addeae7d9e6c375132fa774169ce4bf"
         },
         {
           "titulo": "Previsão de Riscos Ambientais",
-          "arquivo": "Previsão de Riscos Ambientais.docx",
-          "original": false
+          "arquivo": "Previsão de Riscos Ambientais.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "cd13bf87c10ecd5acb92be82bf32b51b5bfbfface6f7fe82818777d990e15802"
         },
         {
           "titulo": "Validação de Modelos Espaciais e Temporais",
-          "arquivo": "Validação de Modelos Espaciais e Temporais.docx",
-          "original": false
+          "arquivo": "Validação de Modelos Espaciais e Temporais.pdf",
+          "original": false,
+          "paginas": 42,
+          "sha256": "e18ec6553bf0622a660d3c4a41be01e57693dec3d1b840397f9c7b23d32c5474"
         }
       ]
     }
   ],
-  "autoria_novos": "DataGeo Academy (institucional)",
-  "cartografia_sha256": "71dd14833f4deb20cb1522c36c4ba81ada7082aef16bc295f203ef3453d0c72f",
-  "conversao_ia": {
-    "pdf": "ENTREGA\\Livros_Tecnicos\\Inteligencia_Artificial_Aplicada.pdf",
-    "sha256_pdf": "e6bc62361f08021138294cd6ad60b12e1ef28f4489fb1debaa42b96615dbe046",
-    "paginas": 60,
-    "tipo": "DOCX com reprodução visual integral do PDF; não é o DOCX original editável."
-  }
+  "autoria_novos": "DataGeo Academy (institucional)"
 }

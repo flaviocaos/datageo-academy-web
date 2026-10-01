@@ -19,6 +19,10 @@ class Parser(HTMLParser):
         if tag=='a':self.links.append(a)
 
 def main():
+    info=json.loads((ROOT/'livros_academicos/catalogo.json').read_text(encoding='utf-8'))
+    if info.get('formato')=='PDF':
+        from verificar_livros_pdf import main as verificar_pdf
+        return verificar_pdf()
     html=(ROOT/'index.html').read_text(encoding='utf-8')
     sec=html[html.index('<section class="resources academic-books"'):html.index('<section class="resources" id="apresentacoes-tecnicas"')]
     books=re.findall(r'<button[^>]*class="course-tab academic-tab"[^>]*>(.*?)</button>',sec)

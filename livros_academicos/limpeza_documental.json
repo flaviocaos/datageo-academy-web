@@ -1,0 +1,185 @@
+{
+  "criterio": "Remover DOCX antigo com menos de 40 paginas verificadas no LibreOffice.",
+  "arquivos": [
+    {
+      "arquivo": "Análise Exploratória de Dados Geoespaciais.docx",
+      "paginas": 6,
+      "sha256": "a14d7a4fd0bdc14b631bf6d0227e115e83f69cb9b8e20b14e9d5626d1996cb2e",
+      "remover": true
+    },
+    {
+      "arquivo": "APIs e Serviços Geoespaciais.docx",
+      "paginas": 6,
+      "sha256": "8f286e6c0940f3c059bca53ca906eb3c10d25ff7968fafe17db99dbeea29d14b",
+      "remover": true
+    },
+    {
+      "arquivo": "Automação de Pipelines Geográficos.docx",
+      "paginas": 6,
+      "sha256": "70dee09046869189ee3fdeeb5b0134ca98da6039ec59eda63f9db731b3567f6a",
+      "remover": true
+    },
+    {
+      "arquivo": "Bancos de Dados Geográficos.docx",
+      "paginas": 6,
+      "sha256": "b20a4ed1e55d6bbf74e39ba7e68b5576c436e20387f8a7dfb772ade6876e13da",
+      "remover": true
+    },
+    {
+      "arquivo": "BI Geográfico para Decisões Estratégicas.docx",
+      "paginas": 6,
+      "sha256": "8aab0c8954679301831bf90f0e9230f12d10c4c71fc597c57524f34d7040009c",
+      "remover": true
+    },
+    {
+      "arquivo": "Cartografia Básica Aplicada às Geotecnologias.docx",
+      "paginas": 48,
+      "sha256": "71dd14833f4deb20cb1522c36c4ba81ada7082aef16bc295f203ef3453d0c72f",
+      "remover": false
+    },
+    {
+      "arquivo": "Dashboards Estratégicos Geoespaciais.docx",
+      "paginas": 6,
+      "sha256": "da74fa80f85f723ec999ec09be5e8aff8544029e4f9216cdb1e74940a4687234",
+      "remover": true
+    },
+    {
+      "arquivo": "Deep Learning para Sensoriamento Remoto.docx",
+      "paginas": 6,
+      "sha256": "635c7ec03e5b81d93d15ae38c592f4c4b6555609cda3f2a72ea51bb4a3a00243",
+      "remover": true
+    },
+    {
+      "arquivo": "Drones e Fotogrametria para Mapeamento.docx",
+      "paginas": 6,
+      "sha256": "147325199ae1dd71f1a82bcaa720cb779584fc77442f4343ea0741dc57e00cb3",
+      "remover": true
+    },
+    {
+      "arquivo": "Engenharia de Dados Geoespaciais.docx",
+      "paginas": 6,
+      "sha256": "648aeada86e5e86f04db6694a6b4371d8361834a661593b5567a0fa11766d403",
+      "remover": true
+    },
+    {
+      "arquivo": "Estatística Espacial Aplicada.docx",
+      "paginas": 6,
+      "sha256": "6d9650cf92db3aa3fdca55c74cf8b40bc3835620405fa9d519bf835367f39458",
+      "remover": true
+    },
+    {
+      "arquivo": "Fundamentos de Ciência de Dados Geoespaciais.docx",
+      "paginas": 6,
+      "sha256": "f51ccf98f93cad7951f30da370608fbd737d304f62dff155b952dcb54add7ca4",
+      "remover": true
+    },
+    {
+      "arquivo": "Geoestatística e Interpolação.docx",
+      "paginas": 6,
+      "sha256": "e3ecfc5a51a65ac47148c81524dcaf5fbeb028bfc0e86888c134ac77e4a28118",
+      "remover": true
+    },
+    {
+      "arquivo": "Geointeligência para Negócios.docx",
+      "paginas": 6,
+      "sha256": "39d7d9e30318969b090ae1e7abe3d16a056fe9aba6788c6981b431c97fa058ba",
+      "remover": true
+    },
+    {
+      "arquivo": "IA Explicável para Análises Geográficas.docx",
+      "paginas": 6,
+      "sha256": "c80a7e6283eff4f167fb93970b010fc5be14b0092d86d2eceb08092379cd69bf",
+      "remover": true
+    },
+    {
+      "arquivo": "IA Generativa na Inteligência Territorial.docx",
+      "paginas": 6,
+      "sha256": "efcbc531d6ef03bf5ae9a290d021c61ff9a3b67bc65f9937e7383ad5db42974f",
+      "remover": true
+    },
+    {
+      "arquivo": "Inteligência Artificial Aplicada.docx",
+      "paginas": 60,
+      "sha256": "3ac44062c06a686bff525a3018ad71288b6da53c0dd8d8d4e738442b219f9b19",
+      "remover": false
+    },
+    {
+      "arquivo": "Machine Learning Geoespacial.docx",
+      "paginas": 6,
+      "sha256": "68c53feca3e16f62024fc87110e071f7709fbcb5f2157b1ef431dcf446c86c8f",
+      "remover": true
+    },
+    {
+      "arquivo": "Modelagem Dimensional de Dados Geográficos.docx",
+      "paginas": 6,
+      "sha256": "ba53f83043aa3ad754d92addb4fb45650b2f3201ec2bb6b75cc8db51a36422b7",
+      "remover": true
+    },
+    {
+      "arquivo": "Modelagem Preditiva Geoespacial.docx",
+      "paginas": 6,
+      "sha256": "402ed4275746b1c24fa498fbb2916a0ae73fd63d6822c688e7157bda6fc497ea",
+      "remover": true
+    },
+    {
+      "arquivo": "Power BI para Indicadores Territoriais.docx",
+      "paginas": 6,
+      "sha256": "87f97b647576ccaf5cc5b77ed2142e5299ccbc96154651115de59dee28365576",
+      "remover": true
+    },
+    {
+      "arquivo": "Previsão de Riscos Ambientais.docx",
+      "paginas": 6,
+      "sha256": "4d32af35098e5df27ca5114de0240393b03261ecf838710a6b23156cee0142c9",
+      "remover": true
+    },
+    {
+      "arquivo": "Python para Geociências.docx",
+      "paginas": 6,
+      "sha256": "9748cd5de1e03f6c4abdb9cdb30ba17e127e8dd0b6f168afe6ae57e15d9eef95",
+      "remover": true
+    },
+    {
+      "arquivo": "Qualidade e Governança de Dados Geográficos.docx",
+      "paginas": 6,
+      "sha256": "07ef0468660a9e5df88c9315817f8f8353af7cf9e9f440c9eeb47abb5ee866c4",
+      "remover": true
+    },
+    {
+      "arquivo": "R para Análise Geoespacial.docx",
+      "paginas": 6,
+      "sha256": "2a1bfe387f52c97d323c0370136d1b1f1331352dfdae1b08e820ff3df25f6759",
+      "remover": true
+    },
+    {
+      "arquivo": "Sensoriamento Remoto Aplicado.docx",
+      "paginas": 6,
+      "sha256": "8a0cb09e6e5f3c648f1a316bee344a7f98a6d395af6b39adc1f2ddda00d3461b",
+      "remover": true
+    },
+    {
+      "arquivo": "Sistemas de Informação Geográfica na Prática.docx",
+      "paginas": 6,
+      "sha256": "673f9d43bbe66e2ff04a55a3a54f2ce83c98784a4f67a7cb4c273fadf71487e0",
+      "remover": true
+    },
+    {
+      "arquivo": "SQL para Consultas Espaciais.docx",
+      "paginas": 6,
+      "sha256": "f7cd739e4ff2858984cc854853c312465aef7f6ae18b0853bceae0faf36ce2be",
+      "remover": true
+    },
+    {
+      "arquivo": "Séries Temporais Ambientais.docx",
+      "paginas": 6,
+      "sha256": "5304f6bef9859adc8695b0724f49607086c86cc72b64e67d55182b4a8b1f3acd",
+      "remover": true
+    },
+    {
+      "arquivo": "Validação de Modelos Espaciais e Temporais.docx",
+      "paginas": 6,
+      "sha256": "ed5a878f88fd1aaaaf941fe488bca87be472fa78eb35b25563e511bae7abdf07",
+      "remover": true
+    }
+  ]
+}

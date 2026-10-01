@@ -8,7 +8,7 @@ O painel de mini-cursos contém **6 abas, 32 cursos e 127 PDFs**, organizados a 
 
 - Cabeçalho com logotipo, seção principal e apresentação institucional.
 - Seis frentes de trabalho, com cards e ícones lineares.
-- Trinta livros acadêmicos em DOCX, organizados nas mesmas seis áreas dos minicursos, com cinco livros por aba e capas integradas.
+- Trinta livros acadêmicos em PDF, com 40 a 60 páginas, organizados nas mesmas seis áreas dos minicursos, com cinco livros por aba e capas integradas.
 - 49 apresentações técnicas com capas reais em formato horizontal: três cards iniciais e 46 na grade expansível.
 - Mini-cursos organizados por área, com navegação por teclado entre as abas.
 - 14 infográficos horizontais: três cards iniciais e 11 na grade expansível.
@@ -33,7 +33,7 @@ Os números representam o acervo mapeado atualmente. A execução do script atua
 
 ## Estrutura de arquivos
 
-O acervo de origem está incluído na pasta `ENTREGA`: 127 PDFs dos mini-cursos, dois livros em PDF e suas capas, 49 apresentações e suas capas, e 14 infográficos. A seção de Livros Acadêmicos usa os 30 arquivos DOCX de `livros_academicos`. Os scripts de origem priorizam a pasta local e também suportam a estrutura legada com `ENTREGA` no diretório pai.
+O acervo de origem está incluído na pasta `ENTREGA`: 127 PDFs dos mini-cursos, dois livros em PDF e suas capas, 49 apresentações e suas capas, e 14 infográficos. A seção de Livros Acadêmicos usa os 30 arquivos PDF de `livros_academicos`. Os scripts de origem priorizam a pasta local e também suportam a estrutura legada com `ENTREGA` no diretório pai.
 
 ```text
 DATAGEO_ACADEMY/
@@ -151,33 +151,41 @@ Publique a raiz deste repositório incluindo `index.html`, o logotipo e a pasta 
 A seção mantém as seis abas, nomes e ordem dos minicursos. Cada aba contém
 exatamente cinco livros, com miniatura em HTML/CSS no padrão azul-escuro,
 logotipo DataGeo e detalhes verdes. Todos os botões usam `download` e arquivos
-DOCX locais; a navegação por teclado e as abas são independentes das demais seções.
+PDF locais; a navegação por teclado e as abas são independentes das demais seções.
 
-Os 28 volumes novos possuem autoria **institucional DataGeo Academy**, capa,
-folha de rosto, cabeçalho, sumário navegável, introdução detalhada, cinco capítulos
-técnicos progressivos, exercício e referências. São livros introdutórios; não
-foram atribuídos nomes pessoais não informados pelo responsável editorial.
+Os 28 volumes novos possuem **42 páginas cada**, autoria institucional DataGeo
+Academy, capa, folha de rosto, controle documental, sumário com 12 capítulos,
+introdução, tabelas comparativas, laboratórios e exercícios comentados.
+Cada capítulo reúne fundamentos, laboratório reproduzível e exercícios.
+O texto é pesquisável e os marcadores do PDF levam às páginas corretas.
 
-O original de Cartografia foi encontrado em `PROJETOS_E_CURSOS/LIVROS_TECNICOS`
-no diretório pai e copiado **sem alteração**, com o nome solicitado.
-O original DOCX de Inteligência Artificial Aplicada não foi encontrado: seu
-arquivo DOCX nesta entrega contém a **reprodução visual integral do PDF
-disponível**, mantendo as páginas, conteúdo e autoria do material. Ele não é
-uma versão de texto editável; essa diferença está identificada no site e no catálogo.
+Os PDFs oficiais de Cartografia (53 páginas) e Inteligência Artificial Aplicada
+(60 páginas) foram copiados de `ENTREGA/Livros_Tecnicos` **sem alteração binária**.
+Os 28 DOCX antigos de seis páginas foram removidos após conferir sua paginação.
+Os dois DOCX legados de Cartografia (48 páginas) e IA (60 páginas) foram
+preservados por não se enquadrarem na remoção de materiais com menos de 40 páginas;
+eles não são usados nos botões. `limpeza_documental.json` registra essa auditoria.
 
-O arquivo `livros_academicos/catalogo.json` registra áreas, nomes, hashes de
-preservação e origem da conversão. Os geradores não sobrescrevem os dois
-materiais anteriores. Para atualizar apenas os 28 novos documentos e o HTML:
+O arquivo `livros_academicos/catalogo.json` registra áreas, nomes, páginas e hashes.
+O compilador preserva os dois PDFs oficiais e interrompe se encontrar uma cópia
+divergente. O gerador antigo de DOCX foi bloqueado para não recriar livros curtos.
+Para regenerar os 28 novos volumes e atualizar o HTML:
 
 ```powershell
-python scripts_automacao/gerar_livros_academicos.py
+python scripts_automacao/gerar_livros_pdf.py
 python scripts_automacao/atualizar_livros_academicos.py
-python tests/verificar_livros_academicos.py
+python tests/verificar_livros_pdf.py
 ```
 
-A geração dos novos documentos usa Pillow para ler as dimensões do logotipo.
-A opção `--converter-ia` exige PyMuPDF e só cria o DOCX de IA se ele não existir.
-A verificação da estrutura e dos links utiliza apenas a biblioteca padrão.
+A compilação e verificação exigem **PyMuPDF**. Foram conferidas 1.289 páginas
+no acervo, a identidade dos dois originais e a execução dos **336 laboratórios**
+dos novos livros. Cada livro incorpora doze arquivos Python, dados sintéticos
+e fonte editorial. Os exemplos são de estudo e não resultados de cliente.
+Para extrair anexos em uma pasta nova:
+
+```powershell
+python scripts_automacao/extrair_laboratorios_pdf.py "livros_academicos/Machine Learning Geoespacial.pdf" "laboratorios_ml"
+```
 
 ## Central de Materiais Premium & Carreira
 

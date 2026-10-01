@@ -158,6 +158,9 @@ def converter_ia():
     return {'pdf':str(pdf.relative_to(ROOT)),'sha256_pdf':hashlib.sha256(pdf.read_bytes()).hexdigest(),'paginas':len(source),'tipo':'DOCX com reprodução visual integral do PDF; não é o DOCX original editável.'}
 
 def main():
+    manifest=DEST/'catalogo.json'
+    if manifest.exists() and json.loads(manifest.read_text(encoding='utf-8')).get('formato')=='PDF':
+        raise SystemExit('Acervo migrado definitivamente para PDF. Execute gerar_livros_pdf.py; não recriar os DOCX curtos.')
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--converter-ia',action='store_true');args=parser.parse_args()
     DEST.mkdir(exist_ok=True)
     if not CARTO.exists():

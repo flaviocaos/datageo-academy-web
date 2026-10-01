@@ -30,6 +30,7 @@ const sleep=ms=>new Promise(r=>setTimeout(r,ms));
  assert.deepEqual(await evaluate("[...document.querySelectorAll('#mini-cursos [role=tab],#materiais-premium [role=tab]')].map(t=>t.getAttribute('aria-selected'))"),base);
  for(let i=1;i<=6;i++)for(let j=0;j<5;j++){
   const file=await evaluate(`(() => {document.getElementById('book-tab-${i}').click();const a=document.querySelectorAll('#book-panel-${i} a[download]')[${j}];a.click();return {name:a.download,href:a.getAttribute('href')};})()`);
+  assert(file.name.endsWith('.pdf') && file.href.endsWith('.pdf'),file.name);
   const target=path.join(dest,file.name);
   for(let n=0;n<100&&!fs.existsSync(target);n++)await sleep(100);
   assert(fs.existsSync(target),file.name);
