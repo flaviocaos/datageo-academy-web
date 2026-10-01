@@ -19,7 +19,7 @@ from processing.core.Processing import Processing
 
 
 def executar(pasta):
-    kit = runpy.run_path(str(ROOT / "scripts_automacao" / "automacao_qgis_filtro.py"))
+    kit = runpy.run_path(str(ROOT / "scripts_automacao" / "canivete_suico_qgis.py"))
     projeto = QgsProject.instance()
     pontos = QgsVectorLayer("Point?crs=EPSG:4674&field=uf:string&field=valor:double&field=vazio:string&field=zero:integer", "pontos", "memory")
     for indice, (uf, valor) in enumerate([("SC", 10), ("PR", 20), ("SC", None)]):

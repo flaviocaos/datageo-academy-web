@@ -18,7 +18,7 @@ Filtros por atributos em camadas vetoriais carregadas no QGIS:
 Execute no editor do Console Python do QGIS ou carregue o arquivo assim:
 
     from pathlib import Path
-    exec(Path('/caminho/automacao_qgis_filtro.py').read_text(encoding='utf-8'))
+    exec(Path('/caminho/canivete_suico_qgis.py').read_text(encoding='utf-8'))
     historico = aplicar_filtros({'municipios': '"uf" = \'SC\''})
     # Outro exemplo: aplicar_filtros({'lotes': '"area_m2" >= 1000'})
     restaurar_filtros(historico)
