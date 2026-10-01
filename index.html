@@ -172,6 +172,53 @@
     .premium-download{display:flex;width:100%;margin-top:24px;padding:13px 16px;justify-content:space-between;font-size:13px}
     .premium-download + .premium-download{margin-top:12px}
   </style>
+  <style id="premium-library-styles">
+    .premium-overview{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 28px}
+    .premium-overview>span{padding:10px 15px;border:1px solid #16bfd035;border-radius:100px;background:#16bfd009;font-size:12px;color:var(--muted)}
+    .premium-overview strong{color:var(--green);font-size:17px;margin-right:6px}
+    .premium-featured{display:grid;grid-template-columns:56px minmax(0,1fr) minmax(280px,1.2fr);column-gap:22px;row-gap:10px;padding:26px;margin-bottom:24px;align-items:center;border-color:#6bd66a40}
+    .premium-featured>.icon{grid-column:1;grid-row:1 / span 2;align-self:start}
+    .premium-featured h3{grid-column:2;grid-row:1;margin:0;font-size:20px}
+    .premium-featured>p{grid-column:2;grid-row:2;font-size:13px}
+    .premium-ready{display:block;color:var(--green);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:8px}
+    .premium-featured>.premium-download,.premium-downloads{grid-column:3;grid-row:1 / span 2;margin:0}
+    .premium-downloads{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+    .premium-downloads .premium-download,.premium-downloads .premium-download + .premium-download{margin:0;font-size:11px;padding:12px;gap:8px}
+    .premium-collections{display:grid;gap:16px}
+    .premium-collection{border:1px solid #16bfd035;border-radius:16px;background:linear-gradient(135deg,#ffffff06,#ffffff01);overflow:hidden}
+    .premium-collection[open]{border-color:#6bd66a65;box-shadow:0 12px 40px #00172d30}
+    .premium-collection>summary{display:flex;align-items:center;gap:18px;padding:24px;cursor:pointer;list-style:none;transition:background .2s}
+    .premium-collection>summary::-webkit-details-marker{display:none}
+    .premium-collection>summary:hover{background:#6bd66a08}
+    .premium-collection>summary>.icon{color:var(--green);background:#6bd66a0d;border-color:#6bd66a40;flex-shrink:0}
+    .premium-summary-copy{display:grid;gap:6px;min-width:0;flex:1}
+    .premium-collection-title{font-size:19px;line-height:1.3;font-weight:700;color:var(--white);overflow-wrap:anywhere}
+    .premium-collection-description{font-size:13px;line-height:1.5;color:var(--muted)}
+    .premium-count{padding:6px 10px;border-radius:6px;background:#6bd66a12;color:var(--green);font-size:11px;white-space:nowrap}
+    .premium-chevron{font-size:24px;color:var(--cyan);transition:transform .2s;flex-shrink:0}
+    .premium-collection[open] .premium-chevron{transform:rotate(45deg);color:var(--green)}
+    .premium-collection-content{padding:0 24px 24px;border-top:1px solid #ffffff0d}
+    .premium-collection-intro{padding:20px 0 16px}
+    .premium-collection-intro h3{font-size:17px;margin:0 0 6px}
+    .premium-collection-intro p{margin:0;color:var(--muted);font-size:12px}
+    .premium-library-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;max-height:560px;overflow:auto;overscroll-behavior-y:contain;scrollbar-width:thin;scrollbar-color:var(--cyan) #082748;padding:4px 8px 4px 4px;scroll-padding:12px}
+    .premium-library-card{padding:21px;display:flex;flex-direction:column;border-radius:12px;background:linear-gradient(145deg,#0b355f,#082849)}
+    .premium-item-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .premium-item-top .icon{width:38px;height:38px}
+    .premium-item-top .icon svg{width:20px;height:20px}
+    .premium-item-number{font-size:10px;letter-spacing:1px;color:var(--cyan)}
+    .premium-library-card h4{font-size:16px;line-height:1.4;margin:16px 0 10px;overflow-wrap:anywhere}
+    .premium-library-card p{font-size:12px;line-height:1.65}
+    .premium-features{margin:15px 0 18px;padding:0 0 0 16px;font-size:11px;line-height:1.6;color:var(--muted)}
+    .premium-features li+li{margin-top:5px}.premium-features li::marker{color:var(--cyan)}
+    .premium-availability{margin-top:auto;font-size:10px;color:var(--cyan)}
+    .premium-library-card .premium-download{margin-top:12px;font-size:12px;padding:12px 14px;gap:8px;border:1px solid #6bd66a80;box-shadow:0 4px 18px #6bd66a0d}
+    .premium-library-card .premium-download:hover{box-shadow:0 0 20px #6bd66a35}
+    .premium-collection>summary:focus-visible,.premium-library-grid:focus-visible,.premium-central a:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
+    @media(max-width:960px){.premium-library-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.premium-featured{grid-template-columns:48px minmax(0,1fr)}.premium-featured>.premium-download,.premium-downloads{grid-column:1 / -1;grid-row:3;margin-top:10px}}
+    @media(max-width:600px){.premium-overview{gap:8px}.premium-overview>span{padding:8px 11px;font-size:10px}.premium-overview strong{font-size:14px}.premium-featured{padding:20px;column-gap:14px}.premium-featured h3{font-size:18px}.premium-downloads{grid-template-columns:1fr}.premium-collection>summary{padding:18px;gap:12px;flex-wrap:wrap}.premium-summary-copy{flex-basis:calc(100% - 62px)}.premium-collection-title{font-size:16px}.premium-collection-description{font-size:12px}.premium-count{margin-left:60px}.premium-chevron{margin-left:auto}.premium-collection-content{padding:0 12px 16px}.premium-library-grid{grid-template-columns:1fr;max-height:520px}.premium-library-card{padding:20px}.premium-collection-intro{padding-left:6px}.premium-note{line-height:1.7}}
+    @media(prefers-reduced-motion:reduce){.premium-chevron,.premium-collection>summary{transition:none}}
+  </style>
 </head>
 <body>
   <a class="skip" href="#conteudo">Pular para o conteúdo</a>
@@ -514,28 +561,410 @@
       </div></div>
       </div></section>
     <section class="premium-central" id="materiais-premium" aria-labelledby="premium-title"><div class="container">
-      <div class="section-heading"><div><div class="eyebrow">Da aprendizagem à prática</div><h2 id="premium-title">Central de Materiais Premium &amp; Carreira</h2></div><p>Recursos para aplicar conhecimento, desenvolver sua trajetória e desafiar suas habilidades.</p></div>
+      <div class="section-heading"><div><div class="eyebrow">Da aprendizagem à prática</div><h2 id="premium-title">Central de Materiais Premium &amp; Carreira</h2></div><p>60 propostas de materiais em seis coleções. Explore modelos, dados e trilhas para transformar conhecimento em entregas profissionais.</p></div>
+      <div class="premium-overview"><span><strong>60</strong> temas para explorar</span><span><strong>6</strong> coleções especializadas</span><span><strong>8</strong> downloads disponíveis</span></div>
       <div class="premium-tabs" role="tablist" aria-label="Categorias de materiais premium">
         <button type="button" class="premium-tab" id="premium-tab-1" role="tab" aria-selected="true" aria-controls="premium-panel-1" tabindex="0">Materiais Práticos e Prontos para Uso</button>
         <button type="button" class="premium-tab" id="premium-tab-2" role="tab" aria-selected="false" aria-controls="premium-panel-2" tabindex="-1">Guias de Carreira e Mercado</button>
         <button type="button" class="premium-tab" id="premium-tab-3" role="tab" aria-selected="false" aria-controls="premium-panel-3" tabindex="-1">Desafios e Gamificação</button>
       </div>
-      <div class="premium-panel" id="premium-panel-1" role="tabpanel" aria-labelledby="premium-tab-1" tabindex="0"><div class="premium-grid">
-        <article class="premium-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m7 6-5 6 5 6m10-12 5 6-5 6M14 3l-4 18"/></svg></div><h3>Scripts e Automações Python/R</h3><p>Rotinas para processamento geoespacial, organização de dados e automação de tarefas recorrentes.</p><a class="button primary premium-download" href="./scripts_automacao/canivete_suico_qgis.py" download="canivete_suico_qgis.py">Baixar Kit QGIS <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_suico_arcgis.py" download="canivete_suico_arcgis.py">Baixar Kit ArcGIS Pro <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_ia_geospatial.py" download="canivete_ia_geospatial.py">Baixar Kit IA Geoespacial <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_analise_preditiva.py" download="canivete_analise_preditiva.py">Baixar Kit Análise Preditiva <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_ciencia_dados.py" download="canivete_ciencia_dados.py">Baixar Kit Ciência de Dados <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_programacao_dados.py" download="canivete_programacao_dados.py">Baixar Kit Programação Geográfica <span aria-hidden="true">↓</span></a></article>
-        <article class="premium-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Zm6-3v15m6-12v15"/></svg></div><h3>Modelos e Templates QGIS/ArcGIS</h3><p>Estruturas de projetos, estilos de mapas e modelos para organizar fluxos de trabalho em SIG.</p><span class="premium-card-status">Em breve</span></article>
-        <article class="premium-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 9h16M4 14h16M9 4v16m6-16v16"/></svg></div><h3>Shapefiles/Bancos de Dados</h3><p>Bases e estruturas de referência para explorar camadas, consultas e análises territoriais.</p><span class="premium-card-status">Em breve</span></article>
-      </div></div>
-      <div class="premium-panel" id="premium-panel-2" role="tabpanel" aria-labelledby="premium-tab-2" tabindex="0" hidden><div class="premium-grid">
-        <article class="premium-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16"/></svg></div><h3>Portfólios de Sucesso/Estudos de Caso</h3><p>Referências para apresentar projetos, comunicar resultados e conectar análises aos desafios do mercado.</p><span class="premium-card-status">Em breve</span></article>
-        <article class="premium-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5zM15 3v5h4M8 12h8m-8 4h6"/></svg></div><h3>Templates de Relatórios Técnicos .docx</h3><p>Estruturas para documentar métodos, organizar evidências e apresentar conclusões com clareza.</p><a class="button primary premium-download" href="./templates_carreira/modelo_relatorio_tecnico.docx" download="modelo_relatorio_tecnico.docx">Baixar Template Word <span aria-hidden="true">↓</span></a></article>
-        <article class="premium-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4v16m0-12h10m0 0-3-3m3 3-3 3M5 16h14m0 0-3-3m3 3-3 3"/></svg></div><h3>Roadmaps de Aprendizado</h3><p>Trilhas para orientar o desenvolvimento de competências e planejar seus próximos passos profissionais.</p><span class="premium-card-status">Em breve</span></article>
-      </div></div>
-      <div class="premium-panel" id="premium-panel-3" role="tabpanel" aria-labelledby="premium-tab-3" tabindex="0" hidden><div class="premium-grid">
-        <article class="premium-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM8 8h8m-8 4h8m-8 4h4"/></svg></div><h3>Cadernos de Exercícios Práticos</h3><p>Desafios para praticar análise geográfica, investigar cenários e aplicar os conceitos estudados.</p><span class="premium-card-status">Em breve</span></article>
-        <article class="premium-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 6 2 2 3-4m3 2h10M3 14l2 2 3-4m3 2h10M3 21h5m3 0h10"/></svg></div><h3>Checklists Técnicos de Validação</h3><p>Listas de verificação para revisar dados, processos e entregas antes de concluir seus projetos.</p><a class="button primary premium-download" href="./checklists_validation/checklist_consistencia_topologica.md" download="checklist_consistencia_topologica.md">Baixar Checklist <span aria-hidden="true">↓</span></a></article>
-        <article class="premium-card"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h7a3 3 0 0 1 3 3v13a4 4 0 0 0-4-3H4V4Zm14 0h2v13h-2a4 4 0 0 0-4 3"/></svg></div><h3>Glossários de Termos Técnicos</h3><p>Referências para consultar conceitos de geotecnologias, ciência de dados e inteligência artificial.</p><span class="premium-card-status">Em breve</span></article>
-      </div></div>
-      <p class="premium-note">Os kits Python para QGIS e ArcGIS Pro e o checklist já estão disponíveis para download. Os demais materiais serão disponibilizados em breve. <a href="#contato">Fale com a DataGeo Academy</a> para saber mais.</p>
+<div class="premium-panel" id="premium-panel-1" role="tabpanel" aria-labelledby="premium-tab-1" tabindex="0">
+      <article class="premium-card premium-featured"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m7 6-5 6 5 6m10-12 5 6-5 6M14 3l-4 18"/></svg></div><h3><span class="premium-ready">Download disponível</span> Scripts e Automações Python/R</h3><p>Rotinas para processamento geoespacial, organização de dados e automação de tarefas recorrentes.</p><div class="premium-downloads"><a class="button primary premium-download" href="./scripts_automacao/canivete_suico_qgis.py" download="canivete_suico_qgis.py">Baixar Kit QGIS <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_suico_arcgis.py" download="canivete_suico_arcgis.py">Baixar Kit ArcGIS Pro <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_ia_geospatial.py" download="canivete_ia_geospatial.py">Baixar Kit IA Geoespacial <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_analise_preditiva.py" download="canivete_analise_preditiva.py">Baixar Kit Análise Preditiva <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_ciencia_dados.py" download="canivete_ciencia_dados.py">Baixar Kit Ciência de Dados <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_programacao_dados.py" download="canivete_programacao_dados.py">Baixar Kit Programação Geográfica <span aria-hidden="true">↓</span></a></div></article>
+      <div class="premium-collections"><details class="premium-collection" id="premium-templates" name="premium-collections">
+      <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Modelos e Templates QGIS/ArcGIS</span><span class="premium-collection-description">Padronize entregas e apresente mapas com identidade profissional.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Modelos e Templates QGIS/ArcGIS</h3><p>Explore os temas e consulte a disponibilidade de cada material pelo WhatsApp.</p></div>
+      <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Modelos e Templates QGIS/ArcGIS"><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">01 / 10</span></div>
+          <h4>Atlas executivo territorial</h4><p>Transforme análises em uma sequência de mapas que orienta a decisão do cliente.</p>
+          <ul class="premium-features"><li>Composição de atlas e páginas</li><li>Legenda, escala e hierarquia visual</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Atlas+executivo+territorial%2C+da+categoria+Modelos+e+Templates+QGIS%2FArcGIS." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Atlas executivo territorial pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">02 / 10</span></div>
+          <h4>Projeto ambiental organizado</h4><p>Comece seus estudos com uma estrutura de camadas fácil de manter e revisar.</p>
+          <ul class="premium-features"><li>Grupos temáticos e convenções</li><li>Organização de fontes e metadados</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Projeto+ambiental+organizado%2C+da+categoria+Modelos+e+Templates+QGIS%2FArcGIS." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Projeto ambiental organizado pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">03 / 10</span></div>
+          <h4>Mapa de uso e cobertura do solo</h4><p>Comunique classes territoriais com uma leitura consistente e objetiva.</p>
+          <ul class="premium-features"><li>Paleta e categorias temáticas</li><li>Layout para síntese de resultados</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Mapa+de+uso+e+cobertura+do+solo%2C+da+categoria+Modelos+e+Templates+QGIS%2FArcGIS." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Mapa de uso e cobertura do solo pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">04 / 10</span></div>
+          <h4>Painel de indicadores urbanos</h4><p>Apresente infraestrutura e serviços em uma visão territorial integrada.</p>
+          <ul class="premium-features"><li>Mapa de indicadores por setor</li><li>Modelo de leitura executiva</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Painel+de+indicadores+urbanos%2C+da+categoria+Modelos+e+Templates+QGIS%2FArcGIS." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Painel de indicadores urbanos pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">05 / 10</span></div>
+          <h4>Layout para diagnóstico hídrico</h4><p>Dê clareza às relações entre bacias, drenagem e ocupação do território.</p>
+          <ul class="premium-features"><li>Composição hidrográfica</li><li>Elementos para localização e contexto</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Layout+para+diagn%C3%B3stico+h%C3%ADdrico%2C+da+categoria+Modelos+e+Templates+QGIS%2FArcGIS." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Layout para diagnóstico hídrico pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">06 / 10</span></div>
+          <h4>Modelo de análise multicritério</h4><p>Estruture cenários de aptidão e torne os critérios da análise transparentes.</p>
+          <ul class="premium-features"><li>Matriz de critérios e pesos</li><li>Organização de mapas de cenário</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Modelo+de+an%C3%A1lise+multicrit%C3%A9rio%2C+da+categoria+Modelos+e+Templates+QGIS%2FArcGIS." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Modelo de análise multicritério pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">07 / 10</span></div>
+          <h4>Simbologia corporativa para SIG</h4><p>Construa mapas reconhecíveis com padrões visuais que valorizam sua entrega.</p>
+          <ul class="premium-features"><li>Convenções de cor e símbolos</li><li>Guia de contraste e legibilidade</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Simbologia+corporativa+para+SIG%2C+da+categoria+Modelos+e+Templates+QGIS%2FArcGIS." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Simbologia corporativa para SIG pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">08 / 10</span></div>
+          <h4>Modelo de processamento em lote</h4><p>Planeje rotinas repetíveis e reduza o retrabalho na preparação de camadas.</p>
+          <ul class="premium-features"><li>Fluxo de entradas e saídas</li><li>Registro de parâmetros e etapas</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Modelo+de+processamento+em+lote%2C+da+categoria+Modelos+e+Templates+QGIS%2FArcGIS." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Modelo de processamento em lote pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">09 / 10</span></div>
+          <h4>Projeto de monitoramento temporal</h4><p>Compare períodos com uma organização que facilita atualizar os resultados.</p>
+          <ul class="premium-features"><li>Estrutura por data de aquisição</li><li>Layouts para comparação de cenários</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Projeto+de+monitoramento+temporal%2C+da+categoria+Modelos+e+Templates+QGIS%2FArcGIS." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Projeto de monitoramento temporal pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">10 / 10</span></div>
+          <h4>Template de mapa para impressão</h4><p>Finalize pranchas claras para apresentações, relatórios e reuniões técnicas.</p>
+          <ul class="premium-features"><li>Composições A4 e A3</li><li>Espaços para autoria e referências</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Template+de+mapa+para+impress%C3%A3o%2C+da+categoria+Modelos+e+Templates+QGIS%2FArcGIS." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Template de mapa para impressão pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article></div></div>
+    </details><details class="premium-collection" id="premium-bases" name="premium-collections">
+      <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Shapefiles/Bancos de Dados</span><span class="premium-collection-description">Explore estruturas de dados pensadas para análises e projetos de portfólio.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Shapefiles/Bancos de Dados</h3><p>Explore os temas e consulte a disponibilidade de cada material pelo WhatsApp.</p></div>
+      <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Shapefiles/Bancos de Dados"><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-item-number">01 / 10</span></div>
+          <h4>Base de limites administrativos</h4><p>Organize recortes territoriais para comparar indicadores entre unidades.</p>
+          <ul class="premium-features"><li>Hierarquia e códigos territoriais</li><li>Dicionário de atributos sugerido</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Base+de+limites+administrativos%2C+da+categoria+Shapefiles%2FBancos+de+Dados." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Base de limites administrativos pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-item-number">02 / 10</span></div>
+          <h4>Banco de uso e cobertura do solo</h4><p>Estruture classes temáticas para produzir diagnósticos de ocupação.</p>
+          <ul class="premium-features"><li>Domínios e categorias de cobertura</li><li>Modelo de histórico de atualização</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Banco+de+uso+e+cobertura+do+solo%2C+da+categoria+Shapefiles%2FBancos+de+Dados." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Banco de uso e cobertura do solo pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-item-number">03 / 10</span></div>
+          <h4>Rede de drenagem e bacias</h4><p>Modele a organização hídrica para explorar relações de montante e jusante.</p>
+          <ul class="premium-features"><li>Camadas de rios e sub-bacias</li><li>Campos para hierarquia e conectividade</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Rede+de+drenagem+e+bacias%2C+da+categoria+Shapefiles%2FBancos+de+Dados." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Rede de drenagem e bacias pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-item-number">04 / 10</span></div>
+          <h4>Cadastro de infraestrutura urbana</h4><p>Planeje uma base de ativos para analisar cobertura e atendimento.</p>
+          <ul class="premium-features"><li>Equipamentos e redes de serviço</li><li>Campos de identificação e estado</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Cadastro+de+infraestrutura+urbana%2C+da+categoria+Shapefiles%2FBancos+de+Dados." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Cadastro de infraestrutura urbana pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-item-number">05 / 10</span></div>
+          <h4>Modelo de banco PostGIS</h4><p>Desenhe um banco espacial organizado para consultas e integração de sistemas.</p>
+          <ul class="premium-features"><li>Esquema relacional geográfico</li><li>Índices e convenções de identificação</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Modelo+de+banco+PostGIS%2C+da+categoria+Shapefiles%2FBancos+de+Dados." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Modelo de banco PostGIS pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-item-number">06 / 10</span></div>
+          <h4>GeoPackage para coleta de campo</h4><p>Estruture formulários e camadas para consolidar observações em um único projeto.</p>
+          <ul class="premium-features"><li>Camadas e domínios de preenchimento</li><li>Campos de origem e data da coleta</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+GeoPackage+para+coleta+de+campo%2C+da+categoria+Shapefiles%2FBancos+de+Dados." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: GeoPackage para coleta de campo pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-item-number">07 / 10</span></div>
+          <h4>Base de pontos de interesse</h4><p>Organize localizações e categorias para estudar acessibilidade e oferta.</p>
+          <ul class="premium-features"><li>Classificação de serviços e locais</li><li>Campos para qualidade e atualização</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Base+de+pontos+de+interesse%2C+da+categoria+Shapefiles%2FBancos+de+Dados." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Base de pontos de interesse pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-item-number">08 / 10</span></div>
+          <h4>Estrutura de inventário ambiental</h4><p>Conecte observações, locais e evidências para análises ambientais rastreáveis.</p>
+          <ul class="premium-features"><li>Entidades de inventário e ocorrências</li><li>Vínculo com fotos e referências</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Estrutura+de+invent%C3%A1rio+ambiental%2C+da+categoria+Shapefiles%2FBancos+de+Dados." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Estrutura de inventário ambiental pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-item-number">09 / 10</span></div>
+          <h4>Banco de indicadores socioespaciais</h4><p>Prepare variáveis territoriais para dashboards e análises comparativas.</p>
+          <ul class="premium-features"><li>Chaves territoriais consistentes</li><li>Período, unidade e fonte por indicador</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Banco+de+indicadores+socioespaciais%2C+da+categoria+Shapefiles%2FBancos+de+Dados." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Banco de indicadores socioespaciais pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-item-number">10 / 10</span></div>
+          <h4>Modelo de dados para séries temporais</h4><p>Conecte medições e posições para acompanhar a evolução do território.</p>
+          <ul class="premium-features"><li>Identificação de estação e instante</li><li>Estrutura para consultas por período</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Modelo+de+dados+para+s%C3%A9ries+temporais%2C+da+categoria+Shapefiles%2FBancos+de+Dados." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Modelo de dados para séries temporais pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article></div></div>
+    </details></div>
+    </div>
+<div class="premium-panel" id="premium-panel-2" role="tabpanel" aria-labelledby="premium-tab-2" tabindex="0" hidden>
+      <article class="premium-card premium-featured"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5zM15 3v5h4M8 12h8m-8 4h6"/></svg></div><h3><span class="premium-ready">Download disponível</span> Templates de Relatórios Técnicos .docx</h3><p>Estruturas para documentar métodos, organizar evidências e apresentar conclusões com clareza.</p><a class="button primary premium-download" href="./templates_carreira/modelo_relatorio_tecnico.docx" download="modelo_relatorio_tecnico.docx">Baixar Template Word <span aria-hidden="true">↓</span></a></article>
+      <div class="premium-collections"><details class="premium-collection" id="premium-portfolio" name="premium-collections">
+      <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Portfólios de Sucesso</span><span class="premium-collection-description">Roteiros de estudos de caso para demonstrar competência sem inventar resultados.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Portfólios de Sucesso</h3><p>Explore os temas e consulte a disponibilidade de cada material pelo WhatsApp.</p></div>
+      <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Portfólios de Sucesso"><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">01 / 10</span></div>
+          <h4>Case de diagnóstico ambiental</h4><p>Mostre como transformar dados e observações em um diagnóstico fundamentado.</p>
+          <ul class="premium-features"><li>Narrativa de problema, método e resultado</li><li>Organização de evidências e limitações</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Case+de+diagn%C3%B3stico+ambiental%2C+da+categoria+Portf%C3%B3lios+de+Sucesso." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Case de diagnóstico ambiental pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">02 / 10</span></div>
+          <h4>Portfólio de automação geográfica</h4><p>Evidencie sua capacidade de simplificar tarefas com processos reproduzíveis.</p>
+          <ul class="premium-features"><li>Demonstração do fluxo automatizado</li><li>Métricas de execução a documentar</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Portf%C3%B3lio+de+automa%C3%A7%C3%A3o+geogr%C3%A1fica%2C+da+categoria+Portf%C3%B3lios+de+Sucesso." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Portfólio de automação geográfica pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">03 / 10</span></div>
+          <h4>Case de inteligência urbana</h4><p>Apresente uma análise territorial orientada às decisões de planejamento.</p>
+          <ul class="premium-features"><li>Perguntas de negócio e indicadores</li><li>Mapas e síntese para gestores</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Case+de+intelig%C3%AAncia+urbana%2C+da+categoria+Portf%C3%B3lios+de+Sucesso." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Case de inteligência urbana pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">04 / 10</span></div>
+          <h4>Projeto de sensoriamento remoto</h4><p>Demonstre a leitura de imagens com escolhas metodológicas transparentes.</p>
+          <ul class="premium-features"><li>Seleção de cenas e pré-processamento</li><li>Validação e interpretação das classes</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Projeto+de+sensoriamento+remoto%2C+da+categoria+Portf%C3%B3lios+de+Sucesso." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Projeto de sensoriamento remoto pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">05 / 10</span></div>
+          <h4>Case de análise preditiva espacial</h4><p>Explique um modelo de previsão com avaliação e comunicação de incerteza.</p>
+          <ul class="premium-features"><li>Separação espacial de treino e teste</li><li>Métricas e limites de generalização</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Case+de+an%C3%A1lise+preditiva+espacial%2C+da+categoria+Portf%C3%B3lios+de+Sucesso." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Case de análise preditiva espacial pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">06 / 10</span></div>
+          <h4>Dashboard de BI geográfico</h4><p>Conecte indicadores, mapas e contexto em uma apresentação de negócio.</p>
+          <ul class="premium-features"><li>Estrutura de painéis e filtros</li><li>História analítica para apresentação</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Dashboard+de+BI+geogr%C3%A1fico%2C+da+categoria+Portf%C3%B3lios+de+Sucesso." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Dashboard de BI geográfico pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">07 / 10</span></div>
+          <h4>Estudo de acessibilidade territorial</h4><p>Demonstre a avaliação de serviços e deslocamentos com critérios claros.</p>
+          <ul class="premium-features"><li>Cenários e hipóteses de acesso</li><li>Discussão de cobertura e restrições</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Estudo+de+acessibilidade+territorial%2C+da+categoria+Portf%C3%B3lios+de+Sucesso." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Estudo de acessibilidade territorial pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">08 / 10</span></div>
+          <h4>Case de monitoramento hídrico</h4><p>Construa uma narrativa sobre medições, território e evolução temporal.</p>
+          <ul class="premium-features"><li>Integração de fontes e períodos</li><li>Visualização de tendências e lacunas</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Case+de+monitoramento+h%C3%ADdrico%2C+da+categoria+Portf%C3%B3lios+de+Sucesso." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Case de monitoramento hídrico pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">09 / 10</span></div>
+          <h4>Portfólio de banco de dados espacial</h4><p>Apresente arquitetura, consultas e qualidade como diferenciais técnicos.</p>
+          <ul class="premium-features"><li>Modelo de entidades e relacionamentos</li><li>Exemplos de consulta e rastreabilidade</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Portf%C3%B3lio+de+banco+de+dados+espacial%2C+da+categoria+Portf%C3%B3lios+de+Sucesso." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Portfólio de banco de dados espacial pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">10 / 10</span></div>
+          <h4>Apresentação profissional de projetos</h4><p>Prepare uma vitrine objetiva para entrevistas e conversas com clientes.</p>
+          <ul class="premium-features"><li>Resumo executivo e papel do autor</li><li>Seleção de entregas e evidências</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Apresenta%C3%A7%C3%A3o+profissional+de+projetos%2C+da+categoria+Portf%C3%B3lios+de+Sucesso." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Apresentação profissional de projetos pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article></div></div>
+    </details><details class="premium-collection" id="premium-roadmaps" name="premium-collections">
+      <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Roadmaps de Aprendizado</span><span class="premium-collection-description">Escolha uma trilha e transforme estudo disperso em progressão com objetivos.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Roadmaps de Aprendizado</h3><p>Explore os temas e consulte a disponibilidade de cada material pelo WhatsApp.</p></div>
+      <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Roadmaps de Aprendizado"><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">01 / 10</span></div>
+          <h4>QGIS: da base à entrega profissional</h4><p>Organize a evolução em SIG com marcos de domínio e projetos aplicados.</p>
+          <ul class="premium-features"><li>Dados, análise e cartografia</li><li>Projeto final e critérios de revisão</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+QGIS%3A+da+base+%C3%A0+entrega+profissional%2C+da+categoria+Roadmaps+de+Aprendizado." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: QGIS: da base à entrega profissional pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">02 / 10</span></div>
+          <h4>ArcGIS Pro para análises territoriais</h4><p>Planeje seu desenvolvimento em geoprocessamento e documentação de projetos.</p>
+          <ul class="premium-features"><li>Camadas, ferramentas e layouts</li><li>Rotinas de validação e entrega</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+ArcGIS+Pro+para+an%C3%A1lises+territoriais%2C+da+categoria+Roadmaps+de+Aprendizado." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: ArcGIS Pro para análises territoriais pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">03 / 10</span></div>
+          <h4>Python para automação geoespacial</h4><p>Conecte fundamentos de programação a tarefas reais de análise geográfica.</p>
+          <ul class="premium-features"><li>Arquivos, funções e bibliotecas</li><li>Portfólio de rotinas reproduzíveis</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Python+para+automa%C3%A7%C3%A3o+geoespacial%2C+da+categoria+Roadmaps+de+Aprendizado." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Python para automação geoespacial pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">04 / 10</span></div>
+          <h4>R para ciência de dados espaciais</h4><p>Estruture uma jornada de análise estatística com dados e contexto territorial.</p>
+          <ul class="premium-features"><li>Manipulação e visualização de dados</li><li>Projeto analítico com interpretação</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+R+para+ci%C3%AAncia+de+dados+espaciais%2C+da+categoria+Roadmaps+de+Aprendizado." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: R para ciência de dados espaciais pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">05 / 10</span></div>
+          <h4>SQL e PostGIS na prática</h4><p>Avance de consultas básicas à organização e análise de bancos espaciais.</p>
+          <ul class="premium-features"><li>Joins, agregações e índices</li><li>Consultas espaciais e modelo de dados</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+SQL+e+PostGIS+na+pr%C3%A1tica%2C+da+categoria+Roadmaps+de+Aprendizado." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: SQL e PostGIS na prática pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">06 / 10</span></div>
+          <h4>IA e Machine Learning geoespacial</h4><p>Planeje competências para modelar o território com avaliação responsável.</p>
+          <ul class="premium-features"><li>Atributos, modelos e pipelines</li><li>Validação espacial e incerteza</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+IA+e+Machine+Learning+geoespacial%2C+da+categoria+Roadmaps+de+Aprendizado." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: IA e Machine Learning geoespacial pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">07 / 10</span></div>
+          <h4>Sensoriamento remoto aplicado</h4><p>Estruture etapas de estudo para extrair informação de imagens e sensores.</p>
+          <ul class="premium-features"><li>Bandas, índices e classificação</li><li>Validação e comunicação de resultados</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Sensoriamento+remoto+aplicado%2C+da+categoria+Roadmaps+de+Aprendizado." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Sensoriamento remoto aplicado pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">08 / 10</span></div>
+          <h4>BI e visualização geográfica</h4><p>Desenvolva indicadores e painéis que ajudam gestores a entender o território.</p>
+          <ul class="premium-features"><li>Modelagem e escolha de métricas</li><li>Design de dashboards e narrativa</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+BI+e+visualiza%C3%A7%C3%A3o+geogr%C3%A1fica%2C+da+categoria+Roadmaps+de+Aprendizado." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: BI e visualização geográfica pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">09 / 10</span></div>
+          <h4>Drones e produtos cartográficos</h4><p>Mapeie conhecimentos para entender aquisição, processamento e qualidade.</p>
+          <ul class="premium-features"><li>Planejamento e produtos de imagem</li><li>Precisão, metadados e uso adequado</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Drones+e+produtos+cartogr%C3%A1ficos%2C+da+categoria+Roadmaps+de+Aprendizado." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Drones e produtos cartográficos pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">10 / 10</span></div>
+          <h4>Carreira em inteligência geográfica</h4><p>Conecte competências técnicas, portfólio e posicionamento profissional.</p>
+          <ul class="premium-features"><li>Plano de competências e projetos</li><li>Apresentação e revisão de objetivos</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Carreira+em+intelig%C3%AAncia+geogr%C3%A1fica%2C+da+categoria+Roadmaps+de+Aprendizado." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Carreira em inteligência geográfica pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article></div></div>
+    </details></div>
+    </div>
+<div class="premium-panel" id="premium-panel-3" role="tabpanel" aria-labelledby="premium-tab-3" tabindex="0" hidden>
+      <article class="premium-card premium-featured"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 6 2 2 3-4m3 2h10M3 14l2 2 3-4m3 2h10M3 21h5m3 0h10"/></svg></div><h3><span class="premium-ready">Download disponível</span> Checklists Técnicos de Validação</h3><p>Listas de verificação para revisar dados, processos e entregas antes de concluir seus projetos.</p><a class="button primary premium-download" href="./checklists_validation/checklist_consistencia_topologica.md" download="checklist_consistencia_topologica.md">Baixar Checklist <span aria-hidden="true">↓</span></a></article>
+      <div class="premium-collections"><details class="premium-collection" id="premium-exercicios" name="premium-collections">
+      <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Exercícios Práticos</span><span class="premium-collection-description">Desafios orientados a entregas para transformar conceitos em habilidade.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Exercícios Práticos</h3><p>Explore os temas e consulte a disponibilidade de cada material pelo WhatsApp.</p></div>
+      <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Exercícios Práticos"><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">01 / 10</span></div>
+          <h4>Revisão de topologia e SIRGAS2000</h4><p>Pratique a identificação de inconsistências sem alterar dados por suposição.</p>
+          <ul class="premium-features"><li>Validade, relações e tolerâncias</li><li>Relatório de erros e exceções</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Revis%C3%A3o+de+topologia+e+SIRGAS2000%2C+da+categoria+Exerc%C3%ADcios+Pr%C3%A1ticos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Revisão de topologia e SIRGAS2000 pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">02 / 10</span></div>
+          <h4>Mapa temático de indicadores</h4><p>Construa uma composição que comunica diferenças territoriais com clareza.</p>
+          <ul class="premium-features"><li>Escolha de classes e simbologia</li><li>Revisão de legenda e fontes</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Mapa+tem%C3%A1tico+de+indicadores%2C+da+categoria+Exerc%C3%ADcios+Pr%C3%A1ticos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Mapa temático de indicadores pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">03 / 10</span></div>
+          <h4>Automação de camadas com Python</h4><p>Planeje e implemente uma rotina que organiza entradas e saídas geográficas.</p>
+          <ul class="premium-features"><li>Filtros, exportação e registros</li><li>Teste com dados controlados</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Automa%C3%A7%C3%A3o+de+camadas+com+Python%2C+da+categoria+Exerc%C3%ADcios+Pr%C3%A1ticos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Automação de camadas com Python pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">04 / 10</span></div>
+          <h4>Consulta espacial no PostGIS</h4><p>Investigue relações entre camadas usando consultas verificáveis.</p>
+          <ul class="premium-features"><li>Predicados, joins e agregações</li><li>Conferência de resultados e índices</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Consulta+espacial+no+PostGIS%2C+da+categoria+Exerc%C3%ADcios+Pr%C3%A1ticos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Consulta espacial no PostGIS pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">05 / 10</span></div>
+          <h4>Classificação de imagens de satélite</h4><p>Aplique uma sequência de classificação e avalie os resultados obtidos.</p>
+          <ul class="premium-features"><li>Seleção de atributos e amostras</li><li>Matriz de avaliação e limitações</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Classifica%C3%A7%C3%A3o+de+imagens+de+sat%C3%A9lite%2C+da+categoria+Exerc%C3%ADcios+Pr%C3%A1ticos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Classificação de imagens de satélite pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">06 / 10</span></div>
+          <h4>Dashboard de diagnóstico territorial</h4><p>Produza indicadores e uma leitura executiva para um problema definido.</p>
+          <ul class="premium-features"><li>Modelo de dados e filtros</li><li>Mapa, gráficos e síntese analítica</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Dashboard+de+diagn%C3%B3stico+territorial%2C+da+categoria+Exerc%C3%ADcios+Pr%C3%A1ticos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Dashboard de diagnóstico territorial pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">07 / 10</span></div>
+          <h4>Análise de proximidade e cobertura</h4><p>Compare alternativas de atendimento com critérios espaciais explícitos.</p>
+          <ul class="premium-features"><li>Buffers e relações entre camadas</li><li>Avaliação de CRS e distâncias</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+An%C3%A1lise+de+proximidade+e+cobertura%2C+da+categoria+Exerc%C3%ADcios+Pr%C3%A1ticos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Análise de proximidade e cobertura pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">08 / 10</span></div>
+          <h4>Interpolação de variáveis ambientais</h4><p>Experimente superfícies e avalie o efeito das escolhas do método.</p>
+          <ul class="premium-features"><li>IDW e parâmetros de vizinhança</li><li>Validação e interpretação de erros</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Interpola%C3%A7%C3%A3o+de+vari%C3%A1veis+ambientais%2C+da+categoria+Exerc%C3%ADcios+Pr%C3%A1ticos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Interpolação de variáveis ambientais pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">09 / 10</span></div>
+          <h4>Previsão temporal de indicadores</h4><p>Treine um modelo e compare previsões com observações fora do treino.</p>
+          <ul class="premium-features"><li>Defasagens e separação temporal</li><li>Referência simples e métricas de erro</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Previs%C3%A3o+temporal+de+indicadores%2C+da+categoria+Exerc%C3%ADcios+Pr%C3%A1ticos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Previsão temporal de indicadores pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">10 / 10</span></div>
+          <h4>Entrega final de projeto geográfico</h4><p>Integre análise, documentação e revisão em uma entrega de portfólio.</p>
+          <ul class="premium-features"><li>Mapas, relatório e dados organizados</li><li>Checklist de qualidade e apresentação</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Entrega+final+de+projeto+geogr%C3%A1fico%2C+da+categoria+Exerc%C3%ADcios+Pr%C3%A1ticos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Entrega final de projeto geográfico pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article></div></div>
+    </details><details class="premium-collection" id="premium-glossarios" name="premium-collections">
+      <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Glossários Técnicos</span><span class="premium-collection-description">Consulte conceitos por especialidade para comunicar análises com precisão.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Glossários Técnicos</h3><p>Explore os temas e consulte a disponibilidade de cada material pelo WhatsApp.</p></div>
+      <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Glossários Técnicos"><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">01 / 10</span></div>
+          <h4>Cartografia e sistemas de referência</h4><p>Organize o vocabulário de mapas e coordenadas usado em projetos territoriais.</p>
+          <ul class="premium-features"><li>Datum, projeção, escala e EPSG</li><li>Atribuição de CRS versus reprojeção</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Cartografia+e+sistemas+de+refer%C3%AAncia%2C+da+categoria+Gloss%C3%A1rios+T%C3%A9cnicos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Cartografia e sistemas de referência pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">02 / 10</span></div>
+          <h4>Topologia e qualidade geográfica</h4><p>Diferencie problemas geométricos, relações espaciais e critérios de aceite.</p>
+          <ul class="premium-features"><li>Validade, sobreposição e lacunas</li><li>Conectividade, tolerâncias e exceções</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Topologia+e+qualidade+geogr%C3%A1fica%2C+da+categoria+Gloss%C3%A1rios+T%C3%A9cnicos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Topologia e qualidade geográfica pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">03 / 10</span></div>
+          <h4>Sensoriamento remoto e sensores</h4><p>Conecte o vocabulário de aquisição de imagens à interpretação dos produtos.</p>
+          <ul class="premium-features"><li>Resoluções, bandas e reflectância</li><li>Índices, classificação e validação</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Sensoriamento+remoto+e+sensores%2C+da+categoria+Gloss%C3%A1rios+T%C3%A9cnicos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Sensoriamento remoto e sensores pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">04 / 10</span></div>
+          <h4>Drones e fotogrametria</h4><p>Entenda os termos que conectam levantamento, processamento e produto.</p>
+          <ul class="premium-features"><li>Ortofotos, nuvens de pontos e modelos</li><li>Apoio, precisão e georreferenciamento</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Drones+e+fotogrametria%2C+da+categoria+Gloss%C3%A1rios+T%C3%A9cnicos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Drones e fotogrametria pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">05 / 10</span></div>
+          <h4>SQL, PostGIS e bancos espaciais</h4><p>Revise conceitos essenciais para modelar dados e conversar sobre consultas.</p>
+          <ul class="premium-features"><li>Chaves, joins e índices espaciais</li><li>Geometria, predicados e transações</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+SQL%2C+PostGIS+e+bancos+espaciais%2C+da+categoria+Gloss%C3%A1rios+T%C3%A9cnicos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: SQL, PostGIS e bancos espaciais pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">06 / 10</span></div>
+          <h4>Python e programação geográfica</h4><p>Aproxime termos de desenvolvimento das tarefas de processamento espacial.</p>
+          <ul class="premium-features"><li>Funções, módulos e ambientes</li><li>GeoDataFrames, rasters e pipelines</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Python+e+programa%C3%A7%C3%A3o+geogr%C3%A1fica%2C+da+categoria+Gloss%C3%A1rios+T%C3%A9cnicos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Python e programação geográfica pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">07 / 10</span></div>
+          <h4>Ciência de dados e estatística</h4><p>Organize conceitos para interpretar tabelas, métricas e resultados analíticos.</p>
+          <ul class="premium-features"><li>Distribuições, amostras e outliers</li><li>Correlação, inferência e incerteza</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+Ci%C3%AAncia+de+dados+e+estat%C3%ADstica%2C+da+categoria+Gloss%C3%A1rios+T%C3%A9cnicos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Ciência de dados e estatística pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">08 / 10</span></div>
+          <h4>IA e Machine Learning</h4><p>Entenda o vocabulário de modelos e avaliação em aplicações territoriais.</p>
+          <ul class="premium-features"><li>Atributos, treino e hiperparâmetros</li><li>Vazamento, validação e generalização</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+IA+e+Machine+Learning%2C+da+categoria+Gloss%C3%A1rios+T%C3%A9cnicos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: IA e Machine Learning pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">09 / 10</span></div>
+          <h4>BI, dashboards e indicadores</h4><p>Comunique requisitos e resultados com conceitos claros de análise de negócio.</p>
+          <ul class="premium-features"><li>KPI, dimensão e granularidade</li><li>Filtros, agregação e narrativa visual</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+BI%2C+dashboards+e+indicadores%2C+da+categoria+Gloss%C3%A1rios+T%C3%A9cnicos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: BI, dashboards e indicadores pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article><article class="premium-card premium-library-card">
+          <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">10 / 10</span></div>
+          <h4>Análise preditiva espacial e temporal</h4><p>Revise os termos usados para antecipar cenários e medir a qualidade da previsão.</p>
+          <ul class="premium-features"><li>Defasagens, tendência e interpolação</li><li>MAE, RMSE e validação em blocos</li></ul>
+          <span class="premium-availability">Disponibilidade sob consulta</span>
+          <a class="button primary premium-download" href="https://wa.me/5548991711308?text=Ol%C3%A1%2C+DataGeo+Academy%21+Gostaria+de+consultar+a+disponibilidade+de+An%C3%A1lise+preditiva+espacial+e+temporal%2C+da+categoria+Gloss%C3%A1rios+T%C3%A9cnicos." target="_blank" rel="noopener noreferrer" aria-label="Solicitar material: Análise preditiva espacial e temporal pelo WhatsApp (abre em nova aba)">Solicitar material <span aria-hidden="true">↗</span></a>
+        </article></div></div>
+    </details></div>
+    </div>
+      <p class="premium-note">Os seis kits Python, o template Word e o checklist têm arquivos para download imediato. As coleções apresentam temas de materiais; consulte a disponibilidade pelo WhatsApp antes de contratar. <a href="#contato">Fale com a DataGeo Academy</a>.</p>
     </div></section>
     <section class="resources" id="infograficos" aria-labelledby="infograficos-titulo"><div class="container">
       <div class="section-heading"><div><div class="eyebrow">Conhecimento em perspectiva</div><h2 id="infograficos-titulo">Infográficos</h2></div><p>Explore 14 guias visuais sobre geotecnologias, inovação e aplicações em diferentes setores.</p></div>
