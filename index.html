@@ -140,6 +140,15 @@
     @media(max-width:720px){header nav{gap:16px;font-size:12px}header .header-inner{min-height:180px}.fronts-intro{margin-top:0}}
     @media(max-width:480px){header .header-inner{min-height:210px;gap:20px}header nav{justify-content:center;gap:14px;padding-bottom:8px}header .brand{width:min(280px,100%)}}
   </style>
+  <style>
+    .about-positioning{max-width:340px;color:var(--muted);font-size:17px;line-height:1.75;margin:24px 0}
+    .about-highlights{list-style:none;padding:0;margin:30px 0 0;display:grid;gap:0}
+    .about-highlights li{display:flex;align-items:flex-start;gap:16px;padding:22px 0;border-top:1px solid var(--line)}
+    .about-check{display:grid;place-items:center;flex-shrink:0;width:30px;height:30px;border:1px solid #6bd66a55;border-radius:9px;background:#6bd66a12;color:var(--green);font-size:16px;font-weight:700}
+    .about-highlights h3{margin:0 0 8px;color:var(--white);font-size:17px;line-height:1.45;font-weight:650;letter-spacing:-.2px}
+    .about-text .about-highlights p{margin:0;font-size:14px;line-height:1.75}
+    @media(max-width:720px){.about-positioning{max-width:none}.about-highlights{margin-top:24px}.about-highlights li{gap:12px;padding:20px 0}}
+  </style>
 </head>
 <body>
   <a class="skip" href="#conteudo">Pular para o conteúdo</a>
@@ -172,8 +181,16 @@
     <div class="topics"><div class="container topics-inner"><span>Análise de dados</span><i aria-hidden="true">✳</i><span>Inteligência geográfica</span><i aria-hidden="true">✳</i><span>Visão de negócio</span><i aria-hidden="true">✳</i><span>Aprendizado aplicado</span></div></div>
     <section class="about" id="sobre" aria-labelledby="about-title">
       <div class="container about-grid">
-        <div><div class="eyebrow">Sobre a DataGeo Academy</div><h2 id="about-title">O mundo é complexo.<br><em>Sua visão pode ir além.</em></h2></div>
-        <div class="about-text"><p>A DataGeo Academy nasce da conexão entre <strong>dados, território e estratégia</strong>. Nosso propósito é aproximar o conhecimento técnico dos desafios de quem precisa compreender cenários e tomar decisões.</p><p>Acreditamos em uma aprendizagem que faz sentido na prática: investigar perguntas, reconhecer padrões e transformar análises em caminhos possíveis. Para profissionais curiosos, que querem ampliar sua visão e construir o próximo passo.</p><a class="text-link" href="#pilares">Conheça as bases dessa jornada <span aria-hidden="true">↓</span></a></div>
+        <div class="about-heading"><div class="eyebrow">Dados. Inteligência. Ação.</div><h2 id="about-title">Sobre a DataGeo Academy</h2><p class="about-positioning">Inteligência geográfica para transformar conhecimento em decisões estratégicas.</p><a class="text-link" href="#mini-cursos">Explore nosso ecossistema <span aria-hidden="true">↗</span></a></div>
+        <div class="about-text">
+          <p>Somos a <strong>DataGeo Academy, o ecossistema definitivo de Inteligência Geográfica</strong>. Conectamos geotecnologias, ciência de dados e inteligência artificial para transformar dados em decisões estratégicas e ampliar a compreensão do território.</p>
+          <p>Nosso foco é aproximar o conhecimento técnico dos desafios do dia a dia. Reunimos conteúdos e materiais para quem busca automatizar processos, explorar cenários e aplicar a análise geográfica com clareza, do planejamento à atuação em campo.</p>
+          <ul class="about-highlights">
+            <li><span class="about-check" aria-hidden="true">✓</span><div><h3>Ecossistema Completo com 32 minicursos e 127 materiais</h3><p>Uma jornada organizada em seis áreas, com materiais em PDF para aprofundar seu conhecimento.</p></div></li>
+            <li><span class="about-check" aria-hidden="true">✓</span><div><h3>Foco em Automação e Inovação com Python e IA</h3><p>Conhecimento para conectar programação, análise de dados e métodos inteligentes aos desafios geoespaciais.</p></div></li>
+            <li><span class="about-check" aria-hidden="true">✓</span><div><h3>Materiais Prontos para o Campo</h3><p>Conteúdos de consulta para apoiar o planejamento, orientar análises e aproximar o aprendizado da prática profissional.</p></div></li>
+          </ul>
+        </div>
       </div>
     </section>
     <section class="pillars" id="pilares" aria-labelledby="pillars-title">
