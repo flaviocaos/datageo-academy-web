@@ -578,7 +578,8 @@ Não usar para licenciamento, cadastro, decisão operacional ou laudo sobre loca
 
 ''' + '\n\n'.join(textos) + '\n\n## Camadas e dicionário de atributos\n\n'
     for nome, df in dados.items():
-        df.to_file(path, layer=nome, driver='GPKG', engine='pyogrio', index=False)
+        df.to_file(path, layer=nome, driver='GPKG', engine='pyogrio', index=False,
+                   dataset_options={'VERSION': '1.3'})
         documentacao += f'### {nome}\n\nFeições: {len(df)}. Geometria: {df.geom_type.iloc[0]}.\n\n'
         documentacao += '| Campo | Tipo / significado |\n| --- | --- |\n'
         for coluna in df.columns:
@@ -623,6 +624,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--substituir', action='store_true', help='Recriar explicitamente os arquivos conhecidos do catálogo.')
     args = parser.parse_args()
+    if list((ROOT/'templates_gis').glob('*.qgz')):
+        raise SystemExit('A biblioteca já utiliza QGZ/DOCX. Use gerar_projetos_qgis_premium.py e gerar_documentos_corporativos.py; este gerador legado não deve substituir os formatos atuais.')
     html_path = ROOT / 'index.html'
     html = html_path.read_text(encoding='utf-8')
     pattern = r'<details class="premium-collection" id="premium-([^"]+)".*?</details>'

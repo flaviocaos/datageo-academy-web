@@ -146,6 +146,32 @@ O WhatsApp e o e-mail ficam na configuração `CONTACT` do JavaScript em `index.
 
 Publique a raiz deste repositório incluindo `index.html`, o logotipo e a pasta `ENTREGA`. Todos os materiais utilizam caminhos relativos locais e acompanham a publicação do site. Preserve nomes de arquivos, acentos e estrutura de subpastas para manter os links funcionando.
 
+## Biblioteca corporativa para download
+
+A Central Premium possui 60 materiais principais: dez projetos QGIS `.qgz`,
+dez bases `.gpkg` e quarenta documentos Word `.docx`. Há dez estilos `.qml`
+adicionais para a camada principal de cada projeto. Os oito downloads anteriores
+continuam disponíveis, totalizando 78 links na Central.
+
+Os projetos foram gerados e reabertos no QGIS 3.28.2 e incorporam os dados,
+estilos e instruções dentro do QGZ. Podem ser copiados sem transportar pastas
+externas. Os GeoPackages usam o perfil 1.3, SIRGAS 2000 / UTM 22S e **dados
+sintéticos identificados** para exercícios. Não são levantamentos oficiais.
+
+Os documentos Word contêm cabeçalho DataGeo Academy, controle documental,
+sumário navegável, texto técnico, tabelas e revisão. O sumário pode ser atualizado
+no Word após a edição. Documentos demonstrativos não constituem laudos assinados.
+Os quarenta Markdown anteriores foram substituídos pelos DOCX.
+
+Para regenerar os documentos, execute `python scripts_automacao/gerar_documentos_corporativos.py`.
+O conteúdo de origem está incorporado em cada DOCX. Para regenerar os projetos,
+execute `scripts_automacao/gerar_projetos_qgis_premium.py` com o Python do QGIS;
+as instruções TXT preservadas em `templates_gis` são usadas como fonte.
+
+Valide os arquivos e links com `python tests/verificar_materiais_premium.py`
+em um ambiente com GeoPandas e Pyogrio. O gerador legado de Markdown bloqueia a
+substituição dos formatos corporativos atuais.
+
 ## Licença
 
 Consulte o arquivo [LICENSE](LICENSE) para os termos aplicáveis ao projeto.

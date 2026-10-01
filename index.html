@@ -213,6 +213,7 @@
     .premium-features li+li{margin-top:5px}.premium-features li::marker{color:var(--cyan)}
     .premium-availability{margin-top:auto;font-size:10px;color:var(--cyan)}
     .premium-library-card .premium-download{margin-top:12px;font-size:12px;padding:12px 14px;gap:8px;border:1px solid #6bd66a80;box-shadow:0 4px 18px #6bd66a0d}
+    .premium-library-card .premium-style-download{background:transparent;color:var(--cyan);border-color:#16bfd055;box-shadow:none;margin-top:8px}
     .premium-library-card .premium-download:hover{box-shadow:0 0 20px #6bd66a35}
     .premium-collection>summary:focus-visible,.premium-library-grid:focus-visible,.premium-central a:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
     @media(max-width:960px){.premium-library-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.premium-featured{grid-template-columns:48px minmax(0,1fr)}.premium-featured>.premium-download,.premium-downloads{grid-column:1 / -1;grid-row:3;margin-top:10px}}
@@ -562,7 +563,7 @@
       </div></section>
     <section class="premium-central" id="materiais-premium" aria-labelledby="premium-title"><div class="container">
       <div class="section-heading"><div><div class="eyebrow">Da aprendizagem à prática</div><h2 id="premium-title">Central de Materiais Premium &amp; Carreira</h2></div><p>60 materiais para download em seis coleções. Explore modelos, dados e trilhas para transformar conhecimento em entregas profissionais.</p></div>
-      <div class="premium-overview"><span><strong>60</strong> materiais para baixar</span><span><strong>6</strong> coleções especializadas</span><span><strong>68</strong> downloads disponíveis</span></div>
+      <div class="premium-overview"><span><strong>60</strong> materiais para baixar</span><span><strong>6</strong> coleções especializadas</span><span><strong>78</strong> downloads disponíveis</span></div>
       <div class="premium-tabs" role="tablist" aria-label="Categorias de materiais premium">
         <button type="button" class="premium-tab" id="premium-tab-1" role="tab" aria-selected="true" aria-controls="premium-panel-1" tabindex="0">Materiais Práticos e Prontos para Uso</button>
         <button type="button" class="premium-tab" id="premium-tab-2" role="tab" aria-selected="false" aria-controls="premium-panel-2" tabindex="-1">Guias de Carreira e Mercado</button>
@@ -572,71 +573,71 @@
       <article class="premium-card premium-featured"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m7 6-5 6 5 6m10-12 5 6-5 6M14 3l-4 18"/></svg></div><h3><span class="premium-ready">Download disponível</span> Scripts e Automações Python/R</h3><p>Rotinas para processamento geoespacial, organização de dados e automação de tarefas recorrentes.</p><div class="premium-downloads"><a class="button primary premium-download" href="./scripts_automacao/canivete_suico_qgis.py" download="canivete_suico_qgis.py">Baixar Kit QGIS <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_suico_arcgis.py" download="canivete_suico_arcgis.py">Baixar Kit ArcGIS Pro <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_ia_geospatial.py" download="canivete_ia_geospatial.py">Baixar Kit IA Geoespacial <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_analise_preditiva.py" download="canivete_analise_preditiva.py">Baixar Kit Análise Preditiva <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_ciencia_dados.py" download="canivete_ciencia_dados.py">Baixar Kit Ciência de Dados <span aria-hidden="true">↓</span></a><a class="button primary premium-download" href="./scripts_automacao/canivete_programacao_dados.py" download="canivete_programacao_dados.py">Baixar Kit Programação Geográfica <span aria-hidden="true">↓</span></a></div></article>
       <div class="premium-collections"><details class="premium-collection" id="premium-templates" name="premium-collections">
       <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Modelos e Templates QGIS/ArcGIS</span><span class="premium-collection-description">Padronize entregas e apresente mapas com identidade profissional.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
-      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Modelos e Templates QGIS/ArcGIS</h3><p>Escolha um material e baixe o arquivo diretamente. Modelos e guias têm instruções em português; as bases usam dados sintéticos para exercícios.</p></div>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Modelos e Templates QGIS/ArcGIS</h3><p>Baixe arquivos profissionais: projetos QGIS QGZ, estilos QML, bases GeoPackage e documentos Word. Os dados de exemplo são sintéticos e estão identificados.</p></div>
       <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Modelos e Templates QGIS/ArcGIS"><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">01 / 10</span></div>
           <h4>Atlas executivo territorial</h4><p>Transforme análises em uma sequência de mapas que orienta a decisão do cliente.</p>
           <ul class="premium-features"><li>Composição de atlas e páginas</li><li>Legenda, escala e hierarquia visual</li></ul>
-          <span class="premium-availability">Modelo técnico · TXT</span>
-          <a class="button primary premium-download" href="./templates_gis/01_atlas_executivo_territorial.txt" download="01_atlas_executivo_territorial.txt" aria-label="Baixar Material Now: Atlas executivo territorial">Baixar Material Now <span aria-hidden="true">↓</span></a>
-        </article><article class="premium-card premium-library-card">
+          <span class="premium-availability">Projeto QGIS · QGZ + estilo QML</span>
+          <a class="button primary premium-download" href="./templates_gis/01_atlas_executivo_territorial.qgz" download="01_atlas_executivo_territorial.qgz" aria-label="Baixar Material Now: Atlas executivo territorial">Baixar Material Now <span aria-hidden="true">↓</span></a>
+        <a class="button premium-download premium-style-download" href="./templates_gis/01_atlas_executivo_territorial.qml" download="01_atlas_executivo_territorial.qml" aria-label="Baixar estilo QML: 01_atlas_executivo_territorial">Baixar estilo QML <span aria-hidden="true">↓</span></a></article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">02 / 10</span></div>
           <h4>Projeto ambiental organizado</h4><p>Comece seus estudos com uma estrutura de camadas fácil de manter e revisar.</p>
           <ul class="premium-features"><li>Grupos temáticos e convenções</li><li>Organização de fontes e metadados</li></ul>
-          <span class="premium-availability">Modelo técnico · TXT</span>
-          <a class="button primary premium-download" href="./templates_gis/02_projeto_ambiental_organizado.txt" download="02_projeto_ambiental_organizado.txt" aria-label="Baixar Material Now: Projeto ambiental organizado">Baixar Material Now <span aria-hidden="true">↓</span></a>
-        </article><article class="premium-card premium-library-card">
+          <span class="premium-availability">Projeto QGIS · QGZ + estilo QML</span>
+          <a class="button primary premium-download" href="./templates_gis/02_projeto_ambiental_organizado.qgz" download="02_projeto_ambiental_organizado.qgz" aria-label="Baixar Material Now: Projeto ambiental organizado">Baixar Material Now <span aria-hidden="true">↓</span></a>
+        <a class="button premium-download premium-style-download" href="./templates_gis/02_projeto_ambiental_organizado.qml" download="02_projeto_ambiental_organizado.qml" aria-label="Baixar estilo QML: 02_projeto_ambiental_organizado">Baixar estilo QML <span aria-hidden="true">↓</span></a></article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">03 / 10</span></div>
           <h4>Mapa de uso e cobertura do solo</h4><p>Comunique classes territoriais com uma leitura consistente e objetiva.</p>
           <ul class="premium-features"><li>Paleta e categorias temáticas</li><li>Layout para síntese de resultados</li></ul>
-          <span class="premium-availability">Modelo técnico · TXT</span>
-          <a class="button primary premium-download" href="./templates_gis/03_mapa_de_uso_e_cobertura_do_solo.txt" download="03_mapa_de_uso_e_cobertura_do_solo.txt" aria-label="Baixar Material Now: Mapa de uso e cobertura do solo">Baixar Material Now <span aria-hidden="true">↓</span></a>
-        </article><article class="premium-card premium-library-card">
+          <span class="premium-availability">Projeto QGIS · QGZ + estilo QML</span>
+          <a class="button primary premium-download" href="./templates_gis/03_mapa_de_uso_e_cobertura_do_solo.qgz" download="03_mapa_de_uso_e_cobertura_do_solo.qgz" aria-label="Baixar Material Now: Mapa de uso e cobertura do solo">Baixar Material Now <span aria-hidden="true">↓</span></a>
+        <a class="button premium-download premium-style-download" href="./templates_gis/03_mapa_de_uso_e_cobertura_do_solo.qml" download="03_mapa_de_uso_e_cobertura_do_solo.qml" aria-label="Baixar estilo QML: 03_mapa_de_uso_e_cobertura_do_solo">Baixar estilo QML <span aria-hidden="true">↓</span></a></article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">04 / 10</span></div>
           <h4>Painel de indicadores urbanos</h4><p>Apresente infraestrutura e serviços em uma visão territorial integrada.</p>
           <ul class="premium-features"><li>Mapa de indicadores por setor</li><li>Modelo de leitura executiva</li></ul>
-          <span class="premium-availability">Modelo técnico · TXT</span>
-          <a class="button primary premium-download" href="./templates_gis/04_painel_de_indicadores_urbanos.txt" download="04_painel_de_indicadores_urbanos.txt" aria-label="Baixar Material Now: Painel de indicadores urbanos">Baixar Material Now <span aria-hidden="true">↓</span></a>
-        </article><article class="premium-card premium-library-card">
+          <span class="premium-availability">Projeto QGIS · QGZ + estilo QML</span>
+          <a class="button primary premium-download" href="./templates_gis/04_painel_de_indicadores_urbanos.qgz" download="04_painel_de_indicadores_urbanos.qgz" aria-label="Baixar Material Now: Painel de indicadores urbanos">Baixar Material Now <span aria-hidden="true">↓</span></a>
+        <a class="button premium-download premium-style-download" href="./templates_gis/04_painel_de_indicadores_urbanos.qml" download="04_painel_de_indicadores_urbanos.qml" aria-label="Baixar estilo QML: 04_painel_de_indicadores_urbanos">Baixar estilo QML <span aria-hidden="true">↓</span></a></article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">05 / 10</span></div>
           <h4>Layout para diagnóstico hídrico</h4><p>Dê clareza às relações entre bacias, drenagem e ocupação do território.</p>
           <ul class="premium-features"><li>Composição hidrográfica</li><li>Elementos para localização e contexto</li></ul>
-          <span class="premium-availability">Modelo técnico · TXT</span>
-          <a class="button primary premium-download" href="./templates_gis/05_layout_para_diagnostico_hidrico.txt" download="05_layout_para_diagnostico_hidrico.txt" aria-label="Baixar Material Now: Layout para diagnóstico hídrico">Baixar Material Now <span aria-hidden="true">↓</span></a>
-        </article><article class="premium-card premium-library-card">
+          <span class="premium-availability">Projeto QGIS · QGZ + estilo QML</span>
+          <a class="button primary premium-download" href="./templates_gis/05_layout_para_diagnostico_hidrico.qgz" download="05_layout_para_diagnostico_hidrico.qgz" aria-label="Baixar Material Now: Layout para diagnóstico hídrico">Baixar Material Now <span aria-hidden="true">↓</span></a>
+        <a class="button premium-download premium-style-download" href="./templates_gis/05_layout_para_diagnostico_hidrico.qml" download="05_layout_para_diagnostico_hidrico.qml" aria-label="Baixar estilo QML: 05_layout_para_diagnostico_hidrico">Baixar estilo QML <span aria-hidden="true">↓</span></a></article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">06 / 10</span></div>
           <h4>Modelo de análise multicritério</h4><p>Estruture cenários de aptidão e torne os critérios da análise transparentes.</p>
           <ul class="premium-features"><li>Matriz de critérios e pesos</li><li>Organização de mapas de cenário</li></ul>
-          <span class="premium-availability">Modelo técnico · TXT</span>
-          <a class="button primary premium-download" href="./templates_gis/06_modelo_de_analise_multicriterio.txt" download="06_modelo_de_analise_multicriterio.txt" aria-label="Baixar Material Now: Modelo de análise multicritério">Baixar Material Now <span aria-hidden="true">↓</span></a>
-        </article><article class="premium-card premium-library-card">
+          <span class="premium-availability">Projeto QGIS · QGZ + estilo QML</span>
+          <a class="button primary premium-download" href="./templates_gis/06_modelo_de_analise_multicriterio.qgz" download="06_modelo_de_analise_multicriterio.qgz" aria-label="Baixar Material Now: Modelo de análise multicritério">Baixar Material Now <span aria-hidden="true">↓</span></a>
+        <a class="button premium-download premium-style-download" href="./templates_gis/06_modelo_de_analise_multicriterio.qml" download="06_modelo_de_analise_multicriterio.qml" aria-label="Baixar estilo QML: 06_modelo_de_analise_multicriterio">Baixar estilo QML <span aria-hidden="true">↓</span></a></article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">07 / 10</span></div>
           <h4>Simbologia corporativa para SIG</h4><p>Construa mapas reconhecíveis com padrões visuais que valorizam sua entrega.</p>
           <ul class="premium-features"><li>Convenções de cor e símbolos</li><li>Guia de contraste e legibilidade</li></ul>
-          <span class="premium-availability">Modelo técnico · TXT</span>
-          <a class="button primary premium-download" href="./templates_gis/07_simbologia_corporativa_para_sig.txt" download="07_simbologia_corporativa_para_sig.txt" aria-label="Baixar Material Now: Simbologia corporativa para SIG">Baixar Material Now <span aria-hidden="true">↓</span></a>
-        </article><article class="premium-card premium-library-card">
+          <span class="premium-availability">Projeto QGIS · QGZ + estilo QML</span>
+          <a class="button primary premium-download" href="./templates_gis/07_simbologia_corporativa_para_sig.qgz" download="07_simbologia_corporativa_para_sig.qgz" aria-label="Baixar Material Now: Simbologia corporativa para SIG">Baixar Material Now <span aria-hidden="true">↓</span></a>
+        <a class="button premium-download premium-style-download" href="./templates_gis/07_simbologia_corporativa_para_sig.qml" download="07_simbologia_corporativa_para_sig.qml" aria-label="Baixar estilo QML: 07_simbologia_corporativa_para_sig">Baixar estilo QML <span aria-hidden="true">↓</span></a></article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">08 / 10</span></div>
           <h4>Modelo de processamento em lote</h4><p>Planeje rotinas repetíveis e reduza o retrabalho na preparação de camadas.</p>
           <ul class="premium-features"><li>Fluxo de entradas e saídas</li><li>Registro de parâmetros e etapas</li></ul>
-          <span class="premium-availability">Modelo técnico · TXT</span>
-          <a class="button primary premium-download" href="./templates_gis/08_modelo_de_processamento_em_lote.txt" download="08_modelo_de_processamento_em_lote.txt" aria-label="Baixar Material Now: Modelo de processamento em lote">Baixar Material Now <span aria-hidden="true">↓</span></a>
-        </article><article class="premium-card premium-library-card">
+          <span class="premium-availability">Projeto QGIS · QGZ + estilo QML</span>
+          <a class="button primary premium-download" href="./templates_gis/08_modelo_de_processamento_em_lote.qgz" download="08_modelo_de_processamento_em_lote.qgz" aria-label="Baixar Material Now: Modelo de processamento em lote">Baixar Material Now <span aria-hidden="true">↓</span></a>
+        <a class="button premium-download premium-style-download" href="./templates_gis/08_modelo_de_processamento_em_lote.qml" download="08_modelo_de_processamento_em_lote.qml" aria-label="Baixar estilo QML: 08_modelo_de_processamento_em_lote">Baixar estilo QML <span aria-hidden="true">↓</span></a></article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">09 / 10</span></div>
           <h4>Projeto de monitoramento temporal</h4><p>Compare períodos com uma organização que facilita atualizar os resultados.</p>
           <ul class="premium-features"><li>Estrutura por data de aquisição</li><li>Layouts para comparação de cenários</li></ul>
-          <span class="premium-availability">Modelo técnico · TXT</span>
-          <a class="button primary premium-download" href="./templates_gis/09_projeto_de_monitoramento_temporal.txt" download="09_projeto_de_monitoramento_temporal.txt" aria-label="Baixar Material Now: Projeto de monitoramento temporal">Baixar Material Now <span aria-hidden="true">↓</span></a>
-        </article><article class="premium-card premium-library-card">
+          <span class="premium-availability">Projeto QGIS · QGZ + estilo QML</span>
+          <a class="button primary premium-download" href="./templates_gis/09_projeto_de_monitoramento_temporal.qgz" download="09_projeto_de_monitoramento_temporal.qgz" aria-label="Baixar Material Now: Projeto de monitoramento temporal">Baixar Material Now <span aria-hidden="true">↓</span></a>
+        <a class="button premium-download premium-style-download" href="./templates_gis/09_projeto_de_monitoramento_temporal.qml" download="09_projeto_de_monitoramento_temporal.qml" aria-label="Baixar estilo QML: 09_projeto_de_monitoramento_temporal">Baixar estilo QML <span aria-hidden="true">↓</span></a></article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h18v18H3zM3 8h18M8 8v13m4-9h5m-5 4h5"/></svg></span><span class="premium-item-number">10 / 10</span></div>
           <h4>Template de mapa para impressão</h4><p>Finalize pranchas claras para apresentações, relatórios e reuniões técnicas.</p>
           <ul class="premium-features"><li>Composições A4 e A3</li><li>Espaços para autoria e referências</li></ul>
-          <span class="premium-availability">Modelo técnico · TXT</span>
-          <a class="button primary premium-download" href="./templates_gis/10_template_de_mapa_para_impressao.txt" download="10_template_de_mapa_para_impressao.txt" aria-label="Baixar Material Now: Template de mapa para impressão">Baixar Material Now <span aria-hidden="true">↓</span></a>
-        </article></div></div>
+          <span class="premium-availability">Projeto QGIS · QGZ + estilo QML</span>
+          <a class="button primary premium-download" href="./templates_gis/10_template_de_mapa_para_impressao.qgz" download="10_template_de_mapa_para_impressao.qgz" aria-label="Baixar Material Now: Template de mapa para impressão">Baixar Material Now <span aria-hidden="true">↓</span></a>
+        <a class="button premium-download premium-style-download" href="./templates_gis/10_template_de_mapa_para_impressao.qml" download="10_template_de_mapa_para_impressao.qml" aria-label="Baixar estilo QML: 10_template_de_mapa_para_impressao">Baixar estilo QML <span aria-hidden="true">↓</span></a></article></div></div>
     </details><details class="premium-collection" id="premium-bases" name="premium-collections">
       <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Shapefiles/Bancos de Dados</span><span class="premium-collection-description">Explore estruturas de dados pensadas para análises e projetos de portfólio.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
-      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Shapefiles/Bancos de Dados</h3><p>Escolha um material e baixe o arquivo diretamente. Modelos e guias têm instruções em português; as bases usam dados sintéticos para exercícios.</p></div>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Shapefiles/Bancos de Dados</h3><p>Baixe arquivos profissionais: projetos QGIS QGZ, estilos QML, bases GeoPackage e documentos Word. Os dados de exemplo são sintéticos e estão identificados.</p></div>
       <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Shapefiles/Bancos de Dados"><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5c0-4 16-4 16 0v14c0 4-16 4-16 0V5Zm0 0c0 4 16 4 16 0M4 12c0 4 16 4 16 0"/></svg></span><span class="premium-item-number">01 / 10</span></div>
           <h4>Base de limites administrativos</h4><p>Organize recortes territoriais para comparar indicadores entre unidades.</p>
@@ -704,131 +705,131 @@
       <article class="premium-card premium-featured"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5zM15 3v5h4M8 12h8m-8 4h6"/></svg></div><h3><span class="premium-ready">Download disponível</span> Templates de Relatórios Técnicos .docx</h3><p>Estruturas para documentar métodos, organizar evidências e apresentar conclusões com clareza.</p><a class="button primary premium-download" href="./templates_carreira/modelo_relatorio_tecnico.docx" download="modelo_relatorio_tecnico.docx">Baixar Template Word <span aria-hidden="true">↓</span></a></article>
       <div class="premium-collections"><details class="premium-collection" id="premium-portfolio" name="premium-collections">
       <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Portfólios de Sucesso</span><span class="premium-collection-description">Roteiros de estudos de caso para demonstrar competência sem inventar resultados.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
-      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Portfólios de Sucesso</h3><p>Escolha um material e baixe o arquivo diretamente. Modelos e guias têm instruções em português; as bases usam dados sintéticos para exercícios.</p></div>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Portfólios de Sucesso</h3><p>Baixe arquivos profissionais: projetos QGIS QGZ, estilos QML, bases GeoPackage e documentos Word. Os dados de exemplo são sintéticos e estão identificados.</p></div>
       <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Portfólios de Sucesso"><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">01 / 10</span></div>
           <h4>Case de diagnóstico ambiental</h4><p>Mostre como transformar dados e observações em um diagnóstico fundamentado.</p>
           <ul class="premium-features"><li>Narrativa de problema, método e resultado</li><li>Organização de evidências e limitações</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./portfolios_cases/01_case_de_diagnostico_ambiental.md" download="01_case_de_diagnostico_ambiental.md" aria-label="Baixar Material Now: Case de diagnóstico ambiental">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./portfolios_cases/01_case_de_diagnostico_ambiental.docx" download="01_case_de_diagnostico_ambiental.docx" aria-label="Baixar Material Now: Case de diagnóstico ambiental">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">02 / 10</span></div>
           <h4>Portfólio de automação geográfica</h4><p>Evidencie sua capacidade de simplificar tarefas com processos reproduzíveis.</p>
           <ul class="premium-features"><li>Demonstração do fluxo automatizado</li><li>Métricas de execução a documentar</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./portfolios_cases/02_portfolio_de_automacao_geografica.md" download="02_portfolio_de_automacao_geografica.md" aria-label="Baixar Material Now: Portfólio de automação geográfica">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./portfolios_cases/02_portfolio_de_automacao_geografica.docx" download="02_portfolio_de_automacao_geografica.docx" aria-label="Baixar Material Now: Portfólio de automação geográfica">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">03 / 10</span></div>
           <h4>Case de inteligência urbana</h4><p>Apresente uma análise territorial orientada às decisões de planejamento.</p>
           <ul class="premium-features"><li>Perguntas de negócio e indicadores</li><li>Mapas e síntese para gestores</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./portfolios_cases/03_case_de_inteligencia_urbana.md" download="03_case_de_inteligencia_urbana.md" aria-label="Baixar Material Now: Case de inteligência urbana">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./portfolios_cases/03_case_de_inteligencia_urbana.docx" download="03_case_de_inteligencia_urbana.docx" aria-label="Baixar Material Now: Case de inteligência urbana">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">04 / 10</span></div>
           <h4>Projeto de sensoriamento remoto</h4><p>Demonstre a leitura de imagens com escolhas metodológicas transparentes.</p>
           <ul class="premium-features"><li>Seleção de cenas e pré-processamento</li><li>Validação e interpretação das classes</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./portfolios_cases/04_projeto_de_sensoriamento_remoto.md" download="04_projeto_de_sensoriamento_remoto.md" aria-label="Baixar Material Now: Projeto de sensoriamento remoto">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./portfolios_cases/04_projeto_de_sensoriamento_remoto.docx" download="04_projeto_de_sensoriamento_remoto.docx" aria-label="Baixar Material Now: Projeto de sensoriamento remoto">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">05 / 10</span></div>
           <h4>Case de análise preditiva espacial</h4><p>Explique um modelo de previsão com avaliação e comunicação de incerteza.</p>
           <ul class="premium-features"><li>Separação espacial de treino e teste</li><li>Métricas e limites de generalização</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./portfolios_cases/05_case_de_analise_preditiva_espacial.md" download="05_case_de_analise_preditiva_espacial.md" aria-label="Baixar Material Now: Case de análise preditiva espacial">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./portfolios_cases/05_case_de_analise_preditiva_espacial.docx" download="05_case_de_analise_preditiva_espacial.docx" aria-label="Baixar Material Now: Case de análise preditiva espacial">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">06 / 10</span></div>
           <h4>Dashboard de BI geográfico</h4><p>Conecte indicadores, mapas e contexto em uma apresentação de negócio.</p>
           <ul class="premium-features"><li>Estrutura de painéis e filtros</li><li>História analítica para apresentação</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./portfolios_cases/06_dashboard_de_bi_geografico.md" download="06_dashboard_de_bi_geografico.md" aria-label="Baixar Material Now: Dashboard de BI geográfico">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./portfolios_cases/06_dashboard_de_bi_geografico.docx" download="06_dashboard_de_bi_geografico.docx" aria-label="Baixar Material Now: Dashboard de BI geográfico">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">07 / 10</span></div>
           <h4>Estudo de acessibilidade territorial</h4><p>Demonstre a avaliação de serviços e deslocamentos com critérios claros.</p>
           <ul class="premium-features"><li>Cenários e hipóteses de acesso</li><li>Discussão de cobertura e restrições</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./portfolios_cases/07_estudo_de_acessibilidade_territorial.md" download="07_estudo_de_acessibilidade_territorial.md" aria-label="Baixar Material Now: Estudo de acessibilidade territorial">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./portfolios_cases/07_estudo_de_acessibilidade_territorial.docx" download="07_estudo_de_acessibilidade_territorial.docx" aria-label="Baixar Material Now: Estudo de acessibilidade territorial">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">08 / 10</span></div>
           <h4>Case de monitoramento hídrico</h4><p>Construa uma narrativa sobre medições, território e evolução temporal.</p>
           <ul class="premium-features"><li>Integração de fontes e períodos</li><li>Visualização de tendências e lacunas</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./portfolios_cases/08_case_de_monitoramento_hidrico.md" download="08_case_de_monitoramento_hidrico.md" aria-label="Baixar Material Now: Case de monitoramento hídrico">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./portfolios_cases/08_case_de_monitoramento_hidrico.docx" download="08_case_de_monitoramento_hidrico.docx" aria-label="Baixar Material Now: Case de monitoramento hídrico">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">09 / 10</span></div>
           <h4>Portfólio de banco de dados espacial</h4><p>Apresente arquitetura, consultas e qualidade como diferenciais técnicos.</p>
           <ul class="premium-features"><li>Modelo de entidades e relacionamentos</li><li>Exemplos de consulta e rastreabilidade</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./portfolios_cases/09_portfolio_de_banco_de_dados_espacial.md" download="09_portfolio_de_banco_de_dados_espacial.md" aria-label="Baixar Material Now: Portfólio de banco de dados espacial">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./portfolios_cases/09_portfolio_de_banco_de_dados_espacial.docx" download="09_portfolio_de_banco_de_dados_espacial.docx" aria-label="Baixar Material Now: Portfólio de banco de dados espacial">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v14H4zM9 7V3h6v4M4 12h16m-9-2h2v4h-2z"/></svg></span><span class="premium-item-number">10 / 10</span></div>
           <h4>Apresentação profissional de projetos</h4><p>Prepare uma vitrine objetiva para entrevistas e conversas com clientes.</p>
           <ul class="premium-features"><li>Resumo executivo e papel do autor</li><li>Seleção de entregas e evidências</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./portfolios_cases/10_apresentacao_profissional_de_projetos.md" download="10_apresentacao_profissional_de_projetos.md" aria-label="Baixar Material Now: Apresentação profissional de projetos">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./portfolios_cases/10_apresentacao_profissional_de_projetos.docx" download="10_apresentacao_profissional_de_projetos.docx" aria-label="Baixar Material Now: Apresentação profissional de projetos">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article></div></div>
     </details><details class="premium-collection" id="premium-roadmaps" name="premium-collections">
       <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Roadmaps de Aprendizado</span><span class="premium-collection-description">Escolha uma trilha e transforme estudo disperso em progressão com objetivos.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
-      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Roadmaps de Aprendizado</h3><p>Escolha um material e baixe o arquivo diretamente. Modelos e guias têm instruções em português; as bases usam dados sintéticos para exercícios.</p></div>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Roadmaps de Aprendizado</h3><p>Baixe arquivos profissionais: projetos QGIS QGZ, estilos QML, bases GeoPackage e documentos Word. Os dados de exemplo são sintéticos e estão identificados.</p></div>
       <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Roadmaps de Aprendizado"><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">01 / 10</span></div>
           <h4>QGIS: da base à entrega profissional</h4><p>Organize a evolução em SIG com marcos de domínio e projetos aplicados.</p>
           <ul class="premium-features"><li>Dados, análise e cartografia</li><li>Projeto final e critérios de revisão</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./roadmaps_aprendizado/01_qgis_da_base_a_entrega_profissional.md" download="01_qgis_da_base_a_entrega_profissional.md" aria-label="Baixar Material Now: QGIS: da base à entrega profissional">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./roadmaps_aprendizado/01_qgis_da_base_a_entrega_profissional.docx" download="01_qgis_da_base_a_entrega_profissional.docx" aria-label="Baixar Material Now: QGIS: da base à entrega profissional">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">02 / 10</span></div>
           <h4>ArcGIS Pro para análises territoriais</h4><p>Planeje seu desenvolvimento em geoprocessamento e documentação de projetos.</p>
           <ul class="premium-features"><li>Camadas, ferramentas e layouts</li><li>Rotinas de validação e entrega</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./roadmaps_aprendizado/02_arcgis_pro_para_analises_territoriais.md" download="02_arcgis_pro_para_analises_territoriais.md" aria-label="Baixar Material Now: ArcGIS Pro para análises territoriais">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./roadmaps_aprendizado/02_arcgis_pro_para_analises_territoriais.docx" download="02_arcgis_pro_para_analises_territoriais.docx" aria-label="Baixar Material Now: ArcGIS Pro para análises territoriais">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">03 / 10</span></div>
           <h4>Python para automação geoespacial</h4><p>Conecte fundamentos de programação a tarefas reais de análise geográfica.</p>
           <ul class="premium-features"><li>Arquivos, funções e bibliotecas</li><li>Portfólio de rotinas reproduzíveis</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./roadmaps_aprendizado/03_python_para_automacao_geoespacial.md" download="03_python_para_automacao_geoespacial.md" aria-label="Baixar Material Now: Python para automação geoespacial">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./roadmaps_aprendizado/03_python_para_automacao_geoespacial.docx" download="03_python_para_automacao_geoespacial.docx" aria-label="Baixar Material Now: Python para automação geoespacial">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">04 / 10</span></div>
           <h4>R para ciência de dados espaciais</h4><p>Estruture uma jornada de análise estatística com dados e contexto territorial.</p>
           <ul class="premium-features"><li>Manipulação e visualização de dados</li><li>Projeto analítico com interpretação</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./roadmaps_aprendizado/04_r_para_ciencia_de_dados_espaciais.md" download="04_r_para_ciencia_de_dados_espaciais.md" aria-label="Baixar Material Now: R para ciência de dados espaciais">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./roadmaps_aprendizado/04_r_para_ciencia_de_dados_espaciais.docx" download="04_r_para_ciencia_de_dados_espaciais.docx" aria-label="Baixar Material Now: R para ciência de dados espaciais">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">05 / 10</span></div>
           <h4>SQL e PostGIS na prática</h4><p>Avance de consultas básicas à organização e análise de bancos espaciais.</p>
           <ul class="premium-features"><li>Joins, agregações e índices</li><li>Consultas espaciais e modelo de dados</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./roadmaps_aprendizado/05_sql_e_postgis_na_pratica.md" download="05_sql_e_postgis_na_pratica.md" aria-label="Baixar Material Now: SQL e PostGIS na prática">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./roadmaps_aprendizado/05_sql_e_postgis_na_pratica.docx" download="05_sql_e_postgis_na_pratica.docx" aria-label="Baixar Material Now: SQL e PostGIS na prática">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">06 / 10</span></div>
           <h4>IA e Machine Learning geoespacial</h4><p>Planeje competências para modelar o território com avaliação responsável.</p>
           <ul class="premium-features"><li>Atributos, modelos e pipelines</li><li>Validação espacial e incerteza</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./roadmaps_aprendizado/06_ia_e_machine_learning_geoespacial.md" download="06_ia_e_machine_learning_geoespacial.md" aria-label="Baixar Material Now: IA e Machine Learning geoespacial">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./roadmaps_aprendizado/06_ia_e_machine_learning_geoespacial.docx" download="06_ia_e_machine_learning_geoespacial.docx" aria-label="Baixar Material Now: IA e Machine Learning geoespacial">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">07 / 10</span></div>
           <h4>Sensoriamento remoto aplicado</h4><p>Estruture etapas de estudo para extrair informação de imagens e sensores.</p>
           <ul class="premium-features"><li>Bandas, índices e classificação</li><li>Validação e comunicação de resultados</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./roadmaps_aprendizado/07_sensoriamento_remoto_aplicado.md" download="07_sensoriamento_remoto_aplicado.md" aria-label="Baixar Material Now: Sensoriamento remoto aplicado">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./roadmaps_aprendizado/07_sensoriamento_remoto_aplicado.docx" download="07_sensoriamento_remoto_aplicado.docx" aria-label="Baixar Material Now: Sensoriamento remoto aplicado">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">08 / 10</span></div>
           <h4>BI e visualização geográfica</h4><p>Desenvolva indicadores e painéis que ajudam gestores a entender o território.</p>
           <ul class="premium-features"><li>Modelagem e escolha de métricas</li><li>Design de dashboards e narrativa</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./roadmaps_aprendizado/08_bi_e_visualizacao_geografica.md" download="08_bi_e_visualizacao_geografica.md" aria-label="Baixar Material Now: BI e visualização geográfica">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./roadmaps_aprendizado/08_bi_e_visualizacao_geografica.docx" download="08_bi_e_visualizacao_geografica.docx" aria-label="Baixar Material Now: BI e visualização geográfica">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">09 / 10</span></div>
           <h4>Drones e produtos cartográficos</h4><p>Mapeie conhecimentos para entender aquisição, processamento e qualidade.</p>
           <ul class="premium-features"><li>Planejamento e produtos de imagem</li><li>Precisão, metadados e uso adequado</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./roadmaps_aprendizado/09_drones_e_produtos_cartograficos.md" download="09_drones_e_produtos_cartograficos.md" aria-label="Baixar Material Now: Drones e produtos cartográficos">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./roadmaps_aprendizado/09_drones_e_produtos_cartograficos.docx" download="09_drones_e_produtos_cartograficos.docx" aria-label="Baixar Material Now: Drones e produtos cartográficos">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3v18m0-15h13m-4-4 4 4-4 4M5 17h13m-4-4 4 4-4 4"/></svg></span><span class="premium-item-number">10 / 10</span></div>
           <h4>Carreira em inteligência geográfica</h4><p>Conecte competências técnicas, portfólio e posicionamento profissional.</p>
           <ul class="premium-features"><li>Plano de competências e projetos</li><li>Apresentação e revisão de objetivos</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./roadmaps_aprendizado/10_carreira_em_inteligencia_geografica.md" download="10_carreira_em_inteligencia_geografica.md" aria-label="Baixar Material Now: Carreira em inteligência geográfica">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./roadmaps_aprendizado/10_carreira_em_inteligencia_geografica.docx" download="10_carreira_em_inteligencia_geografica.docx" aria-label="Baixar Material Now: Carreira em inteligência geográfica">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article></div></div>
     </details></div>
     </div>
@@ -836,135 +837,135 @@
       <article class="premium-card premium-featured"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 6 2 2 3-4m3 2h10M3 14l2 2 3-4m3 2h10M3 21h5m3 0h10"/></svg></div><h3><span class="premium-ready">Download disponível</span> Checklists Técnicos de Validação</h3><p>Listas de verificação para revisar dados, processos e entregas antes de concluir seus projetos.</p><a class="button primary premium-download" href="./checklists_validation/checklist_consistencia_topologica.md" download="checklist_consistencia_topologica.md">Baixar Checklist <span aria-hidden="true">↓</span></a></article>
       <div class="premium-collections"><details class="premium-collection" id="premium-exercicios" name="premium-collections">
       <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Exercícios Práticos</span><span class="premium-collection-description">Desafios orientados a entregas para transformar conceitos em habilidade.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
-      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Exercícios Práticos</h3><p>Escolha um material e baixe o arquivo diretamente. Modelos e guias têm instruções em português; as bases usam dados sintéticos para exercícios.</p></div>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Exercícios Práticos</h3><p>Baixe arquivos profissionais: projetos QGIS QGZ, estilos QML, bases GeoPackage e documentos Word. Os dados de exemplo são sintéticos e estão identificados.</p></div>
       <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Exercícios Práticos"><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">01 / 10</span></div>
           <h4>Revisão de topologia e SIRGAS2000</h4><p>Pratique a identificação de inconsistências sem alterar dados por suposição.</p>
           <ul class="premium-features"><li>Validade, relações e tolerâncias</li><li>Relatório de erros e exceções</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./exercicios_praticos/01_revisao_de_topologia_e_sirgas2000.md" download="01_revisao_de_topologia_e_sirgas2000.md" aria-label="Baixar Material Now: Revisão de topologia e SIRGAS2000">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./exercicios_praticos/01_revisao_de_topologia_e_sirgas2000.docx" download="01_revisao_de_topologia_e_sirgas2000.docx" aria-label="Baixar Material Now: Revisão de topologia e SIRGAS2000">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">02 / 10</span></div>
           <h4>Mapa temático de indicadores</h4><p>Construa uma composição que comunica diferenças territoriais com clareza.</p>
           <ul class="premium-features"><li>Escolha de classes e simbologia</li><li>Revisão de legenda e fontes</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./exercicios_praticos/02_mapa_tematico_de_indicadores.md" download="02_mapa_tematico_de_indicadores.md" aria-label="Baixar Material Now: Mapa temático de indicadores">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./exercicios_praticos/02_mapa_tematico_de_indicadores.docx" download="02_mapa_tematico_de_indicadores.docx" aria-label="Baixar Material Now: Mapa temático de indicadores">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">03 / 10</span></div>
           <h4>Automação de camadas com Python</h4><p>Planeje e implemente uma rotina que organiza entradas e saídas geográficas.</p>
           <ul class="premium-features"><li>Filtros, exportação e registros</li><li>Teste com dados controlados</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./exercicios_praticos/03_automacao_de_camadas_com_python.md" download="03_automacao_de_camadas_com_python.md" aria-label="Baixar Material Now: Automação de camadas com Python">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./exercicios_praticos/03_automacao_de_camadas_com_python.docx" download="03_automacao_de_camadas_com_python.docx" aria-label="Baixar Material Now: Automação de camadas com Python">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">04 / 10</span></div>
           <h4>Consulta espacial no PostGIS</h4><p>Investigue relações entre camadas usando consultas verificáveis.</p>
           <ul class="premium-features"><li>Predicados, joins e agregações</li><li>Conferência de resultados e índices</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./exercicios_praticos/04_consulta_espacial_no_postgis.md" download="04_consulta_espacial_no_postgis.md" aria-label="Baixar Material Now: Consulta espacial no PostGIS">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./exercicios_praticos/04_consulta_espacial_no_postgis.docx" download="04_consulta_espacial_no_postgis.docx" aria-label="Baixar Material Now: Consulta espacial no PostGIS">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">05 / 10</span></div>
           <h4>Classificação de imagens de satélite</h4><p>Aplique uma sequência de classificação e avalie os resultados obtidos.</p>
           <ul class="premium-features"><li>Seleção de atributos e amostras</li><li>Matriz de avaliação e limitações</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./exercicios_praticos/05_classificacao_de_imagens_de_satelite.md" download="05_classificacao_de_imagens_de_satelite.md" aria-label="Baixar Material Now: Classificação de imagens de satélite">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./exercicios_praticos/05_classificacao_de_imagens_de_satelite.docx" download="05_classificacao_de_imagens_de_satelite.docx" aria-label="Baixar Material Now: Classificação de imagens de satélite">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">06 / 10</span></div>
           <h4>Dashboard de diagnóstico territorial</h4><p>Produza indicadores e uma leitura executiva para um problema definido.</p>
           <ul class="premium-features"><li>Modelo de dados e filtros</li><li>Mapa, gráficos e síntese analítica</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./exercicios_praticos/06_dashboard_de_diagnostico_territorial.md" download="06_dashboard_de_diagnostico_territorial.md" aria-label="Baixar Material Now: Dashboard de diagnóstico territorial">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./exercicios_praticos/06_dashboard_de_diagnostico_territorial.docx" download="06_dashboard_de_diagnostico_territorial.docx" aria-label="Baixar Material Now: Dashboard de diagnóstico territorial">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">07 / 10</span></div>
           <h4>Análise de proximidade e cobertura</h4><p>Compare alternativas de atendimento com critérios espaciais explícitos.</p>
           <ul class="premium-features"><li>Buffers e relações entre camadas</li><li>Avaliação de CRS e distâncias</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./exercicios_praticos/07_analise_de_proximidade_e_cobertura.md" download="07_analise_de_proximidade_e_cobertura.md" aria-label="Baixar Material Now: Análise de proximidade e cobertura">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./exercicios_praticos/07_analise_de_proximidade_e_cobertura.docx" download="07_analise_de_proximidade_e_cobertura.docx" aria-label="Baixar Material Now: Análise de proximidade e cobertura">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">08 / 10</span></div>
           <h4>Interpolação de variáveis ambientais</h4><p>Experimente superfícies e avalie o efeito das escolhas do método.</p>
           <ul class="premium-features"><li>IDW e parâmetros de vizinhança</li><li>Validação e interpretação de erros</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./exercicios_praticos/08_interpolacao_de_variaveis_ambientais.md" download="08_interpolacao_de_variaveis_ambientais.md" aria-label="Baixar Material Now: Interpolação de variáveis ambientais">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./exercicios_praticos/08_interpolacao_de_variaveis_ambientais.docx" download="08_interpolacao_de_variaveis_ambientais.docx" aria-label="Baixar Material Now: Interpolação de variáveis ambientais">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">09 / 10</span></div>
           <h4>Previsão temporal de indicadores</h4><p>Treine um modelo e compare previsões com observações fora do treino.</p>
           <ul class="premium-features"><li>Defasagens e separação temporal</li><li>Referência simples e métricas de erro</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./exercicios_praticos/09_previsao_temporal_de_indicadores.md" download="09_previsao_temporal_de_indicadores.md" aria-label="Baixar Material Now: Previsão temporal de indicadores">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./exercicios_praticos/09_previsao_temporal_de_indicadores.docx" download="09_previsao_temporal_de_indicadores.docx" aria-label="Baixar Material Now: Previsão temporal de indicadores">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 7h8m-8 5 2 2 4-4m-6 8h8"/></svg></span><span class="premium-item-number">10 / 10</span></div>
           <h4>Entrega final de projeto geográfico</h4><p>Integre análise, documentação e revisão em uma entrega de portfólio.</p>
           <ul class="premium-features"><li>Mapas, relatório e dados organizados</li><li>Checklist de qualidade e apresentação</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./exercicios_praticos/10_entrega_final_de_projeto_geografico.md" download="10_entrega_final_de_projeto_geografico.md" aria-label="Baixar Material Now: Entrega final de projeto geográfico">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./exercicios_praticos/10_entrega_final_de_projeto_geografico.docx" download="10_entrega_final_de_projeto_geografico.docx" aria-label="Baixar Material Now: Entrega final de projeto geográfico">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article></div></div>
     </details><details class="premium-collection" id="premium-glossarios" name="premium-collections">
       <summary><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-summary-copy"><span class="premium-collection-title">Glossários Técnicos</span><span class="premium-collection-description">Consulte conceitos por especialidade para comunicar análises com precisão.</span></span><span class="premium-count">10 materiais</span><span class="premium-chevron" aria-hidden="true">＋</span></summary>
-      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Glossários Técnicos</h3><p>Escolha um material e baixe o arquivo diretamente. Modelos e guias têm instruções em português; as bases usam dados sintéticos para exercícios.</p></div>
+      <div class="premium-collection-content"><div class="premium-collection-intro"><h3>Glossários Técnicos</h3><p>Baixe arquivos profissionais: projetos QGIS QGZ, estilos QML, bases GeoPackage e documentos Word. Os dados de exemplo são sintéticos e estão identificados.</p></div>
       <div class="premium-library-grid" role="region" tabindex="0" aria-label="10 materiais de Glossários Técnicos"><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">01 / 10</span></div>
           <h4>Cartografia e sistemas de referência</h4><p>Organize o vocabulário de mapas e coordenadas usado em projetos territoriais.</p>
           <ul class="premium-features"><li>Datum, projeção, escala e EPSG</li><li>Atribuição de CRS versus reprojeção</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./glossarios_tecnicos/01_cartografia_e_sistemas_de_referencia.md" download="01_cartografia_e_sistemas_de_referencia.md" aria-label="Baixar Material Now: Cartografia e sistemas de referência">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./glossarios_tecnicos/01_cartografia_e_sistemas_de_referencia.docx" download="01_cartografia_e_sistemas_de_referencia.docx" aria-label="Baixar Material Now: Cartografia e sistemas de referência">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">02 / 10</span></div>
           <h4>Topologia e qualidade geográfica</h4><p>Diferencie problemas geométricos, relações espaciais e critérios de aceite.</p>
           <ul class="premium-features"><li>Validade, sobreposição e lacunas</li><li>Conectividade, tolerâncias e exceções</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./glossarios_tecnicos/02_topologia_e_qualidade_geografica.md" download="02_topologia_e_qualidade_geografica.md" aria-label="Baixar Material Now: Topologia e qualidade geográfica">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./glossarios_tecnicos/02_topologia_e_qualidade_geografica.docx" download="02_topologia_e_qualidade_geografica.docx" aria-label="Baixar Material Now: Topologia e qualidade geográfica">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">03 / 10</span></div>
           <h4>Sensoriamento remoto e sensores</h4><p>Conecte o vocabulário de aquisição de imagens à interpretação dos produtos.</p>
           <ul class="premium-features"><li>Resoluções, bandas e reflectância</li><li>Índices, classificação e validação</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./glossarios_tecnicos/03_sensoriamento_remoto_e_sensores.md" download="03_sensoriamento_remoto_e_sensores.md" aria-label="Baixar Material Now: Sensoriamento remoto e sensores">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./glossarios_tecnicos/03_sensoriamento_remoto_e_sensores.docx" download="03_sensoriamento_remoto_e_sensores.docx" aria-label="Baixar Material Now: Sensoriamento remoto e sensores">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">04 / 10</span></div>
           <h4>Drones e fotogrametria</h4><p>Entenda os termos que conectam levantamento, processamento e produto.</p>
           <ul class="premium-features"><li>Ortofotos, nuvens de pontos e modelos</li><li>Apoio, precisão e georreferenciamento</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./glossarios_tecnicos/04_drones_e_fotogrametria.md" download="04_drones_e_fotogrametria.md" aria-label="Baixar Material Now: Drones e fotogrametria">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./glossarios_tecnicos/04_drones_e_fotogrametria.docx" download="04_drones_e_fotogrametria.docx" aria-label="Baixar Material Now: Drones e fotogrametria">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">05 / 10</span></div>
           <h4>SQL, PostGIS e bancos espaciais</h4><p>Revise conceitos essenciais para modelar dados e conversar sobre consultas.</p>
           <ul class="premium-features"><li>Chaves, joins e índices espaciais</li><li>Geometria, predicados e transações</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./glossarios_tecnicos/05_sql_postgis_e_bancos_espaciais.md" download="05_sql_postgis_e_bancos_espaciais.md" aria-label="Baixar Material Now: SQL, PostGIS e bancos espaciais">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./glossarios_tecnicos/05_sql_postgis_e_bancos_espaciais.docx" download="05_sql_postgis_e_bancos_espaciais.docx" aria-label="Baixar Material Now: SQL, PostGIS e bancos espaciais">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">06 / 10</span></div>
           <h4>Python e programação geográfica</h4><p>Aproxime termos de desenvolvimento das tarefas de processamento espacial.</p>
           <ul class="premium-features"><li>Funções, módulos e ambientes</li><li>GeoDataFrames, rasters e pipelines</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./glossarios_tecnicos/06_python_e_programacao_geografica.md" download="06_python_e_programacao_geografica.md" aria-label="Baixar Material Now: Python e programação geográfica">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./glossarios_tecnicos/06_python_e_programacao_geografica.docx" download="06_python_e_programacao_geografica.docx" aria-label="Baixar Material Now: Python e programação geográfica">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">07 / 10</span></div>
           <h4>Ciência de dados e estatística</h4><p>Organize conceitos para interpretar tabelas, métricas e resultados analíticos.</p>
           <ul class="premium-features"><li>Distribuições, amostras e outliers</li><li>Correlação, inferência e incerteza</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./glossarios_tecnicos/07_ciencia_de_dados_e_estatistica.md" download="07_ciencia_de_dados_e_estatistica.md" aria-label="Baixar Material Now: Ciência de dados e estatística">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./glossarios_tecnicos/07_ciencia_de_dados_e_estatistica.docx" download="07_ciencia_de_dados_e_estatistica.docx" aria-label="Baixar Material Now: Ciência de dados e estatística">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">08 / 10</span></div>
           <h4>IA e Machine Learning</h4><p>Entenda o vocabulário de modelos e avaliação em aplicações territoriais.</p>
           <ul class="premium-features"><li>Atributos, treino e hiperparâmetros</li><li>Vazamento, validação e generalização</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./glossarios_tecnicos/08_ia_e_machine_learning.md" download="08_ia_e_machine_learning.md" aria-label="Baixar Material Now: IA e Machine Learning">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./glossarios_tecnicos/08_ia_e_machine_learning.docx" download="08_ia_e_machine_learning.docx" aria-label="Baixar Material Now: IA e Machine Learning">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">09 / 10</span></div>
           <h4>BI, dashboards e indicadores</h4><p>Comunique requisitos e resultados com conceitos claros de análise de negócio.</p>
           <ul class="premium-features"><li>KPI, dimensão e granularidade</li><li>Filtros, agregação e narrativa visual</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./glossarios_tecnicos/09_bi_dashboards_e_indicadores.md" download="09_bi_dashboards_e_indicadores.md" aria-label="Baixar Material Now: BI, dashboards e indicadores">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./glossarios_tecnicos/09_bi_dashboards_e_indicadores.docx" download="09_bi_dashboards_e_indicadores.docx" aria-label="Baixar Material Now: BI, dashboards e indicadores">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article><article class="premium-card premium-library-card">
           <div class="premium-item-top"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H3V4Zm18 0h-6a3 3 0 0 0-3 3v14a4 4 0 0 1 4-3h5V4Z"/></svg></span><span class="premium-item-number">10 / 10</span></div>
           <h4>Análise preditiva espacial e temporal</h4><p>Revise os termos usados para antecipar cenários e medir a qualidade da previsão.</p>
           <ul class="premium-features"><li>Defasagens, tendência e interpolação</li><li>MAE, RMSE e validação em blocos</li></ul>
-          <span class="premium-availability">Guia técnico · Markdown</span>
-          <a class="button primary premium-download" href="./glossarios_tecnicos/10_analise_preditiva_espacial_e_temporal.md" download="10_analise_preditiva_espacial_e_temporal.md" aria-label="Baixar Material Now: Análise preditiva espacial e temporal">Baixar Material Now <span aria-hidden="true">↓</span></a>
+          <span class="premium-availability">Documento técnico · Word DOCX</span>
+          <a class="button primary premium-download" href="./glossarios_tecnicos/10_analise_preditiva_espacial_e_temporal.docx" download="10_analise_preditiva_espacial_e_temporal.docx" aria-label="Baixar Material Now: Análise preditiva espacial e temporal">Baixar Material Now <span aria-hidden="true">↓</span></a>
         </article></div></div>
     </details></div>
     </div>
-      <p class="premium-note">Download direto: 60 materiais nas coleções, seis kits Python, um template Word e um checklist. Os modelos TXT são guias de configuração; os GeoPackages contêm dados sintéticos e documentação interna para exercícios. Guarde uma cópia antes de editar.</p>
+      <p class="premium-note">Download direto: dez projetos QGIS com dados incorporados, dez estilos QML, dez bases GeoPackage, quarenta documentos Word e os oito downloads anteriores. Os projetos abrem no QGIS 3.28 ou superior; os estilos QML são específicos para sua camada principal. Bases e exemplos são sintéticos para exercícios. Guarde uma cópia antes de editar.</p>
     </div></section>
     <section class="resources" id="infograficos" aria-labelledby="infograficos-titulo"><div class="container">
       <div class="section-heading"><div><div class="eyebrow">Conhecimento em perspectiva</div><h2 id="infograficos-titulo">Infográficos</h2></div><p>Explore 14 guias visuais sobre geotecnologias, inovação e aplicações em diferentes setores.</p></div>
