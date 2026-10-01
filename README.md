@@ -146,12 +146,56 @@ O WhatsApp e o e-mail ficam na configuração `CONTACT` do JavaScript em `index.
 
 Publique a raiz deste repositório incluindo `index.html`, o logotipo e a pasta `ENTREGA`. Todos os materiais utilizam caminhos relativos locais e acompanham a publicação do site. Preserve nomes de arquivos, acentos e estrutura de subpastas para manter os links funcionando.
 
-## Biblioteca corporativa para download
+## Central de Materiais Premium & Carreira
 
-A Central Premium possui 60 materiais principais: dez projetos QGIS `.qgz`,
-dez bases `.gpkg` e quarenta documentos Word `.docx`. Há dez estilos `.qml`
-adicionais para a camada principal de cada projeto. Os oito downloads anteriores
-continuam disponíveis, totalizando 78 links na Central.
+A Central tem **três abas independentes**, 41 links de download direto e
+13 portais de emprego. As coleções expansíveis e os filtros de portais mantêm
+a interface compacta e responsiva, sem interferir nas seis abas dos minicursos.
+
+| Aba | Conteúdo |
+| --- | --- |
+| Materiais Práticos | Seis kits existentes de automação, dez scripts topográficos e onze arquivos de bancos geográficos (instaladores, SQL, consultas mongosh e guia) |
+| Guias de Carreira | Template Word de relatório técnico, oito portais nacionais e cinco canais internacionais / remotos de GIS |
+| Desafios e Gamificação | Checklist técnico existente, dez exercícios Python com TODOs e verificações, dois manuais Word ilustrados de GeoServer e PostGIS |
+
+Os scripts de `scripts_topografia` são independentes e usam apenas a biblioteca
+padrão Python. Execute `python scripts_topografia/02_azimute.py --exemplo` para
+ver o JSON de entrada; depois passe um arquivo JSON ao script. Os cálculos usam
+coordenadas planas em metros, azimutes a partir do norte e graus decimais.
+O memorial é uma minuta de cálculo que precisa de revisão profissional.
+
+Em `scripts_bancos_geo`, consulte o README antes de instalar: Docker Desktop
+em modo Linux, credenciais por ambiente, portas locais e volumes persistentes.
+PostGIS e Oracle usam SQL; MongoDB usa JavaScript no mongosh, seu formato nativo.
+Os instaladores não são executados pelo site. Os três motores não foram
+instalados durante esta atualização; a execução das consultas depende do seu
+laboratório. Os scripts não removem volumes existentes.
+
+Os exercícios de `desafios_python` estão **deliberadamente incompletos**:
+substitua o `NotImplementedError` em `resolver()` e execute o arquivo para
+rodar os casos de verificação. Não são kits prontos de produção.
+Os manuais em `roteiros_servidores` são DOCX editáveis com cabeçalho DataGeo
+Academy, sumário, comandos, critérios de aceite e diagramas incorporados.
+As ilustrações são esquemas didáticos, não capturas de uma instalação real.
+
+Regeneração dos novos materiais:
+
+```powershell
+python scripts_automacao/gerar_biblioteca_refinada.py
+python scripts_automacao/gerar_manuais_servidores.py
+python scripts_automacao/atualizar_central_refinada.py
+python tests/verificar_central_refinada.py
+```
+
+A geração dos manuais exige Pillow; os cálculos e a verificação acima não
+exigem dependências externas. Portais conferidos em outubro de 2026: são
+canais de busca, sem garantia de vaga disponível ou de elegibilidade global.
+
+## Biblioteca anterior preservada
+
+Os 60 materiais anteriores foram retirados da Central para evitar repetição.
+Seus arquivos continuam preservados no repositório: dez projetos QGIS `.qgz`,
+dez bases `.gpkg`, quarenta documentos Word `.docx` e dez estilos `.qml`.
 
 Os projetos foram gerados e reabertos no QGIS 3.28.2 e incorporam os dados,
 estilos e instruções dentro do QGZ. Podem ser copiados sem transportar pastas
@@ -168,7 +212,7 @@ O conteúdo de origem está incorporado em cada DOCX. Para regenerar os projetos
 execute `scripts_automacao/gerar_projetos_qgis_premium.py` com o Python do QGIS;
 as instruções TXT preservadas em `templates_gis` são usadas como fonte.
 
-Valide os arquivos e links com `python tests/verificar_materiais_premium.py`
+Valide os arquivos da biblioteca anterior com `python tests/verificar_materiais_premium.py`
 em um ambiente com GeoPandas e Pyogrio. O gerador legado de Markdown bloqueia a
 substituição dos formatos corporativos atuais.
 

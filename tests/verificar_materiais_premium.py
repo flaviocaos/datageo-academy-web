@@ -1,4 +1,4 @@
-"""Valida os 60 downloads, conteúdo e integridade dos GeoPackages.
+"""Valida a biblioteca anterior arquivada, conteúdo e integridade dos GeoPackages.
 
 Uso: python tests/verificar_materiais_premium.py
 Requer geopandas e pyogrio para validar as geometrias de todas as camadas.
@@ -28,34 +28,8 @@ class Links(HTMLParser):
 
 
 def main():
-    html=(ROOT/'index.html').read_text(encoding='utf-8')
-    groups=re.findall(r'<details class="premium-collection".*?</details>',html,re.S)
-    assert len(groups)==6
-    links=[]
-    estilos=[]
-    for group in groups:
-        cards=re.findall(r'<article class="premium-card premium-library-card">.*?</article>',group,re.S)
-        assert len(cards)==10
-        for card in cards:
-            assert 'wa.me' not in card and 'Solicitar material' not in card
-            assert 'Disponibilidade sob consulta' not in card
-            assert 'Baixar Material Now <span' in card
-            parser=Links(); parser.feed(card)
-            assert len(parser.links)==(2 if './templates_gis/' in card else 1)
-            a=parser.links[0]
-            assert 'download' in a and 'target' not in a
-            target=(ROOT/a['href']).resolve()
-            assert target.is_relative_to(ROOT) and target.is_file()
-            assert target.name==a['download']
-            links.append(target)
-            if len(parser.links)==2:
-                style=parser.links[1]
-                assert 'download' in style
-                qml=(ROOT/style['href']).resolve()
-                assert qml==target.with_suffix('.qml') and qml.is_file()
-                assert ET.parse(qml).getroot().tag=='qgis'
-                estilos.append(qml)
-    assert len(links)==len(set(links))==60
+    links=[p for pasta,ext in FOLDERS.items() for p in (ROOT/pasta).glob('*'+ext)]
+    estilos=list((ROOT/'templates_gis').glob('*.qml'))
     camadas=0
     for pasta,extension in FOLDERS.items():
         arquivos=list((ROOT/pasta).glob('*'+extension))
@@ -123,7 +97,7 @@ def main():
     assert len(df)==24 and df.groupby('estacao').size().eq(12).all()
     assert not df.duplicated(['estacao','data_ref']).any()
     assert len(estilos)==10
-    print(f'OK: 10 QGZ portaveis, 10 QML, 40 DOCX com sumario, 60 downloads principais e {camadas} camadas GPKG validas.')
+    print(f'OK: 10 QGZ portaveis, 10 QML, 40 DOCX com sumario, 60 materiais arquivados e {camadas} camadas GPKG validas.')
 
 
 if __name__=='__main__':
