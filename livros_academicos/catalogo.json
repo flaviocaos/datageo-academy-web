@@ -1,258 +1,394 @@
 {
   "formato": "PDF",
-  "edicao": "3.0 (IA e Data Science); demais áreas preservadas",
+  "edicao": "Acervo local sincronizado das seis áreas acadêmicas",
   "areas": [
     {
       "nome": "Inteligência Artificial e Data Science",
       "livros": [
         {
-          "titulo": "Inteligência Artificial Aplicada",
-          "arquivo": "Inteligência Artificial Aplicada.pdf",
-          "original": true,
-          "paginas": 60,
-          "sha256": "e6bc62361f08021138294cd6ad60b12e1ef28f4489fb1debaa42b96615dbe046"
+          "titulo": "Inteligencia Artificial Aplicada",
+          "arquivo": "01_Inteligencia_Artificial_Aplicada.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 1/01_Inteligencia_Artificial_Aplicada.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%201/01_Inteligencia_Artificial_Aplicada.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 1/01_Inteligencia_Artificial_Aplicada_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%201/01_Inteligencia_Artificial_Aplicada_capa.png",
+          "sha256": "b63cecc3b9ac4e30088cfeb0f3db27aacfee05fd98189dc8a0f585b56635cb24",
+          "paginas": 40
         },
         {
-          "titulo": "Ciência de Dados Espaciais com GeoPandas",
-          "arquivo": "Ciência de Dados Espaciais com GeoPandas.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "860d6321d5c6d8e68a2846d650ed6e4310a6b5d459d70546bf1b0c2cc95a03c2",
-          "conteudo_unico": true,
-          "edicao": "3.0",
-          "descricao": "Operações vetoriais com GeoPandas: projeções, joins, overlays, interpolação areal e entrega em GeoPackage."
+          "titulo": "Ciencia de Dados Espaciais GeoPandas",
+          "arquivo": "02_Ciencia_de_Dados_Espaciais_GeoPandas.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 1/02_Ciencia_de_Dados_Espaciais_GeoPandas.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%201/02_Ciencia_de_Dados_Espaciais_GeoPandas.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 1/02_Ciencia_de_Dados_Espaciais_GeoPandas_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%201/02_Ciencia_de_Dados_Espaciais_GeoPandas_capa.png",
+          "sha256": "7740fc572189d15ee317c6300bc6ba988cde06146daca55b00409176dcbd2bc3",
+          "paginas": 40
         },
         {
-          "titulo": "Machine Learning Territorial com Scikit-Learn",
-          "arquivo": "Machine Learning Territorial com Scikit-Learn.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "38a6175b2715597a9c636f81fd921ff350c44c50180cc1d9eb107551157741a9",
-          "conteudo_unico": true,
-          "edicao": "3.0",
-          "descricao": "Modelos territoriais com Scikit-Learn: pipelines, validação espacial, calibração, interpretação e decisões por custo."
+          "titulo": "Machine Learning Territorial ScikitLearn",
+          "arquivo": "03_Machine_Learning_Territorial_ScikitLearn.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 1/03_Machine_Learning_Territorial_ScikitLearn.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%201/03_Machine_Learning_Territorial_ScikitLearn.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 1/03_Machine_Learning_Territorial_ScikitLearn_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%201/03_Machine_Learning_Territorial_ScikitLearn_capa.png",
+          "sha256": "e57ebf0afe39c0b811c817e0447aed3024257b466759fb68624ef2728fa0eb16",
+          "paginas": 42
         },
         {
-          "titulo": "Deep Learning Geoespacial com CNNs",
-          "arquivo": "Deep Learning Geoespacial com CNNs.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "ce4a3ec83e1913d020ef18eb8963f6b64ef93e8765ea3ff9f7e92c7e35368e47",
-          "conteudo_unico": true,
-          "edicao": "3.0",
-          "descricao": "Redes convolucionais em PyTorch: treino real, segmentação mascarada, encoder-decoder e inferência em mosaicos."
+          "titulo": "Deep Learning Geoespacial CNNs",
+          "arquivo": "04_Deep_Learning_Geoespacial_CNNs.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 1/04_Deep_Learning_Geoespacial_CNNs.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%201/04_Deep_Learning_Geoespacial_CNNs.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 1/04_Deep_Learning_Geoespacial_CNNs_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%201/04_Deep_Learning_Geoespacial_CNNs_capa.png",
+          "sha256": "9455a157bb5734f4919f5b3b712cacc42e89a2c135cc101f4c70b6dc557da16b",
+          "paginas": 46
         },
         {
-          "titulo": "Análise Preditiva de Expansão Urbana",
-          "arquivo": "Análise Preditiva de Expansão Urbana.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "239c99962894b50d4e4d4f674c74ebb50172476c0c00b450c631d053152affe6",
-          "conteudo_unico": true,
-          "edicao": "3.0",
-          "descricao": "Simulação temporal de expansão urbana: propensão, demanda, autômatos celulares, cenários e validação da mudança."
+          "titulo": "Analise Preditiva Expansao Urbana",
+          "arquivo": "05_Analise_Preditiva_Expansao_Urbana.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 1/05_Analise_Preditiva_Expansao_Urbana.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%201/05_Analise_Preditiva_Expansao_Urbana.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 1/05_Analise_Preditiva_Expansao_Urbana_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%201/05_Analise_Preditiva_Expansao_Urbana_capa.png",
+          "sha256": "dd0c0f81f0981fc29b3e8bf91edf6e8e53e000d9b3c60fb15a2fabafd3a5ead9",
+          "paginas": 40
         }
-      ]
+      ],
+      "pasta": "ENTREGA/Livros_Tecnicos/AREA 1"
     },
     {
       "nome": "Geotecnologias",
       "livros": [
         {
-          "titulo": "Cartografia Básica Aplicada às Geotecnologias",
-          "arquivo": "Cartografia Básica Aplicada às Geotecnologias.pdf",
-          "original": true,
-          "paginas": 53,
-          "sha256": "7c6772fe342a31a0669ab4314c20ddacca107bb824b862dc402380b0596db8a5"
+          "titulo": "Cartografia Basica Aplicada",
+          "arquivo": "01_Cartografia_Basica_Aplicada_DataGeo.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 2/01_Cartografia_Basica_Aplicada_DataGeo.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%202/01_Cartografia_Basica_Aplicada_DataGeo.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 2/01_Cartografia_Basica_Aplicada_DataGeo_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%202/01_Cartografia_Basica_Aplicada_DataGeo_capa.png",
+          "sha256": "1d08d61e01cdd120ab91255b34e06f8ba91510a9b417afb83e6cac3c1c6d2f2e",
+          "paginas": 40
         },
         {
-          "titulo": "Sistemas de Informação Geográfica na Prática",
-          "arquivo": "Sistemas de Informação Geográfica na Prática.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "43c41437be4163e87876ca752f056b7c79f545886a8da29b9f8d9c17122262e2"
+          "titulo": "Inteligencia Artificial Aplicada",
+          "arquivo": "02_Inteligencia_Artificial_Aplicada_DataGeo.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 2/02_Inteligencia_Artificial_Aplicada_DataGeo.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%202/02_Inteligencia_Artificial_Aplicada_DataGeo.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 2/02_Inteligencia_Artificial_Aplicada_DataGeo_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%202/02_Inteligencia_Artificial_Aplicada_DataGeo_capa.png",
+          "sha256": "2c2e605e912df733caa022b79d44e4a4bba5c7e188150ecd43ae7faa060ae93f",
+          "paginas": 44
+        },
+        {
+          "titulo": "SIG GIS na Pratica",
+          "arquivo": "03_SIG_GIS_na_Pratica_DataGeo.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 2/03_SIG_GIS_na_Pratica_DataGeo.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%202/03_SIG_GIS_na_Pratica_DataGeo.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 2/03_SIG_GIS_na_Pratica_DataGeo_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%202/03_SIG_GIS_na_Pratica_DataGeo_capa.png",
+          "sha256": "cead9592ba1ef943471c8d603a30045b416136e573ed2d20ebc87af1e7a7ed2c",
+          "paginas": 40
         },
         {
           "titulo": "Sensoriamento Remoto Aplicado",
-          "arquivo": "Sensoriamento Remoto Aplicado.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "3732103759d8da9d9b859f7d41404c358b1e0622b089efe5527732d685bbcf4e"
+          "arquivo": "04_Sensoriamento_Remoto_Aplicado.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 2/04_Sensoriamento_Remoto_Aplicado.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%202/04_Sensoriamento_Remoto_Aplicado.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 2/04_Sensoriamento_Remoto_Aplicado_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%202/04_Sensoriamento_Remoto_Aplicado_capa.png",
+          "sha256": "32c8ea754fa0ff45ce7c6a633a20141671f7e2922f17fdda5138dc380e935061",
+          "paginas": 40
         },
         {
-          "titulo": "Drones e Fotogrametria para Mapeamento",
-          "arquivo": "Drones e Fotogrametria para Mapeamento.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "ae73e34556cb6d8881a3020c65f7249e774b1cba76ee39487f7cc7fd2f99d642"
+          "titulo": "Drones e Fotogrametria",
+          "arquivo": "05_Drones_e_Fotogrametria.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 2/05_Drones_e_Fotogrametria.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%202/05_Drones_e_Fotogrametria.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 2/05_Drones_e_Fotogrametria_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%202/05_Drones_e_Fotogrametria_capa.png",
+          "sha256": "7ce8df457826c090d6e0d20850bc21ade83b0672ea6010073de36f22f73b479c",
+          "paginas": 40
         },
         {
-          "titulo": "Bancos de Dados Geográficos",
-          "arquivo": "Bancos de Dados Geográficos.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "622533da7363b6396d4db62d194b7419884ced532bcdaa1174f98e7f3ec74f78"
+          "titulo": "Bancos de Dados Geograficos",
+          "arquivo": "06_Bancos_de_Dados_Geograficos.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 2/06_Bancos_de_Dados_Geograficos.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%202/06_Bancos_de_Dados_Geograficos.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 2/06_Bancos_de_Dados_Geograficos_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%202/06_Bancos_de_Dados_Geograficos_capa.png",
+          "sha256": "443aac4c3e8a270026c57d06394164517268c4166925349f5640b95d008ca889",
+          "paginas": 42
         }
-      ]
+      ],
+      "colecoes": [
+        {
+          "nome": "Coleção Acadêmica: Geotecnologias",
+          "volumes": [
+            {
+              "volume": 1,
+              "titulo": "Cartografia Digital e Sistemas de Referência Terrestre",
+              "paginas": 42,
+              "autoria": "DataGeo Academy",
+              "tipo_autoria": "institucional"
+            },
+            {
+              "volume": 2,
+              "titulo": "Bancos de Dados Geográficos Complexos com PostGIS",
+              "paginas": 42,
+              "autoria": "DataGeo Academy",
+              "tipo_autoria": "institucional"
+            },
+            {
+              "volume": 3,
+              "titulo": "Processamento Digital de Imagens Orbitais e Sensores Remotos",
+              "paginas": 42,
+              "autoria": "DataGeo Academy",
+              "tipo_autoria": "institucional"
+            },
+            {
+              "volume": 4,
+              "titulo": "Análise Espacial Avançada e Estatística Territorial",
+              "paginas": 42,
+              "autoria": "DataGeo Academy",
+              "tipo_autoria": "institucional"
+            },
+            {
+              "volume": 5,
+              "titulo": "Automação Geoespacial e Pipelines com Python e GDAL/OGR",
+              "paginas": 42,
+              "autoria": "DataGeo Academy",
+              "tipo_autoria": "institucional"
+            }
+          ]
+        }
+      ],
+      "pasta": "ENTREGA/Livros_Tecnicos/AREA 2"
     },
     {
       "nome": "BI - Business Intelligence",
       "livros": [
         {
-          "titulo": "BI Geográfico para Decisões Estratégicas",
-          "arquivo": "BI Geográfico para Decisões Estratégicas.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "12d8aac231f136ad3e41abbc1b74716a7304570da80f1c1b5838a64e2d2eb096"
+          "titulo": "BI Geografico para Decis es Estrategicas",
+          "arquivo": "01_BI_Geografico_para_Decis_es_Estrategicas.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 3/01_BI_Geografico_para_Decis_es_Estrategicas.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%203/01_BI_Geografico_para_Decis_es_Estrategicas.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 3/01_BI_Geografico_para_Decis_es_Estrategicas_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%203/01_BI_Geografico_para_Decis_es_Estrategicas_capa.png",
+          "sha256": "6556a552e2554d78e0b6ee7100bde6adb27fded515c2293f18bc963f0d881b6d",
+          "paginas": 45
         },
         {
           "titulo": "Power BI para Indicadores Territoriais",
-          "arquivo": "Power BI para Indicadores Territoriais.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "09fa6f1557c03447dc8727b281a288a487b826babecec53087abaffa8454bef5"
+          "arquivo": "02_Power_BI_para_Indicadores_Territoriais.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 3/02_Power_BI_para_Indicadores_Territoriais.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%203/02_Power_BI_para_Indicadores_Territoriais.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 3/02_Power_BI_para_Indicadores_Territoriais_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%203/02_Power_BI_para_Indicadores_Territoriais_capa.png",
+          "sha256": "41cbc626f0b386428cce3ca1cdc2a1cfbca1f821790fd70a73c34096dd2c702c",
+          "paginas": 45
         },
         {
-          "titulo": "Dashboards Estratégicos Geoespaciais",
-          "arquivo": "Dashboards Estratégicos Geoespaciais.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "43410ea6a58df4008e6be245527d7a8b0b89be33a2428b588c9349f8dfd25fe2"
+          "titulo": "Dashboards Estrategicos Geoespaciais",
+          "arquivo": "03_Dashboards_Estrategicos_Geoespaciais.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 3/03_Dashboards_Estrategicos_Geoespaciais.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%203/03_Dashboards_Estrategicos_Geoespaciais.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 3/03_Dashboards_Estrategicos_Geoespaciais_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%203/03_Dashboards_Estrategicos_Geoespaciais_capa.png",
+          "sha256": "77270e4ccff87fd4a0e6982ece1990351b66fa087e8b77b906302a13e7316a4b",
+          "paginas": 45
         },
         {
-          "titulo": "Modelagem Dimensional de Dados Geográficos",
-          "arquivo": "Modelagem Dimensional de Dados Geográficos.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "21c78e307d48659010ba04bac1d70cd105c53a54bd100dbb83e2665fd8189c6f"
+          "titulo": "Modelagem Dimensional de Dados Geograficos",
+          "arquivo": "04_Modelagem_Dimensional_de_Dados_Geograficos.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 3/04_Modelagem_Dimensional_de_Dados_Geograficos.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%203/04_Modelagem_Dimensional_de_Dados_Geograficos.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 3/04_Modelagem_Dimensional_de_Dados_Geograficos_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%203/04_Modelagem_Dimensional_de_Dados_Geograficos_capa.png",
+          "sha256": "b7f0b382556e45d32d1000fb1bd5e4a566b008299271eb70897ff2154064d63b",
+          "paginas": 45
         },
         {
-          "titulo": "Geointeligência para Negócios",
-          "arquivo": "Geointeligência para Negócios.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "b9d3c243bfbe66c4af3c58bbf8ccbf428c697b72c76b5a63ba1f2e8d34da5071"
+          "titulo": "Geointeligencia para Negocios DataGeo BI V1",
+          "arquivo": "05_Geointeligencia_para_Negocios_DataGeo_BI_V1.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 3/05_Geointeligencia_para_Negocios_DataGeo_BI_V1.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%203/05_Geointeligencia_para_Negocios_DataGeo_BI_V1.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 3/05_Geointeligencia_para_Negocios_DataGeo_BI_V1_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%203/05_Geointeligencia_para_Negocios_DataGeo_BI_V1_capa.png",
+          "sha256": "0be4b87738de090e4193cf94ef0c6c77ceaa09884d1aca7828a15cd88d8faa5b",
+          "paginas": 45
         }
-      ]
+      ],
+      "pasta": "ENTREGA/Livros_Tecnicos/AREA 3"
     },
     {
       "nome": "Ciência de Dados",
       "livros": [
         {
-          "titulo": "Fundamentos de Ciência de Dados Geoespaciais",
-          "arquivo": "Fundamentos de Ciência de Dados Geoespaciais.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "95104c3470ddb9a1571e4ece62a158d6ef6e6f7135537e75607c3c5ec1069102"
+          "titulo": "Fundamentos de Ciencia de Dados Geoespaciais",
+          "arquivo": "01_Fundamentos_de_Ciencia_de_Dados_Geoespaciais.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 4/01_Fundamentos_de_Ciencia_de_Dados_Geoespaciais.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%204/01_Fundamentos_de_Ciencia_de_Dados_Geoespaciais.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 4/01_Fundamentos_de_Ciencia_de_Dados_Geoespaciais_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%204/01_Fundamentos_de_Ciencia_de_Dados_Geoespaciais_capa.png",
+          "sha256": "26f5c04733a37887a1b7910561a6c61a63a0dd348063b0e5c98b9f81e06f6505",
+          "paginas": 45
         },
         {
-          "titulo": "Estatística Espacial Aplicada",
-          "arquivo": "Estatística Espacial Aplicada.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "53e42a938489939bcfdeabfb6070b4001625853caa5bf176aaf682e0ab84f068"
+          "titulo": "Estatistica Espacial Aplicada",
+          "arquivo": "02_Estatistica_Espacial_Aplicada.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 4/02_Estatistica_Espacial_Aplicada.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%204/02_Estatistica_Espacial_Aplicada.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 4/02_Estatistica_Espacial_Aplicada_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%204/02_Estatistica_Espacial_Aplicada_capa.png",
+          "sha256": "52437353320d40aefd5158fd1850580e3f7829da8469a471439e2b4fbb3941f7",
+          "paginas": 45
         },
         {
-          "titulo": "Qualidade e Governança de Dados Geográficos",
-          "arquivo": "Qualidade e Governança de Dados Geográficos.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "097dfc7aec0a8d96f7f2d8215befabcb71d209724d415a26e752611045fd2a28"
+          "titulo": "Qualidade e Governanca de Dados Geograficos",
+          "arquivo": "03_Qualidade_e_Governanca_de_Dados_Geograficos.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 4/03_Qualidade_e_Governanca_de_Dados_Geograficos.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%204/03_Qualidade_e_Governanca_de_Dados_Geograficos.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 4/03_Qualidade_e_Governanca_de_Dados_Geograficos_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%204/03_Qualidade_e_Governanca_de_Dados_Geograficos_capa.png",
+          "sha256": "322076112b2b5aa7e9c7489e30f01f02a0f05ec526767a26082c32f51b4bf4a3",
+          "paginas": 45
         },
         {
-          "titulo": "Análise Exploratória de Dados Geoespaciais",
-          "arquivo": "Análise Exploratória de Dados Geoespaciais.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "8d006a2fd982209af99591686a9ed71b3d0682ce597820e6283c8a961ce60b8d"
+          "titulo": "Analise Exploratoria de Dados Geoespaciais",
+          "arquivo": "04_Analise_Exploratoria_de_Dados_Geoespaciais.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 4/04_Analise_Exploratoria_de_Dados_Geoespaciais.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%204/04_Analise_Exploratoria_de_Dados_Geoespaciais.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 4/04_Analise_Exploratoria_de_Dados_Geoespaciais_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%204/04_Analise_Exploratoria_de_Dados_Geoespaciais_capa.png",
+          "sha256": "5035d0f221a651ae8e764ea7f5da58acbf40a2c1b04e8e620afd5542c515c558",
+          "paginas": 45
         },
         {
           "titulo": "Engenharia de Dados Geoespaciais",
-          "arquivo": "Engenharia de Dados Geoespaciais.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "9b807ab5b68c0769f6c8b3911b2cc00f1023d952ac7e5f45e21a8d85fa3df4b6"
+          "arquivo": "05_Engenharia_de_Dados_Geoespaciais.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 4/05_Engenharia_de_Dados_Geoespaciais.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%204/05_Engenharia_de_Dados_Geoespaciais.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 4/05_Engenharia_de_Dados_Geoespaciais_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%204/05_Engenharia_de_Dados_Geoespaciais_capa.png",
+          "sha256": "49c3a872c89e9238d47c43ac1023b1aba5861a10ab225f3c99492df2228577ee",
+          "paginas": 45
         }
-      ]
+      ],
+      "pasta": "ENTREGA/Livros_Tecnicos/AREA 4"
     },
     {
       "nome": "Programação para Dados",
       "livros": [
         {
-          "titulo": "Python para Geociências",
-          "arquivo": "Python para Geociências.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "862641f74e64a49d6b5e79c8ee05a4ebf8a97f275eb0421b7736646822c07af2"
+          "titulo": "Python para Geociencias",
+          "arquivo": "01_Python_para_Geociencias.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 5/01_Python_para_Geociencias.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%205/01_Python_para_Geociencias.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 5/01_Python_para_Geociencias_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%205/01_Python_para_Geociencias_capa.png",
+          "sha256": "277bac1140aa11a0f2bd3c8afbc903df4746d0f86384a73d3f00f9b5031682b5",
+          "paginas": 45
         },
         {
-          "titulo": "R para Análise Geoespacial",
-          "arquivo": "R para Análise Geoespacial.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "dad25e2d76a7f3ee200386159ee9cd0175321546bda091f69323cbf2b5238b2f"
+          "titulo": "R para Analise Geoespacial",
+          "arquivo": "02_R_para_Analise_Geoespacial.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 5/02_R_para_Analise_Geoespacial.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%205/02_R_para_Analise_Geoespacial.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 5/02_R_para_Analise_Geoespacial_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%205/02_R_para_Analise_Geoespacial_capa.png",
+          "sha256": "e430324da44cf3f8c8101218f4806364a47069c12fe147c79453fbb4bae1f5b9",
+          "paginas": 45
         },
         {
           "titulo": "SQL para Consultas Espaciais",
-          "arquivo": "SQL para Consultas Espaciais.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "c8665fd7a3805f98d5888618d3f2590c28d4d8294517a31d25e2a6457d4a90e3"
+          "arquivo": "03_SQL_para_Consultas_Espaciais.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 5/03_SQL_para_Consultas_Espaciais.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%205/03_SQL_para_Consultas_Espaciais.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 5/03_SQL_para_Consultas_Espaciais_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%205/03_SQL_para_Consultas_Espaciais_capa.png",
+          "sha256": "438841a5bea3481da55d1ba7de1d13adb56fcc13ec5acc6099486f5f2d391550",
+          "paginas": 45
         },
         {
-          "titulo": "APIs e Serviços Geoespaciais",
-          "arquivo": "APIs e Serviços Geoespaciais.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "1eba4ccac7fa9159b7809fa8e5d149ff3e46bccb8cadb590358b7a35745506f5"
+          "titulo": "APIs e Servicos Geoespaciais",
+          "arquivo": "04_APIs_e_Servicos_Geoespaciais.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 5/04_APIs_e_Servicos_Geoespaciais.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%205/04_APIs_e_Servicos_Geoespaciais.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 5/04_APIs_e_Servicos_Geoespaciais_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%205/04_APIs_e_Servicos_Geoespaciais_capa.png",
+          "sha256": "082fa7403e2eda942efbdab2ddeb1b0ed472bd6207da87b9e933ee114567b231",
+          "paginas": 45
         },
         {
-          "titulo": "Automação de Pipelines Geográficos",
-          "arquivo": "Automação de Pipelines Geográficos.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "82b2a9f4e023403e5bc23043024c33d0e63bdab6673d830218370989a343bf5b"
+          "titulo": "Automacao de Pipelines Geograficos",
+          "arquivo": "05_Automacao_de_Pipelines_Geograficos.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 5/05_Automacao_de_Pipelines_Geograficos.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%205/05_Automacao_de_Pipelines_Geograficos.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 5/05_Automacao_de_Pipelines_Geograficos_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%205/05_Automacao_de_Pipelines_Geograficos_capa.png",
+          "sha256": "a5f9e64e6650d824129c29b0250a1a434e0ca8f0907b1c2306666b49d32c97c8",
+          "paginas": 45
         }
-      ]
+      ],
+      "pasta": "ENTREGA/Livros_Tecnicos/AREA 5"
     },
     {
       "nome": "Análise Preditiva",
       "livros": [
         {
           "titulo": "Modelagem Preditiva Geoespacial",
-          "arquivo": "Modelagem Preditiva Geoespacial.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "02e60c11d90ad39ec0bb0ec968e2fc25bab87874d3bb795f9870b59d8ad42f00"
+          "arquivo": "01_Modelagem_Preditiva_Geoespacial.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 6/01_Modelagem_Preditiva_Geoespacial.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%206/01_Modelagem_Preditiva_Geoespacial.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 6/01_Modelagem_Preditiva_Geoespacial_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%206/01_Modelagem_Preditiva_Geoespacial_capa.png",
+          "sha256": "849c58973649195f8afdefa1e6e8395f59463cbc54a42605a9551a6c80a0bd75",
+          "paginas": 45
         },
         {
-          "titulo": "Séries Temporais Ambientais",
-          "arquivo": "Séries Temporais Ambientais.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "ddbd3e2e6a95328eeee771205702929ca88c68133bda66ea9233a2ce41a09188"
+          "titulo": "Series Temporais Ambientais",
+          "arquivo": "02_Series_Temporais_Ambientais.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 6/02_Series_Temporais_Ambientais.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%206/02_Series_Temporais_Ambientais.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 6/02_Series_Temporais_Ambientais_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%206/02_Series_Temporais_Ambientais_capa.png",
+          "sha256": "9279aa51e91897546b6f4022cf6dc078a064d639bd75d9e3b6a851a8d7e22894",
+          "paginas": 45
         },
         {
-          "titulo": "Geoestatística e Interpolação",
-          "arquivo": "Geoestatística e Interpolação.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "70b44f33c13a64aa32e2fe7a1a247f366addeae7d9e6c375132fa774169ce4bf"
+          "titulo": "Geoestatistica e Interpolacoes",
+          "arquivo": "03_Geoestatistica_e_Interpolacoes.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 6/03_Geoestatistica_e_Interpolacoes.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%206/03_Geoestatistica_e_Interpolacoes.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 6/03_Geoestatistica_e_Interpolacoes_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%206/03_Geoestatistica_e_Interpolacoes_capa.png",
+          "sha256": "66bac354f48dcf2ab8b459b398e4c2d654d17816ef70756f5da5a42acee339c6",
+          "paginas": 45
         },
         {
-          "titulo": "Previsão de Riscos Ambientais",
-          "arquivo": "Previsão de Riscos Ambientais.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "cd13bf87c10ecd5acb92be82bf32b51b5bfbfface6f7fe82818777d990e15802"
+          "titulo": "Previsao de Riscos Ambientais",
+          "arquivo": "04_Previsao_de_Riscos_Ambientais.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 6/04_Previsao_de_Riscos_Ambientais.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%206/04_Previsao_de_Riscos_Ambientais.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 6/04_Previsao_de_Riscos_Ambientais_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%206/04_Previsao_de_Riscos_Ambientais_capa.png",
+          "sha256": "9a59e0c2949c9b299413a6efe4e788b723b18470331e19f7e4af2803a787447b",
+          "paginas": 45
         },
         {
-          "titulo": "Validação de Modelos Espaciais e Temporais",
-          "arquivo": "Validação de Modelos Espaciais e Temporais.pdf",
-          "original": false,
-          "paginas": 42,
-          "sha256": "e18ec6553bf0622a660d3c4a41be01e57693dec3d1b840397f9c7b23d32c5474"
+          "titulo": "Validacao de Modelos Espaciais e Temporais",
+          "arquivo": "05_Validacao_de_Modelos_Espaciais_e_Temporais.pdf",
+          "caminho": "ENTREGA/Livros_Tecnicos/AREA 6/05_Validacao_de_Modelos_Espaciais_e_Temporais.pdf",
+          "url": "./ENTREGA/Livros_Tecnicos/AREA%206/05_Validacao_de_Modelos_Espaciais_e_Temporais.pdf",
+          "capa": "ENTREGA/Livros_Tecnicos/AREA 6/05_Validacao_de_Modelos_Espaciais_e_Temporais_capa.png",
+          "capa_url": "./ENTREGA/Livros_Tecnicos/AREA%206/05_Validacao_de_Modelos_Espaciais_e_Temporais_capa.png",
+          "sha256": "889624c85d055a3a909cf8721a8069cd8e19ff7e0b3c80da8e2e5e5f12371f7e",
+          "paginas": 45
         }
-      ]
+      ],
+      "pasta": "ENTREGA/Livros_Tecnicos/AREA 6"
     }
   ],
   "autoria_novos": "DataGeo Academy (institucional)"
